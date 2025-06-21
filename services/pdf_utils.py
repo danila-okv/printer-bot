@@ -27,7 +27,7 @@ async def convert_docx_to_pdf(docx_path: str) -> str:
 
     async with conversion_lock:
         loop = asyncio.get_event_loop()
-        await loop.run_in_executor(None, convert, fixed_input_path, fixed_output_path)
+        await loop.run_in_executor(None, convert, fixed_input_path, fixed_output_path, True)
 
     return fixed_output_path
 

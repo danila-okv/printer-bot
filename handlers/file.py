@@ -1,5 +1,3 @@
-# handlers/file_upload.py
-
 import os
 import logging
 
@@ -9,7 +7,10 @@ from aiogram.fsm.context import FSMContext
 
 from services.pdf_utils import get_page_count, is_supported_file
 from services.price_calc import calculate_price
-from handlers.payment import PaymentMethod, get_payment_method_keyboard, send_main_menu
+from handlers.payment import PaymentMethod, get_payment_method_keyboard
+from keyboards import cancel_keyboard
+from handlers.menu import send_main_menu
+from callbacks import FILE_PRINT
 from messages import *
 
 router = Router()
@@ -17,6 +18,20 @@ router = Router()
 UPLOAD_DIR = "data/uploads"
 os.makedirs(UPLOAD_DIR, exist_ok=True)
 
+@router.callback_query(F.data == FILE_PRINT)
+async def handle_print_file(callback: Message, state: FSMContext):
+    """
+    Обрабатывает нажатие кнопки «Напечатать файл»:
+    - очищает FSM
+    - отправляет сообщение с просьбой загрузить файл
+    """
+    await state.clear()
+    await callback.message.edit_text(
+        text=FILE_REQUEST_TEXT,
+        reply_markup=cancel_keyboard
+    )
+    await state.set_state(PaymentMethod.waiting_for_file)
+    logging.info("FSM cleared and waiting for file upload.") 
 
 @router.message(F.document)
 async def handle_document(message: Message, state: FSMContext):
@@ -49,7 +64,7 @@ async def handle_document(message: Message, state: FSMContext):
             f.write(file_data.read())
 
         # ── Подсчёт страниц и стоимости
-        page_count, processed_pdf = get_page_count(file_path)
+        page_count, processed_pdf = await get_page_count(file_path)
         price = calculate_price(page_count)
 
         # ── Обновляем сообщение: успех + кнопки

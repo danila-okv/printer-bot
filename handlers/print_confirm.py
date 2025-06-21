@@ -5,7 +5,7 @@ from aiogram.types import CallbackQuery
 from aiogram.fsm.context import FSMContext
 
 from services.print_service import PrintJob, print_manager
-from handlers.payment import send_main_menu
+from handlers.menu import send_main_menu
 from handlers.payment import PaymentMethod
 from messages import *
 

@@ -61,3 +61,7 @@ BUTTON_CANCEL = "❌ Отмена"
 BUTTON_METHOD_CASH = "💵 Наличные"
 
 BUTTON_METHOD_CARD = "💳 Перевод"
+
+BUTTON_PRINT_CONFIRM = "🖨️ Подтвердить печать"
+
+BUTTON_MENU = "🏠 Главное меню"

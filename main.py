@@ -8,7 +8,7 @@ from aiogram.fsm.storage.memory import MemoryStorage
 from dotenv import load_dotenv
 
 # Роутеры
-from handlers import file_upload, payment, print_confirm, start, menu
+from handlers import file, payment, print_confirm, start, menu
 
 # Загружаем токен из .env
 load_dotenv()
@@ -26,7 +26,7 @@ async def main():
     dp = Dispatcher(storage=MemoryStorage())
 
     # Подключаем обработчики
-    dp.include_router(file_upload.router)
+    dp.include_router(file.router)
     dp.include_router(payment.router)
     dp.include_router(print_confirm.router)
     dp.include_router(start.router)

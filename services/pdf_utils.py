@@ -1,18 +1,19 @@
 import os
+import asyncio
 from PyPDF2 import PdfReader
 from docx2pdf import convert
-import tempfile
 import shutil
 
 SUPPORTED_EXTENSIONS = [".pdf", ".docx"]
+conversion_lock = asyncio.Lock()
 
 def is_supported_file(filename: str) -> bool:
     _, ext = os.path.splitext(filename.lower())
     return ext in SUPPORTED_EXTENSIONS
 
-def convert_docx_to_pdf(docx_path: str) -> str:
+async def convert_docx_to_pdf(docx_path: str) -> str:
     """
-    Конвертирует .docx в .pdf и возвращает путь к pdf-файлу.
+    Безопасно конвертирует .docx в .pdf и возвращает путь к pdf-файлу.
     Использует фиксированное имя для macOS совместимости.
     """
     tmp_dir = "data/tmp"
@@ -24,8 +25,9 @@ def convert_docx_to_pdf(docx_path: str) -> str:
     # Перезаписываем фиксированный input-файл
     shutil.copy(docx_path, fixed_input_path)
 
-    # Конвертируем
-    convert(fixed_input_path, fixed_output_path, keep_active=True)
+    async with conversion_lock:
+        loop = asyncio.get_event_loop()
+        await loop.run_in_executor(None, convert, fixed_input_path, fixed_output_path)
 
     return fixed_output_path
 
@@ -33,7 +35,7 @@ def count_pdf_pages(pdf_path: str) -> int:
     reader = PdfReader(pdf_path)
     return len(reader.pages)
 
-def get_page_count(file_path: str) -> tuple[int, str]:
+async def get_page_count(file_path: str) -> tuple[int, str]:
     """
     Возвращает (количество_страниц, путь_к_pdf)
     Если файл .docx — конвертирует его, потом удаляет временные файлы
@@ -45,7 +47,7 @@ def get_page_count(file_path: str) -> tuple[int, str]:
 
     elif ext == ".docx":
         try:
-            pdf_path = convert_docx_to_pdf(file_path)
+            pdf_path = await convert_docx_to_pdf(file_path)
             page_count = count_pdf_pages(pdf_path)
             return page_count, pdf_path
         finally:

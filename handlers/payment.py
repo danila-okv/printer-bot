@@ -4,10 +4,11 @@ from aiogram import Router, F, Bot
 from aiogram.types import (
     CallbackQuery, InlineKeyboardButton, InlineKeyboardMarkup
 )
-from handlers.menu import send_main_menu
 from aiogram.fsm.state import State, StatesGroup
 from aiogram.fsm.context import FSMContext
 from messages import *
+from keyboards import main_menu_keyboard
+from callbacks import CANCEL
 
 router = Router()
 
@@ -77,8 +78,11 @@ async def handle_cash_payment(callback: CallbackQuery, state: FSMContext):
 # ─────────────────────────────────────────────────────────────────────────────
 # ❌ Отмена
 # ─────────────────────────────────────────────────────────────────────────────
-@router.callback_query(F.data == "cancel")
+@router.callback_query(F.data == CANCEL)
 async def handle_cancel(callback: CallbackQuery, state: FSMContext):
     await state.clear()
     await callback.message.edit_text("❌ Заказ отменён.")
-    await send_main_menu(callback.bot, callback.from_user.id)
+    await callback.message.answer(
+        text=MAIN_MENU_TEXT,
+        reply_markup=main_menu_keyboard
+    )

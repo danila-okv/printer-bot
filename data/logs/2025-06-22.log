@@ -1,0 +1,16 @@
+[18:32] 7676096317: cancel : 📂 Жду твой файл для печати. Просто отправь его мне
+[19:45] 7676096317: cancel : 📂 Жду твой файл для печати. Просто отправь его мне
+[19:47] 7676096317: file_print : User requested file print
+[19:47] 7676096317: file_print : User requested file print
+[19:47] 7676096317: file_print : User requested file print
+[19:47] 7676096317: cancel : User cancelled the print
+[19:48] 7676096317: file_print : User requested file print
+[19:55] 998332738: file_print : User requested file print
+[19:55] 998332738: unknown_command
+[19:55] 998332738: file_print : User requested file print
+[19:56] 998332738: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[19:56] 998332738: handle_document : Unsupported file type: IMG_2360.HEIC
+[19:56] 998332738: unknown_command : Лошара
+[20:00] 950478575: file_print : User requested file print
+[20:12] 709795977: file_print : User requested file print
+[20:13] 709795977: cancel : User cancelled the print

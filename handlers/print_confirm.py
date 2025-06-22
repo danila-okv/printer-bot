@@ -1,18 +1,17 @@
-# handlers/print_confirm.py
-
 from aiogram import Router, F
 from aiogram.types import CallbackQuery
 from aiogram.fsm.context import FSMContext
 
-from services.print_service import PrintJob, print_manager
+from services.print_service import add_job
+from print_job import PrintJob
 from handlers.menu import send_main_menu
-from handlers.payment import PaymentMethod
 from messages import *
+from services.ledger import log_print_job
+from callbacks import CONFIRM_PRINT
 
 router = Router()
 
-
-@router.callback_query(F.data == "confirm_payment")
+@router.callback_query(F.data == CONFIRM_PRINT)
 async def handle_payment_confirmation(callback: CallbackQuery, state: FSMContext):
     """
     Обрабатывает нажатие кнопки «✅ Я оплатил»
@@ -28,6 +27,15 @@ async def handle_payment_confirmation(callback: CallbackQuery, state: FSMContext
     page_count = data.get("page_count")
     file_name = data.get("file_name")
 
+    payment_method = data.get("method", "card")  # card или "cash"
+    log_print_job(
+    user_id=callback.from_user.id,
+    file_name=file_name,
+    page_count=page_count,
+    price=data.get("price", 0),
+    method=payment_method
+)
+
     if not all([file_path, page_count, file_name]):
         await callback.message.answer("❌ Ошибка: данные о файле утеряны. Начните заново.")
         await send_main_menu(callback.bot, callback.from_user.id)
@@ -38,15 +46,8 @@ async def handle_payment_confirmation(callback: CallbackQuery, state: FSMContext
         user_id=callback.from_user.id,
         file_path=file_path,
         file_name=file_name,
-        page_count=page_count,
         bot=callback.bot
     )
 
-    position = await print_manager.add_job(job)
-
-    if position == 1:
-        await callback.message.edit_text("✅ Платёж подтверждён. Начинаю печать...")
-    else:
-        await callback.message.edit_text(
-            f"✅ Платёж подтверждён.\n📑 Файл поставлен в очередь (позиция {position})."
-        )
+    add_job(job)
+    await callback.message.edit_text("✅ Платёж подтверждён. Начинаю печать...")

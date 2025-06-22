@@ -5,6 +5,7 @@ from aiogram.fsm.context import FSMContext
 from messages import *
 from keyboards import main_menu_keyboard
 from callbacks import MAIN_MENU
+from logger import log
 
 router = Router()
 
@@ -14,6 +15,7 @@ def handle_main_menu(callback: CallbackQuery):
     Обрабатывает нажатие кнопки «Главное меню»
     - отправляет главное меню
     """
+    log(callback.from_user.id, MAIN_MENU, "User requested main menu")
     callback.message.answer(
         text=MAIN_MENU_TEXT,
         reply_markup=main_menu_keyboard

@@ -1,80 +1,48 @@
-# services/print_service.py
-
 import asyncio
-from collections import deque
-from dataclasses import dataclass
-from aiogram.types import (
-    InlineKeyboardButton, InlineKeyboardMarkup
-)
+import os
 import subprocess
+from dataclasses import dataclass
+from collections import deque
+from aiogram import Bot
+from print_job import PrintJob
 from messages import *
+from keyboards import print_done_keyboard
+from handlers.notifier import notify_print_complete
 
-@dataclass
-class PrintJob:
-    user_id: int
-    file_path: str
-    file_name: str
-    page_count: int
-    bot: any  # aiogram.Bot
+# Очередь и управление
+print_queue = deque()
+processing = False
+lock = asyncio.Lock()
 
-class PrintManager:
-    def __init__(self, print_speed_sec_per_page=5):
-        self.queue = deque()
-        self.is_printing = False
-        self.print_speed = print_speed_sec_per_page  # в секундах
+async def print_worker():
+    global processing
 
-    async def add_job(self, job: PrintJob) -> int:
-        """
-        Добавляет задание в очередь.
-        Если очередь пуста — запускает печать.
-        Возвращает позицию в очереди (1 = печатаем сразу).
-        """
-        self.queue.append(job)
-        position = len(self.queue)
+    async with lock:
+        if processing or not print_queue:
+            return
+        processing = True
 
-        if not self.is_printing:
-            asyncio.create_task(self._start_printing())
-
-        return position
-
-    async def _start_printing(self):
-        self.is_printing = True
-
-        while self.queue:
-            job = self.queue.popleft()
-
-            try:
-                est_time = job.page_count * self.print_speed
+    while print_queue:
+        job = print_queue.popleft()
+        position = len(print_queue) + 1
+        try:
+            if position > 1:
                 await job.bot.send_message(
                     chat_id=job.user_id,
-                    text=f"🖨️ Печатаю <b>{job.file_name}</b>\n⏳ Примерное время: <b>{est_time} сек.</b>"
+                    text=f"📄 Файл {job.file_name} поставлен в очередь на печать. Позиция в очереди: {position}"
                 )
-
-                await self._print_file(job.file_path)
-
+            else:
                 await job.bot.send_message(
                     chat_id=job.user_id,
-                    text=PRINT_DONE_TEXT
+                    text=PRINT_START_TEXT.format(file_name=job.file_name)
                 )
-            except Exception as e:
-                await job.bot.send_message(
-                    chat_id=job.user_id,
-                    text=f"❌ Ошибка при печати: {e}",
-                    reply_markup=InlineKeyboardMarkup(inline_keyboard=[
-                        [InlineKeyboardButton(text=BUTTON_SUPPORT, url="https://t.me/danila_okv")]
-                    ])
-                )
+            await job.run()
+        except Exception as e:
+            print(f"[ERROR] Ошибка выполнения задания печати: {e}")
+        await asyncio.sleep(1)
 
-            await asyncio.sleep(1)  # защита от спама и дерганий
+    processing = False
 
-        self.is_printing = False
-
-    async def _print_file(self, file_path: str):
-        """
-        Отправляет файл в систему печати через lp (CUPS)
-        """
-        subprocess.run(["lp", file_path], check=True)
-
-
-# 💡 Инициализируем глобальный экземпляр
-print_manager = PrintManager(print_speed_sec_per_page=5)
+def add_job(job: PrintJob):
+    print_queue.append(job)
+    asyncio.create_task(print_worker())

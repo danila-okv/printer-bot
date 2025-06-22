@@ -10,8 +10,7 @@ from callbacks import *
 
 main_menu_keyboard = InlineKeyboardMarkup(
     inline_keyboard=[
-        [ 
-            InlineKeyboardButton(text=BUTTON_SUPPORT, url="https://t.me/danila_okv"),
+        [
             InlineKeyboardButton(text=BUTTON_PRINT_FILE, callback_data=FILE_PRINT)
         ]
     ] 

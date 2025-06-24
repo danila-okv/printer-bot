@@ -8,18 +8,20 @@ from handlers.menu import send_main_menu
 from messages import *
 from services.ledger import log_print_job
 from callbacks import CONFIRM_PRINT
+from logger import log
 
 router = Router()
 
 @router.callback_query(F.data == CONFIRM_PRINT)
 async def handle_payment_confirmation(callback: CallbackQuery, state: FSMContext):
+    
     """
     Обрабатывает нажатие кнопки «✅ Я оплатил»
     - достаёт данные из FSM
     - ставит в очередь печати
     - отправляет пользователю статус
     """
-    print("[DEBUG] handle_payment_confirmation called")
+    log(callback.message.from_user.id, CONFIRM_PRINT)
     data = await state.get_data()
     await state.clear()
 

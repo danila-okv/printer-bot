@@ -24,3 +24,56 @@
 [20:57] 7370726460: cancel : User cancelled the print
 [21:01] 7676096317: file_print : User requested file print
 [21:01] 7676096317: cancel : User cancelled the print
+[21:03] 7676096317: file_print : User requested file print
+[21:03] 7676096317: cancel : User cancelled the print
+[21:03] 7676096317: file_print : User requested file print
+[21:03] 7676096317: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[21:03] 7676096317: handle_document : Downloading file: documents/file_34.pdf
+[21:04] 7676096317: main_menu : User requested main menu
+[21:04] 7676096317: main_menu : User requested main menu
+[21:04] 7676096317: main_menu : User requested main menu
+[21:05] 7676096317: main_menu : User requested main menu
+[21:05] 7676096317: main_menu : User requested main menu
+[21:05] 7676096317: main_menu : User requested main menu
+[21:09] 7676096317: main_menu : User requested main menu
+[21:09] 7676096317: main_menu : User requested main menu
+[21:09] 7676096317: main_menu : User requested main menu
+[21:09] 7676096317: file_print : User requested file print
+[21:09] 7676096317: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[21:09] 7676096317: handle_document : Downloading file: documents/file_35.pdf
+[21:09] 7676096317: main_menu : User requested main menu
+[21:09] 7676096317: main_menu : User requested main menu
+[21:09] 7676096317: main_menu : User requested main menu
+[21:10] 7676096317: main_menu : User requested main menu
+[21:10] 7676096317: file_print : User requested file print
+[21:10] 7676096317: cancel : User cancelled the print
+[21:10] 7676096317: file_print : User requested file print
+[21:10] 7676096317: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[21:10] 7676096317: handle_document : Downloading file: documents/file_36.pdf
+[21:11] 7676096317: main_menu : User requested main menu
+[21:11] 7676096317: file_print : User requested file print
+[21:11] 7676096317: cancel : User cancelled the print
+[21:11] 7676096317: file_print : User requested file print
+[21:11] 7676096317: cancel : User cancelled the print
+[21:22] 733575279: file_print : User requested file print
+[21:23] 733575279: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[21:23] 733575279: handle_document : Downloading file: documents/file_37.pdf
+[21:23] 733575279: unknown_command : 21, 34, 35 страницы
+[21:27] 998332738: file_print : User requested file print
+[21:27] 998332738: cancel : User cancelled the print
+[21:30] 821511031: file_print : User requested file print
+[21:31] 6466895031: file_print : User requested file print
+[21:31] 6466895031: cancel : User cancelled the print
+[21:46] 998332738: file_print : User requested file print
+[21:46] 998332738: cancel : User cancelled the print
+[22:16] 5968799271: file_print : User requested file print
+[22:16] 5968799271: cancel : User cancelled the print
+[22:26] 722494604: file_print : User requested file print
+[22:28] 943340767: file_print : User requested file print
+[22:35] 722494604: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[22:35] 722494604: handle_document : Downloading file: documents/file_38.docx
+[22:36] 679662460: file_print : User requested file print
+[22:37] 722494604: main_menu : User requested main menu
+[22:41] 1694664948: file_print : User requested file print
+[22:41] 1694664948: cancel : User cancelled the print
+[23:57] 727814894: file_print : User requested file print

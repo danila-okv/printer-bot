@@ -1,0 +1,94 @@
+[00:41] 7676096317: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[00:41] 7676096317: handle_document : Processing file: M-Банкинг чек-4294969920.pdf
+[00:41] 7676096317: handle_document : Downloading file: documents/file_54.pdf
+[00:41] 7676096317: handle_document : File downloaded successfully: documents/file_54.pdf
+[00:41] 7676096317: handle_document : File processed: data/uploads/7676096317/M-Банкинг чек-4294969920.pdf, pages: 1, price: 0.2
+[00:41] 8059903469: pay_cash : User select Cash payment
+[00:41] 8059903469: confirm_print
+[00:41] 7676096317: print_worker : Starting print job: M-Банкинг чек-4294969920.pdf
+[00:41] 7676096317: Start file printing: M-Банкинг чек-4294969920.pdf, lp output: request id is _192_168_31_87-114 (1 file(s))
+[00:41] 7676096317: Print job 114 still in progress for file M-Банкинг чек-4294969920.pdf
+[00:41] 7676096317: Print job 114 still in progress for file M-Банкинг чек-4294969920.pdf
+[00:41] 7676096317: Print job 114 still in progress for file M-Банкинг чек-4294969920.pdf
+[00:41] 7676096317: Print job 114 still in progress for file M-Банкинг чек-4294969920.pdf
+[00:41] 7676096317: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[00:41] 7676096317: handle_document : Processing file: M-Банкинг чек-4294969844.pdf
+[00:41] 7676096317: handle_document : Downloading file: documents/file_55.pdf
+[00:41] 7676096317: handle_document : File downloaded successfully: documents/file_55.pdf
+[00:41] 7676096317: handle_document : File processed: data/uploads/7676096317/M-Банкинг чек-4294969844.pdf, pages: 1, price: 0.2
+[00:41] 7676096317: Print job 114 still in progress for file M-Банкинг чек-4294969920.pdf
+[00:41] 8059903469: pay_cash : User select Cash payment
+[00:41] 8059903469: confirm_print
+[00:41] 7676096317: Print job 114 still in progress for file M-Банкинг чек-4294969920.pdf
+[00:41] 7676096317: Print job 114 completed for file M-Банкинг чек-4294969920.pdf
+[00:41] 7676096317: print_worker : Starting print job: M-Банкинг чек-4294969844.pdf
+[00:41] 7676096317: Start file printing: M-Банкинг чек-4294969844.pdf, lp output: request id is _192_168_31_87-115 (1 file(s))
+[00:41] 7676096317: Print job 115 still in progress for file M-Банкинг чек-4294969844.pdf
+[00:41] 7676096317: Print job 115 still in progress for file M-Банкинг чек-4294969844.pdf
+[00:42] 7676096317: Print job 115 still in progress for file M-Банкинг чек-4294969844.pdf
+[00:42] 7676096317: Print job 115 still in progress for file M-Банкинг чек-4294969844.pdf
+[00:42] 7676096317: Print job 115 still in progress for file M-Банкинг чек-4294969844.pdf
+[00:42] 7676096317: Print job 115 completed for file M-Банкинг чек-4294969844.pdf
+[01:45] 7676096317: start_command : User started the bot
+[01:46] 7676096317: start_command : User started the bot
+[02:08] 7676096317: start_command : User started the bot
+[02:11] 7676096317: file_print : User requested file print
+[02:11] 7676096317: cancel : User cancelled the print
+[02:41] 7676096317: unknown_command : s
+[02:41] 7676096317: start_command : User started the bot
+[02:51] 7676096317: file_print : User requested file print
+[02:51] 7676096317: cancel : User cancelled the print
+[10:55] 7676096317: start_command : User started the bot
+[10:58] 7676096317: start_command : User started the bot
+[10:59] 7676096317: file_print : User requested file print
+[10:59] 998332738: file_print : User requested file print
+[10:59] 998332738: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[10:59] 998332738: handle_document : Processing file: общага.docx
+[10:59] 998332738: handle_document : Downloading file: documents/file_56.docx
+[10:59] 998332738: handle_document : File downloaded successfully: documents/file_56.docx
+[10:59] 998332738: handle_document : Converted DOCX to PDF: data/tmp/converted.pdf
+[10:59] 998332738: handle_document : File processed: data/uploads/998332738/общага.pdf, pages: 2, price: 0.4
+[10:59] 8059903469: pay_cash : User select Cash payment
+[10:59] 8059903469: confirm_print
+[10:59] 998332738: print_worker : Starting print job: общага.docx
+[10:59] 998332738: Start file printing: общага.docx, lp output: request id is _192_168_31_87-121 (1 file(s))
+[10:59] 998332738: Print job 121 still in progress for file общага.docx
+[11:00] 998332738: Print job 121 still in progress for file общага.docx
+[11:00] 998332738: Print job 121 still in progress for file общага.docx
+[11:00] 998332738: Print job 121 still in progress for file общага.docx
+[11:00] 998332738: Print job 121 still in progress for file общага.docx
+[11:00] 998332738: Print job 121 still in progress for file общага.docx
+[11:00] 998332738: Print job 121 still in progress for file общага.docx
+[11:00] 998332738: Print job 121 still in progress for file общага.docx
+[11:00] 998332738: Print job 121 still in progress for file общага.docx
+[11:00] 998332738: Print job 121 still in progress for file общага.docx
+[11:00] 998332738: Print job 121 still in progress for file общага.docx
+[11:00] 998332738: Print job 121 still in progress for file общага.docx
+[11:00] 998332738: Print job 121 still in progress for file общага.docx
+[11:00] 998332738: Print job 121 completed for file общага.docx
+[11:12] 7676096317: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[11:12] 7676096317: handle_document : Processing file: paymentCheck_2025-06-24T09:24:11.1961201.pdf
+[11:12] 7676096317: handle_document : Downloading file: documents/file_57.pdf
+[11:12] 7676096317: handle_document : File downloaded successfully: documents/file_57.pdf
+[11:12] 7676096317: handle_document : File processed: data/uploads/7676096317/paymentCheck_2025-06-24T09:24:11.1961201.pdf, pages: 1, price: 0.2
+[11:12] 8059903469: pay_cash : User select Cash payment
+[11:12] 8059903469: confirm_print
+[11:12] 7676096317: print_worker : Starting print job: paymentCheck_2025-06-24T09:24:11.1961201.pdf
+[11:12] 7676096317: Start file printing: paymentCheck_2025-06-24T09:24:11.1961201.pdf, lp output: request id is _192_168_31_87-124 (1 file(s))
+[11:12] 7676096317: Print job 124 still in progress for file paymentCheck_2025-06-24T09:24:11.1961201.pdf
+[11:12] 7676096317: Print job 124 still in progress for file paymentCheck_2025-06-24T09:24:11.1961201.pdf
+[11:12] 7676096317: Print job 124 still in progress for file paymentCheck_2025-06-24T09:24:11.1961201.pdf
+[11:12] 7676096317: Print job 124 still in progress for file paymentCheck_2025-06-24T09:24:11.1961201.pdf
+[11:12] 7676096317: Print job 124 still in progress for file paymentCheck_2025-06-24T09:24:11.1961201.pdf
+[11:12] 7676096317: Print job 124 still in progress for file paymentCheck_2025-06-24T09:24:11.1961201.pdf
+[11:12] 7676096317: Print job 124 still in progress for file paymentCheck_2025-06-24T09:24:11.1961201.pdf
+[11:12] 7676096317: Print job 124 still in progress for file paymentCheck_2025-06-24T09:24:11.1961201.pdf
+[11:12] 7676096317: Print job 124 still in progress for file paymentCheck_2025-06-24T09:24:11.1961201.pdf
+[11:12] 7676096317: Print job 124 still in progress for file paymentCheck_2025-06-24T09:24:11.1961201.pdf
+[11:12] 7676096317: Print job 124 still in progress for file paymentCheck_2025-06-24T09:24:11.1961201.pdf
+[11:13] 7676096317: Print job 124 still in progress for file paymentCheck_2025-06-24T09:24:11.1961201.pdf
+[11:13] 7676096317: Print job 124 still in progress for file paymentCheck_2025-06-24T09:24:11.1961201.pdf
+[11:13] 7676096317: Print job 124 still in progress for file paymentCheck_2025-06-24T09:24:11.1961201.pdf
+[11:13] 7676096317: Print job 124 still in progress for file paymentCheck_2025-06-24T09:24:11.1961201.pdf
+[11:13] 7676096317: Print job 124 still in progress for file paymentCheck_2025-06-24T09:24:11.1961201.pdf
+[11:13] 7676096317: Print job 124 completed for file paymentCheck_2025-06-24T09:24:11.1961201.pdf

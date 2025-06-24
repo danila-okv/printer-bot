@@ -9,6 +9,7 @@ from aiogram.fsm.context import FSMContext
 from messages import *
 from keyboards import main_menu_keyboard, print_confirm_keyboard
 from callbacks import *
+from logger import log
 
 router = Router()
 
@@ -19,6 +20,7 @@ async def handle_card_payment(callback: CallbackQuery, state: FSMContext):
         text=PAYMENT_CARD_TEXT,
         reply_markup=print_confirm_keyboard
     )
+    log(callback.message.from_user.id, PAY_CARD, "User select Card payment")
     await state.update_data(method="card")
 
 
@@ -29,4 +31,5 @@ async def handle_cash_payment(callback: CallbackQuery, state: FSMContext):
         text=PAYMENT_CASH_TEXT,
         reply_markup=print_confirm_keyboard
     )
+    log(callback.message.from_user.id, PAY_CASH, "User select Cash payment")
     await state.update_data(method="cash")

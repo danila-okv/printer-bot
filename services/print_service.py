@@ -8,6 +8,7 @@ from print_job import PrintJob
 from messages import *
 from keyboards import print_done_keyboard
 from handlers.notifier import notify_print_complete
+from logger import log
 
 # Очередь и управление
 print_queue = deque()
@@ -27,18 +28,20 @@ async def print_worker():
         position = len(print_queue) + 1
         try:
             if position > 1:
+                log(job.user_id, "print_worker", f"Queued print job: {job.file_name}, position: {position}")
                 await job.bot.send_message(
                     chat_id=job.user_id,
                     text=f"📄 Файл {job.file_name} поставлен в очередь на печать. Позиция в очереди: {position}"
                 )
             else:
+                log(job.user_id, "print_worker", f"Starting print job: {job.file_name}")
                 await job.bot.send_message(
                     chat_id=job.user_id,
                     text=PRINT_START_TEXT.format(file_name=job.file_name)
                 )
             await job.run()
         except Exception as e:
-            print(f"[ERROR] Ошибка выполнения задания печати: {e}")
+            log(job.user_id, "print_worker", f"Error in print job {job.file_name}: {e}")
         await asyncio.sleep(1)
 
     processing = False

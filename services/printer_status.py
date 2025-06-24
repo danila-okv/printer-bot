@@ -1,4 +1,5 @@
 import subprocess
+from logger import log
 
 def get_printer_status() -> str:
     try:

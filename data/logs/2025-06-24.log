@@ -1,0 +1,1464 @@
+[00:41] 7676096317: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[00:41] 7676096317: handle_document : Processing file: M-Банкинг чек-4294969920.pdf
+[00:41] 7676096317: handle_document : Downloading file: documents/file_54.pdf
+[00:41] 7676096317: handle_document : File downloaded successfully: documents/file_54.pdf
+[00:41] 7676096317: handle_document : File processed: data/uploads/7676096317/M-Банкинг чек-4294969920.pdf, pages: 1, price: 0.2
+[00:41] 8059903469: pay_cash : User select Cash payment
+[00:41] 8059903469: confirm_print
+[00:41] 7676096317: print_worker : Starting print job: M-Банкинг чек-4294969920.pdf
+[00:41] 7676096317: Start file printing: M-Банкинг чек-4294969920.pdf, lp output: request id is _192_168_31_87-114 (1 file(s))
+[00:41] 7676096317: Print job 114 still in progress for file M-Банкинг чек-4294969920.pdf
+[00:41] 7676096317: Print job 114 still in progress for file M-Банкинг чек-4294969920.pdf
+[00:41] 7676096317: Print job 114 still in progress for file M-Банкинг чек-4294969920.pdf
+[00:41] 7676096317: Print job 114 still in progress for file M-Банкинг чек-4294969920.pdf
+[00:41] 7676096317: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[00:41] 7676096317: handle_document : Processing file: M-Банкинг чек-4294969844.pdf
+[00:41] 7676096317: handle_document : Downloading file: documents/file_55.pdf
+[00:41] 7676096317: handle_document : File downloaded successfully: documents/file_55.pdf
+[00:41] 7676096317: handle_document : File processed: data/uploads/7676096317/M-Банкинг чек-4294969844.pdf, pages: 1, price: 0.2
+[00:41] 7676096317: Print job 114 still in progress for file M-Банкинг чек-4294969920.pdf
+[00:41] 8059903469: pay_cash : User select Cash payment
+[00:41] 8059903469: confirm_print
+[00:41] 7676096317: Print job 114 still in progress for file M-Банкинг чек-4294969920.pdf
+[00:41] 7676096317: Print job 114 completed for file M-Банкинг чек-4294969920.pdf
+[00:41] 7676096317: print_worker : Starting print job: M-Банкинг чек-4294969844.pdf
+[00:41] 7676096317: Start file printing: M-Банкинг чек-4294969844.pdf, lp output: request id is _192_168_31_87-115 (1 file(s))
+[00:41] 7676096317: Print job 115 still in progress for file M-Банкинг чек-4294969844.pdf
+[00:41] 7676096317: Print job 115 still in progress for file M-Банкинг чек-4294969844.pdf
+[00:42] 7676096317: Print job 115 still in progress for file M-Банкинг чек-4294969844.pdf
+[00:42] 7676096317: Print job 115 still in progress for file M-Банкинг чек-4294969844.pdf
+[00:42] 7676096317: Print job 115 still in progress for file M-Банкинг чек-4294969844.pdf
+[00:42] 7676096317: Print job 115 completed for file M-Банкинг чек-4294969844.pdf
+[01:45] 7676096317: start_command : User started the bot
+[01:46] 7676096317: start_command : User started the bot
+[02:08] 7676096317: start_command : User started the bot
+[02:11] 7676096317: file_print : User requested file print
+[02:11] 7676096317: cancel : User cancelled the print
+[02:41] 7676096317: unknown_command : s
+[02:41] 7676096317: start_command : User started the bot
+[02:51] 7676096317: file_print : User requested file print
+[02:51] 7676096317: cancel : User cancelled the print
+[10:55] 7676096317: start_command : User started the bot
+[10:58] 7676096317: start_command : User started the bot
+[10:59] 7676096317: file_print : User requested file print
+[10:59] 998332738: file_print : User requested file print
+[10:59] 998332738: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[10:59] 998332738: handle_document : Processing file: общага.docx
+[10:59] 998332738: handle_document : Downloading file: documents/file_56.docx
+[10:59] 998332738: handle_document : File downloaded successfully: documents/file_56.docx
+[10:59] 998332738: handle_document : Converted DOCX to PDF: data/tmp/converted.pdf
+[10:59] 998332738: handle_document : File processed: data/uploads/998332738/общага.pdf, pages: 2, price: 0.4
+[10:59] 8059903469: pay_cash : User select Cash payment
+[10:59] 8059903469: confirm_print
+[10:59] 998332738: print_worker : Starting print job: общага.docx
+[10:59] 998332738: Start file printing: общага.docx, lp output: request id is _192_168_31_87-121 (1 file(s))
+[10:59] 998332738: Print job 121 still in progress for file общага.docx
+[11:00] 998332738: Print job 121 still in progress for file общага.docx
+[11:00] 998332738: Print job 121 still in progress for file общага.docx
+[11:00] 998332738: Print job 121 still in progress for file общага.docx
+[11:00] 998332738: Print job 121 still in progress for file общага.docx
+[11:00] 998332738: Print job 121 still in progress for file общага.docx
+[11:00] 998332738: Print job 121 still in progress for file общага.docx
+[11:00] 998332738: Print job 121 still in progress for file общага.docx
+[11:00] 998332738: Print job 121 still in progress for file общага.docx
+[11:00] 998332738: Print job 121 still in progress for file общага.docx
+[11:00] 998332738: Print job 121 still in progress for file общага.docx
+[11:00] 998332738: Print job 121 still in progress for file общага.docx
+[11:00] 998332738: Print job 121 still in progress for file общага.docx
+[11:00] 998332738: Print job 121 completed for file общага.docx
+[11:12] 7676096317: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[11:12] 7676096317: handle_document : Processing file: paymentCheck_2025-06-24T09:24:11.1961201.pdf
+[11:12] 7676096317: handle_document : Downloading file: documents/file_57.pdf
+[11:12] 7676096317: handle_document : File downloaded successfully: documents/file_57.pdf
+[11:12] 7676096317: handle_document : File processed: data/uploads/7676096317/paymentCheck_2025-06-24T09:24:11.1961201.pdf, pages: 1, price: 0.2
+[11:12] 8059903469: pay_cash : User select Cash payment
+[11:12] 8059903469: confirm_print
+[11:12] 7676096317: print_worker : Starting print job: paymentCheck_2025-06-24T09:24:11.1961201.pdf
+[11:12] 7676096317: Start file printing: paymentCheck_2025-06-24T09:24:11.1961201.pdf, lp output: request id is _192_168_31_87-124 (1 file(s))
+[11:12] 7676096317: Print job 124 still in progress for file paymentCheck_2025-06-24T09:24:11.1961201.pdf
+[11:12] 7676096317: Print job 124 still in progress for file paymentCheck_2025-06-24T09:24:11.1961201.pdf
+[11:12] 7676096317: Print job 124 still in progress for file paymentCheck_2025-06-24T09:24:11.1961201.pdf
+[11:12] 7676096317: Print job 124 still in progress for file paymentCheck_2025-06-24T09:24:11.1961201.pdf
+[11:12] 7676096317: Print job 124 still in progress for file paymentCheck_2025-06-24T09:24:11.1961201.pdf
+[11:12] 7676096317: Print job 124 still in progress for file paymentCheck_2025-06-24T09:24:11.1961201.pdf
+[11:12] 7676096317: Print job 124 still in progress for file paymentCheck_2025-06-24T09:24:11.1961201.pdf
+[11:12] 7676096317: Print job 124 still in progress for file paymentCheck_2025-06-24T09:24:11.1961201.pdf
+[11:12] 7676096317: Print job 124 still in progress for file paymentCheck_2025-06-24T09:24:11.1961201.pdf
+[11:12] 7676096317: Print job 124 still in progress for file paymentCheck_2025-06-24T09:24:11.1961201.pdf
+[11:12] 7676096317: Print job 124 still in progress for file paymentCheck_2025-06-24T09:24:11.1961201.pdf
+[11:13] 7676096317: Print job 124 still in progress for file paymentCheck_2025-06-24T09:24:11.1961201.pdf
+[11:13] 7676096317: Print job 124 still in progress for file paymentCheck_2025-06-24T09:24:11.1961201.pdf
+[11:13] 7676096317: Print job 124 still in progress for file paymentCheck_2025-06-24T09:24:11.1961201.pdf
+[11:13] 7676096317: Print job 124 still in progress for file paymentCheck_2025-06-24T09:24:11.1961201.pdf
+[11:13] 7676096317: Print job 124 still in progress for file paymentCheck_2025-06-24T09:24:11.1961201.pdf
+[11:13] 7676096317: Print job 124 completed for file paymentCheck_2025-06-24T09:24:11.1961201.pdf
+[12:19] 7676096317: main_menu : Show main menu
+[12:19] 722494604: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[12:19] 722494604: handle_document : Processing file: ___ДОКЛАД Прибыль Вика.docx
+[12:19] 722494604: handle_document : Downloading file: documents/file_58.docx
+[12:19] 722494604: handle_document : File downloaded successfully: documents/file_58.docx
+[12:19] 722494604: handle_document : Converted DOCX to PDF: data/tmp/converted.pdf
+[12:19] 722494604: handle_document : File processed: data/uploads/722494604/___ДОКЛАД Прибыль Вика.pdf, pages: 4, price: 0.8
+[12:19] 8059903469: pay_cash : User select Cash payment
+[12:19] 8059903469: confirm_print
+[12:19] 722494604: print_worker : Starting print job: ___ДОКЛАД Прибыль Вика.docx
+[12:19] 722494604: Start file printing: ___ДОКЛАД Прибыль Вика.docx, lp output: request id is _192_168_31_87-134 (1 file(s))
+[12:19] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:20] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:20] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:20] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:20] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:20] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:20] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:20] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:20] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:20] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:20] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:20] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:20] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:20] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:20] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:20] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:20] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:20] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:20] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:20] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:20] 630179592: start_command : User started the bot
+[12:20] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:21] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:21] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:21] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:21] 630179592: file_print : User requested file print
+[12:21] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:21] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:21] 630179592: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[12:21] 630179592: handle_document : Processing file: ДОКЛАД.docx
+[12:21] 630179592: handle_document : Downloading file: documents/file_59.docx
+[12:21] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:21] 630179592: handle_document : File downloaded successfully: documents/file_59.docx
+[12:21] 630179592: handle_document : Converted DOCX to PDF: data/tmp/converted.pdf
+[12:21] 630179592: handle_document : File processed: data/uploads/630179592/ДОКЛАД.pdf, pages: 2, price: 0.4
+[12:21] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:21] 8059903469: pay_cash : User select Cash payment
+[12:21] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:21] 8059903469: confirm_print
+[12:21] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:21] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:21] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:21] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:21] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:21] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:21] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:21] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:21] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:21] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:21] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:21] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:22] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:22] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:22] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:22] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:22] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:22] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:22] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:22] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:22] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:22] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:22] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:22] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:22] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:22] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:22] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:22] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:22] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:22] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:22] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:23] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:23] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:23] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:23] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:23] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:23] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:23] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:23] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:23] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:23] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:23] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:23] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:23] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:23] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:23] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:23] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:23] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:23] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:23] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:23] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:24] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:24] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:24] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:24] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:24] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:24] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:24] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:24] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:24] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:24] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:24] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:24] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:24] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:24] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:24] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:24] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:24] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:24] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:24] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:24] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:25] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:25] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:25] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:25] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:25] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:25] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:25] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:25] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:25] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:25] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:25] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:25] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:25] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:25] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:25] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:25] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:25] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:25] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:25] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:26] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:26] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:26] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:26] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:26] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:26] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:26] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:26] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:26] 722494604: Print job 134 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:26] 722494604: Print job 134 completed for file ___ДОКЛАД Прибыль Вика.docx
+[12:26] 630179592: print_worker : Starting print job: ДОКЛАД.docx
+[12:26] 630179592: Start file printing: ДОКЛАД.docx, lp output: request id is _192_168_31_87-135 (1 file(s))
+[12:26] 630179592: Print job 135 still in progress for file ДОКЛАД.docx
+[12:26] 630179592: Print job 135 still in progress for file ДОКЛАД.docx
+[12:26] 630179592: Print job 135 still in progress for file ДОКЛАД.docx
+[12:26] 630179592: Print job 135 still in progress for file ДОКЛАД.docx
+[12:26] 630179592: Print job 135 still in progress for file ДОКЛАД.docx
+[12:26] 630179592: Print job 135 still in progress for file ДОКЛАД.docx
+[12:26] 630179592: Print job 135 still in progress for file ДОКЛАД.docx
+[12:26] 630179592: Print job 135 still in progress for file ДОКЛАД.docx
+[12:26] 630179592: Print job 135 still in progress for file ДОКЛАД.docx
+[12:26] 630179592: Print job 135 still in progress for file ДОКЛАД.docx
+[12:27] 630179592: Print job 135 still in progress for file ДОКЛАД.docx
+[12:27] 630179592: Print job 135 still in progress for file ДОКЛАД.docx
+[12:27] 630179592: Print job 135 still in progress for file ДОКЛАД.docx
+[12:27] 630179592: Print job 135 still in progress for file ДОКЛАД.docx
+[12:27] 630179592: Print job 135 still in progress for file ДОКЛАД.docx
+[12:27] 630179592: Print job 135 still in progress for file ДОКЛАД.docx
+[12:27] 630179592: Print job 135 still in progress for file ДОКЛАД.docx
+[12:27] 630179592: Print job 135 still in progress for file ДОКЛАД.docx
+[12:27] 630179592: Print job 135 still in progress for file ДОКЛАД.docx
+[12:27] 630179592: Print job 135 still in progress for file ДОКЛАД.docx
+[12:27] 630179592: Print job 135 completed for file ДОКЛАД.docx
+[12:29] 7676096317: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[12:29] 7676096317: handle_document : Processing file: ___ДОКЛАД Прибыль Вика.docx
+[12:29] 7676096317: handle_document : Downloading file: documents/file_58.docx
+[12:29] 7676096317: handle_document : File downloaded successfully: documents/file_58.docx
+[12:29] 7676096317: handle_document : Converted DOCX to PDF: data/tmp/converted.pdf
+[12:29] 7676096317: handle_document : File processed: data/uploads/7676096317/___ДОКЛАД Прибыль Вика.pdf, pages: 4, price: 0.8
+[12:29] 8059903469: pay_cash : User select Cash payment
+[12:29] 8059903469: confirm_print
+[12:29] 7676096317: print_worker : Starting print job: ___ДОКЛАД Прибыль Вика.docx
+[12:29] 7676096317: Start file printing: ___ДОКЛАД Прибыль Вика.docx, lp output: request id is _192_168_31_87-136 (1 file(s))
+[12:29] 7676096317: Print job 136 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:29] 7676096317: Print job 136 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:29] 7676096317: Print job 136 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:29] 7676096317: Print job 136 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:29] 7676096317: Print job 136 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:29] 7676096317: Print job 136 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:29] 7676096317: Print job 136 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:30] 7676096317: Print job 136 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:30] 7676096317: Print job 136 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:30] 7676096317: Print job 136 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:30] 7676096317: Print job 136 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:30] 7676096317: Print job 136 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:30] 7676096317: Print job 136 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:30] 7676096317: Print job 136 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:30] 7676096317: Print job 136 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:30] 7676096317: Print job 136 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:30] 7676096317: Print job 136 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:30] 7676096317: Print job 136 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:30] 7676096317: Print job 136 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:30] 7676096317: Print job 136 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:30] 7676096317: Print job 136 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:30] 7676096317: Print job 136 still in progress for file ___ДОКЛАД Прибыль Вика.docx
+[12:30] 7676096317: Print job 136 completed for file ___ДОКЛАД Прибыль Вика.docx
+[12:44] 7676096317: main_menu : Show main menu
+[14:30] 7676096317: start_command : User started the bot
+[14:30] 7676096317: file_print : User requested file print
+[14:31] 7676096317: file_print : User requested file print
+[14:31] 7676096317: cancel : User cancelled the print
+[14:46] 7676096317: start_command : User started the bot
+[15:06] 1986077570: start_command : User started the bot
+[15:47] 7676096317: file_print : User requested file print
+[15:47] 7676096317: cancel : User cancelled the print
+[15:49] 1105561639: start_command : User started the bot
+[15:49] 7676096317: file_print : User requested file print
+[15:49] 7676096317: cancel : User cancelled the print
+[15:49] 7676096317: start_command : User started the bot
+[15:49] 1105561639: file_print : User requested file print
+[15:50] 1105561639: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[15:50] 1105561639: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[15:50] 1105561639: handle_document : Processing file: M-Банкинг чек-4294968008.pdf
+[15:50] 1105561639: handle_document : Downloading file: documents/file_60.pdf
+[15:50] 1105561639: handle_document : File downloaded successfully: documents/file_60.pdf
+[15:50] 1105561639: handle_document : File processed: data/uploads/1105561639/M-Банкинг чек-4294968008.pdf, pages: 1, price: 0.2
+[15:50] 1105561639: handle_document : Processing file: paymentCheck_2025-06-23T213348.0405392.pdf
+[15:50] 1105561639: handle_document : Downloading file: documents/file_61.pdf
+[15:50] 1105561639: handle_document : File downloaded successfully: documents/file_61.pdf
+[15:50] 1105561639: handle_document : File processed: data/uploads/1105561639/paymentCheck_2025-06-23T213348.0405392.pdf, pages: 1, price: 0.2
+[15:50] 8059903469: pay_cash : User select Cash payment
+[15:50] 8059903469: confirm_print
+[15:50] 1105561639: print_worker : Starting print job: paymentCheck_2025-06-23T213348.0405392.pdf
+[15:50] 1105561639: Start file printing: paymentCheck_2025-06-23T213348.0405392.pdf, lp output: request id is _192_168_31_87-137 (1 file(s))
+[15:50] 1105561639: Print job 137 still in progress for file paymentCheck_2025-06-23T213348.0405392.pdf
+[15:50] 8059903469: pay_cash : User select Cash payment
+[15:50] 7676096317: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[15:50] 7676096317: handle_document : Processing file: M-Банкинг чек-12884903161.pdf
+[15:50] 7676096317: handle_document : Downloading file: documents/file_62.pdf
+[15:50] 8059903469: confirm_print
+[15:50] 7676096317: handle_document : File downloaded successfully: documents/file_62.pdf
+[15:50] 7676096317: handle_document : File processed: data/uploads/7676096317/M-Банкинг чек-12884903161.pdf, pages: 1, price: 0.2
+[15:50] 1105561639: Print job 137 still in progress for file paymentCheck_2025-06-23T213348.0405392.pdf
+[15:50] 8059903469: pay_card : User select Card payment
+[15:50] 8059903469: confirm_print
+[15:50] 1105561639: Print job 137 still in progress for file paymentCheck_2025-06-23T213348.0405392.pdf
+[15:50] 1105561639: Print job 137 still in progress for file paymentCheck_2025-06-23T213348.0405392.pdf
+[15:50] 1105561639: Print job 137 still in progress for file paymentCheck_2025-06-23T213348.0405392.pdf
+[15:50] 1105561639: Print job 137 still in progress for file paymentCheck_2025-06-23T213348.0405392.pdf
+[15:50] 1105561639: Print job 137 still in progress for file paymentCheck_2025-06-23T213348.0405392.pdf
+[15:50] 1105561639: Print job 137 still in progress for file paymentCheck_2025-06-23T213348.0405392.pdf
+[15:50] 1105561639: Print job 137 still in progress for file paymentCheck_2025-06-23T213348.0405392.pdf
+[15:50] 1105561639: Print job 137 still in progress for file paymentCheck_2025-06-23T213348.0405392.pdf
+[15:50] 1105561639: Print job 137 still in progress for file paymentCheck_2025-06-23T213348.0405392.pdf
+[15:51] 1105561639: Print job 137 still in progress for file paymentCheck_2025-06-23T213348.0405392.pdf
+[15:51] 1105561639: Print job 137 completed for file paymentCheck_2025-06-23T213348.0405392.pdf
+[15:51] 7676096317: print_worker : Starting print job: M-Банкинг чек-12884903161.pdf
+[15:51] 7676096317: Start file printing: M-Банкинг чек-12884903161.pdf, lp output: request id is _192_168_31_87-138 (1 file(s))
+[15:51] 7676096317: Print job 138 still in progress for file M-Банкинг чек-12884903161.pdf
+[15:51] 7676096317: Print job 138 still in progress for file M-Банкинг чек-12884903161.pdf
+[15:51] 7676096317: Print job 138 still in progress for file M-Банкинг чек-12884903161.pdf
+[15:51] 7676096317: Print job 138 still in progress for file M-Банкинг чек-12884903161.pdf
+[15:51] 7676096317: Print job 138 still in progress for file M-Банкинг чек-12884903161.pdf
+[15:51] 7676096317: Print job 138 still in progress for file M-Банкинг чек-12884903161.pdf
+[15:51] 1430339225: start_command : User started the bot
+[15:51] 7676096317: start_command : User started the bot
+[15:51] 1105561639: file_print : User requested file print
+[15:51] 7676096317: file_print : User requested file print
+[15:51] 7676096317: cancel : User cancelled the print
+[15:51] 1105561639: start_command : User started the bot
+[15:51] 1105561639: file_print : User requested file print
+[15:51] 1430339225: file_print : User requested file print
+[15:52] 886870747: start_command : User started the bot
+[15:52] 5967461578: start_command : User started the bot
+[15:52] 1105561639: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[15:52] 1105561639: handle_document : Processing file: paymentCheck_2025-06-23T213348.0405392.pdf
+[15:52] 1105561639: handle_document : Downloading file: documents/file_61.pdf
+[15:52] 1105561639: handle_document : File downloaded successfully: documents/file_61.pdf
+[15:52] 1105561639: handle_document : File processed: data/uploads/1105561639/paymentCheck_2025-06-23T213348.0405392.pdf, pages: 1, price: 0.2
+[15:52] 8059903469: pay_cash : User select Cash payment
+[15:52] 8059903469: confirm_print
+[15:52] 1105561639: print_worker : Starting print job: paymentCheck_2025-06-23T213348.0405392.pdf
+[15:52] 1105561639: Start file printing: paymentCheck_2025-06-23T213348.0405392.pdf, lp output: request id is _192_168_31_87-139 (1 file(s))
+[15:52] 1105561639: Print job 139 still in progress for file paymentCheck_2025-06-23T213348.0405392.pdf
+[15:52] 1105561639: Print job 139 still in progress for file paymentCheck_2025-06-23T213348.0405392.pdf
+[15:52] 1105561639: Print job 139 still in progress for file paymentCheck_2025-06-23T213348.0405392.pdf
+[15:52] 886870747: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[15:52] 886870747: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[15:52] 1105561639: Print job 139 still in progress for file paymentCheck_2025-06-23T213348.0405392.pdf
+[15:52] 886870747: handle_document : Processing file: ed62cc45a9f796ed3621ae426babd9ad.pdf
+[15:52] 886870747: handle_document : Processing file: 953b6c0339f3de84a1a1c8cf14586664.pdf
+[15:52] 886870747: handle_document : Downloading file: documents/file_63.pdf
+[15:52] 886870747: handle_document : Downloading file: documents/file_64.pdf
+[15:52] 886870747: handle_document : File downloaded successfully: documents/file_63.pdf
+[15:52] 886870747: handle_document : File processed: data/uploads/886870747/ed62cc45a9f796ed3621ae426babd9ad.pdf, pages: 1, price: 0.2
+[15:52] 886870747: handle_document : File downloaded successfully: documents/file_64.pdf
+[15:52] 886870747: handle_document : File processed: data/uploads/886870747/953b6c0339f3de84a1a1c8cf14586664.pdf, pages: 1, price: 0.2
+[15:52] 1105561639: Print job 139 still in progress for file paymentCheck_2025-06-23T213348.0405392.pdf
+[15:52] 1105561639: Print job 139 completed for file paymentCheck_2025-06-23T213348.0405392.pdf
+[15:53] 8059903469: pay_cash : User select Cash payment
+[15:53] 8059903469: pay_cash : User select Cash payment
+[15:53] 8059903469: confirm_print
+[15:53] 886870747: print_worker : Starting print job: 953b6c0339f3de84a1a1c8cf14586664.pdf
+[15:53] 886870747: Start file printing: 953b6c0339f3de84a1a1c8cf14586664.pdf, lp output: request id is _192_168_31_87-140 (1 file(s))
+[15:53] 886870747: Print job 140 still in progress for file 953b6c0339f3de84a1a1c8cf14586664.pdf
+[15:53] 886870747: Print job 140 still in progress for file 953b6c0339f3de84a1a1c8cf14586664.pdf
+[15:53] 8059903469: confirm_print
+[15:53] 886870747: Print job 140 still in progress for file 953b6c0339f3de84a1a1c8cf14586664.pdf
+[15:53] 886870747: Print job 140 still in progress for file 953b6c0339f3de84a1a1c8cf14586664.pdf
+[15:53] 886870747: Print job 140 still in progress for file 953b6c0339f3de84a1a1c8cf14586664.pdf
+[15:53] 886870747: Print job 140 still in progress for file 953b6c0339f3de84a1a1c8cf14586664.pdf
+[15:53] 886870747: Print job 140 still in progress for file 953b6c0339f3de84a1a1c8cf14586664.pdf
+[15:53] 886870747: Print job 140 still in progress for file 953b6c0339f3de84a1a1c8cf14586664.pdf
+[15:53] 7676096317: cancel : User cancelled the print
+[15:53] 886870747: Print job 140 completed for file 953b6c0339f3de84a1a1c8cf14586664.pdf
+[15:54] 886870747: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[15:54] 886870747: handle_document : Processing file: 953b6c0339f3de84a1a1c8cf14586664.pdf
+[15:54] 886870747: handle_document : Downloading file: documents/file_64.pdf
+[15:54] 886870747: handle_document : File downloaded successfully: documents/file_64.pdf
+[15:54] 886870747: handle_document : File processed: data/uploads/886870747/953b6c0339f3de84a1a1c8cf14586664.pdf, pages: 1, price: 0.2
+[15:54] 8059903469: pay_cash : User select Cash payment
+[15:54] 8059903469: confirm_print
+[15:54] 886870747: print_worker : Starting print job: 953b6c0339f3de84a1a1c8cf14586664.pdf
+[15:54] 886870747: Start file printing: 953b6c0339f3de84a1a1c8cf14586664.pdf, lp output: request id is _192_168_31_87-141 (1 file(s))
+[15:54] 886870747: Print job 141 still in progress for file 953b6c0339f3de84a1a1c8cf14586664.pdf
+[15:54] 886870747: Print job 141 still in progress for file 953b6c0339f3de84a1a1c8cf14586664.pdf
+[15:54] 886870747: Print job 141 still in progress for file 953b6c0339f3de84a1a1c8cf14586664.pdf
+[15:54] 886870747: Print job 141 still in progress for file 953b6c0339f3de84a1a1c8cf14586664.pdf
+[15:54] 886870747: Print job 141 still in progress for file 953b6c0339f3de84a1a1c8cf14586664.pdf
+[15:54] 886870747: Print job 141 still in progress for file 953b6c0339f3de84a1a1c8cf14586664.pdf
+[15:54] 886870747: Print job 141 still in progress for file 953b6c0339f3de84a1a1c8cf14586664.pdf
+[15:54] 886870747: Print job 141 still in progress for file 953b6c0339f3de84a1a1c8cf14586664.pdf
+[15:54] 886870747: Print job 141 completed for file 953b6c0339f3de84a1a1c8cf14586664.pdf
+[15:56] 886870747: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[15:56] 886870747: handle_document : Processing file: ed62cc45a9f796ed3621ae426babd9ad.pdf
+[15:56] 886870747: handle_document : Downloading file: documents/file_63.pdf
+[15:56] 886870747: handle_document : File downloaded successfully: documents/file_63.pdf
+[15:56] 886870747: handle_document : File processed: data/uploads/886870747/ed62cc45a9f796ed3621ae426babd9ad.pdf, pages: 1, price: 0.2
+[15:56] 8059903469: pay_cash : User select Cash payment
+[15:56] 8059903469: confirm_print
+[15:56] 886870747: print_worker : Starting print job: ed62cc45a9f796ed3621ae426babd9ad.pdf
+[15:56] 886870747: Start file printing: ed62cc45a9f796ed3621ae426babd9ad.pdf, lp output: request id is _192_168_31_87-142 (1 file(s))
+[15:56] 886870747: Print job 142 still in progress for file ed62cc45a9f796ed3621ae426babd9ad.pdf
+[15:56] 886870747: Print job 142 still in progress for file ed62cc45a9f796ed3621ae426babd9ad.pdf
+[15:56] 886870747: Print job 142 still in progress for file ed62cc45a9f796ed3621ae426babd9ad.pdf
+[15:56] 886870747: Print job 142 still in progress for file ed62cc45a9f796ed3621ae426babd9ad.pdf
+[15:56] 886870747: Print job 142 still in progress for file ed62cc45a9f796ed3621ae426babd9ad.pdf
+[15:56] 886870747: Print job 142 still in progress for file ed62cc45a9f796ed3621ae426babd9ad.pdf
+[15:56] 886870747: Print job 142 still in progress for file ed62cc45a9f796ed3621ae426babd9ad.pdf
+[15:56] 886870747: Print job 142 still in progress for file ed62cc45a9f796ed3621ae426babd9ad.pdf
+[15:56] 886870747: Print job 142 completed for file ed62cc45a9f796ed3621ae426babd9ad.pdf
+[15:57] 1274563633: start_command : User started the bot
+[15:57] 1105561639: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[15:57] 1105561639: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[15:57] 1105561639: handle_document : Processing file: M-Банкинг чек-4294967982.pdf
+[15:57] 1105561639: handle_document : Downloading file: documents/file_65.pdf
+[15:57] 1105561639: handle_document : Processing file: M-Банкинг чек-4294968001.pdf
+[15:57] 1105561639: handle_document : File downloaded successfully: documents/file_65.pdf
+[15:57] 1105561639: handle_document : File processed: data/uploads/1105561639/M-Банкинг чек-4294967982.pdf, pages: 1, price: 0.2
+[15:57] 1105561639: handle_document : Downloading file: documents/file_66.pdf
+[15:57] 1105561639: handle_document : File downloaded successfully: documents/file_66.pdf
+[15:57] 1105561639: handle_document : File processed: data/uploads/1105561639/M-Банкинг чек-4294968001.pdf, pages: 1, price: 0.2
+[15:57] 8059903469: pay_cash : User select Cash payment
+[15:57] 8059903469: pay_cash : User select Cash payment
+[15:57] 8059903469: confirm_print
+[15:57] 1105561639: print_worker : Starting print job: M-Банкинг чек-4294968001.pdf
+[15:57] 1105561639: Start file printing: M-Банкинг чек-4294968001.pdf, lp output: request id is _192_168_31_87-143 (1 file(s))
+[15:57] 1105561639: Print job 143 still in progress for file M-Банкинг чек-4294968001.pdf
+[15:57] 1274563633: file_print : User requested file print
+[15:57] 8059903469: confirm_print
+[15:57] 1105561639: Print job 143 still in progress for file M-Банкинг чек-4294968001.pdf
+[15:57] 1105561639: Print job 143 still in progress for file M-Банкинг чек-4294968001.pdf
+[15:57] 1105561639: Print job 143 still in progress for file M-Банкинг чек-4294968001.pdf
+[15:57] 1105561639: Print job 143 still in progress for file M-Банкинг чек-4294968001.pdf
+[15:57] 1105561639: Print job 143 completed for file M-Банкинг чек-4294968001.pdf
+[15:57] 1105561639: file_print : User requested file print
+[15:58] 1105561639: start_command : User started the bot
+[15:58] 1105561639: file_print : User requested file print
+[15:58] 1105561639: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[15:58] 1105561639: handle_document : Processing file: M-Банкинг чек-4294967982.pdf
+[15:58] 1105561639: handle_document : Downloading file: documents/file_65.pdf
+[15:58] 1105561639: handle_document : File downloaded successfully: documents/file_65.pdf
+[15:58] 1105561639: handle_document : File processed: data/uploads/1105561639/M-Банкинг чек-4294967982.pdf, pages: 1, price: 0.2
+[15:58] 8059903469: pay_cash : User select Cash payment
+[15:58] 8059903469: confirm_print
+[15:58] 1105561639: print_worker : Starting print job: M-Банкинг чек-4294967982.pdf
+[15:58] 1105561639: Start file printing: M-Банкинг чек-4294967982.pdf, lp output: request id is _192_168_31_87-144 (1 file(s))
+[15:58] 1105561639: Print job 144 still in progress for file M-Банкинг чек-4294967982.pdf
+[15:58] 1105561639: Print job 144 still in progress for file M-Банкинг чек-4294967982.pdf
+[15:58] 1105561639: Print job 144 still in progress for file M-Банкинг чек-4294967982.pdf
+[15:58] 1105561639: Print job 144 still in progress for file M-Банкинг чек-4294967982.pdf
+[15:58] 1105561639: Print job 144 still in progress for file M-Банкинг чек-4294967982.pdf
+[15:58] 1105561639: Print job 144 completed for file M-Банкинг чек-4294967982.pdf
+[15:59] 1274563633: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[15:59] 1274563633: handle_document : Unsupported file type: image.png
+[16:01] 5967461578: file_print : User requested file print
+[16:01] 5967461578: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[16:01] 5967461578: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[16:01] 5967461578: handle_document : Processing file: M-Банкинг чек-4294968001.pdf
+[16:01] 5967461578: handle_document : Processing file: M-Банкинг чек-4294967982.pdf
+[16:01] 5967461578: handle_document : Downloading file: documents/file_66.pdf
+[16:01] 5967461578: handle_document : Downloading file: documents/file_65.pdf
+[16:01] 5967461578: handle_document : File downloaded successfully: documents/file_66.pdf
+[16:01] 5967461578: handle_document : File processed: data/uploads/5967461578/M-Банкинг чек-4294968001.pdf, pages: 1, price: 0.2
+[16:01] 5967461578: handle_document : File downloaded successfully: documents/file_65.pdf
+[16:01] 5967461578: handle_document : File processed: data/uploads/5967461578/M-Банкинг чек-4294967982.pdf, pages: 1, price: 0.2
+[16:02] 1274563633: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[16:02] 1274563633: handle_document : Unsupported file type: IMG_8062.pdf.JPG
+[16:03] 1274563633: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[16:03] 1274563633: handle_document : Unsupported file type: IMG_8062.pdf.JPG
+[16:04] 1274563633: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[16:04] 1274563633: handle_document : Unsupported file type: IMG_8062.pdf.JPG
+[16:06] 1274563633: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[16:06] 1274563633: handle_document : Processing file: M-Банкинг чек-12884903161.pdf
+[16:06] 1274563633: handle_document : Downloading file: documents/file_62.pdf
+[16:06] 1274563633: handle_document : File downloaded successfully: documents/file_62.pdf
+[16:06] 1274563633: handle_document : File processed: data/uploads/1274563633/M-Банкинг чек-12884903161.pdf, pages: 1, price: 0.2
+[16:06] 8059903469: pay_cash : User select Cash payment
+[16:06] 8059903469: confirm_print
+[16:06] 1274563633: print_worker : Starting print job: M-Банкинг чек-12884903161.pdf
+[16:06] 1274563633: Start file printing: M-Банкинг чек-12884903161.pdf, lp output: request id is _192_168_31_87-145 (1 file(s))
+[16:06] 1274563633: Print job 145 still in progress for file M-Банкинг чек-12884903161.pdf
+[16:06] 1274563633: Print job 145 still in progress for file M-Банкинг чек-12884903161.pdf
+[16:06] 1274563633: Print job 145 still in progress for file M-Банкинг чек-12884903161.pdf
+[16:06] 1274563633: Print job 145 still in progress for file M-Банкинг чек-12884903161.pdf
+[16:06] 1274563633: Print job 145 still in progress for file M-Банкинг чек-12884903161.pdf
+[16:06] 1274563633: Print job 145 completed for file M-Банкинг чек-12884903161.pdf
+[16:06] 1274563633: unknown_command
+[16:09] 1274563633: start_command : User started the bot
+[16:42] 7676096317: start_command : User started the bot
+[17:55] 1029253502: start_command : User started the bot
+[17:55] 1029253502: file_print : User requested file print
+[17:55] 1029253502: cancel : User cancelled the print
+[18:41] 595870432: start_command : User started the bot
+[18:53] 782321455: start_command : User started the bot
+[18:53] 1919932563: start_command : User started the bot
+[18:54] 968473471: start_command : User started the bot
+[18:55] 1919932563: file_print : User requested file print
+[18:55] 1919932563: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[18:55] 1919932563: handle_document : Processing file: a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:55] 1919932563: handle_document : Downloading file: documents/file_67.pdf
+[18:55] 1919932563: handle_document : File downloaded successfully: documents/file_67.pdf
+[18:55] 1919932563: handle_document : File processed: data/uploads/1919932563/a054f6f0ed8edf522cfe0455c15de824.pdf, pages: 1, price: 0.2
+[18:55] 8059903469: pay_cash : User select Cash payment
+[18:55] 923656388: start_command : User started the bot
+[18:55] 8059903469: confirm_print
+[18:55] 1919932563: print_worker : Starting print job: a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:55] 1919932563: Start file printing: a054f6f0ed8edf522cfe0455c15de824.pdf, lp output: request id is Pantum_P3010DW_Series_27888F_auto-155 (1 file(s))
+[18:55] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:56] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:56] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:56] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:56] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:56] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:56] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:56] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:56] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:56] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:56] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:56] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:56] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:56] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:56] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:56] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:56] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:56] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:56] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:56] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:57] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:57] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:57] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:57] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:57] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:57] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:57] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:57] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:57] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:57] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:57] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:57] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:57] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:57] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:57] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:57] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:57] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:57] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:57] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:57] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:58] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:58] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:58] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:58] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:58] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:58] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:58] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:58] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:58] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:58] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:58] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:58] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:58] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:58] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:58] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:58] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:58] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:58] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:58] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:58] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:59] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:59] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:59] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:59] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:59] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:59] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:59] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:59] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:59] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:59] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:59] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:59] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:59] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:59] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:59] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:59] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:59] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:59] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[18:59] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:00] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:00] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:00] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:00] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:00] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:00] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:00] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:00] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:00] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:00] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:00] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:00] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:00] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:00] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:00] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:00] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:00] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:00] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:00] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:00] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:01] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:01] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:01] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:01] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:01] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:01] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:01] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:01] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:01] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:01] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:01] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:01] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:01] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:01] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:01] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:01] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:01] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:01] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:01] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:01] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:02] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:02] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:02] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:02] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:02] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:02] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:02] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:02] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:02] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:02] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:02] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:02] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:02] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:02] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:02] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:02] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:02] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:02] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:02] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:03] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:03] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:03] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:03] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:03] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:03] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:03] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:03] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:03] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:03] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:03] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:03] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:03] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:03] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:03] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:03] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:03] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:03] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:03] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:03] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:04] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:04] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:04] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:04] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:04] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:04] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:04] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:04] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:04] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:04] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:04] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:04] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:04] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:04] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:04] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:04] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:04] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:04] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:04] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:04] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:05] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:05] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:05] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:05] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:05] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:05] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:05] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:05] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:05] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:05] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:05] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:05] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:05] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:05] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:05] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:05] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:05] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:05] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:05] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:06] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:06] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:06] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:06] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:06] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:06] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:06] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:06] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:06] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:06] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:06] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:06] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:06] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:06] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:06] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:06] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:06] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:06] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:06] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:06] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:07] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:07] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:07] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:07] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:07] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:07] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:07] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:07] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:07] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:07] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:07] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:07] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:07] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:07] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:07] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:07] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:07] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:07] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:07] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:07] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:08] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:08] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:08] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:08] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:08] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:08] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:08] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:08] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:08] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:08] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:08] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:08] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:08] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:08] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:08] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:08] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:08] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:08] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:08] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:09] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:09] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:09] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:09] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:09] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:09] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:09] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:09] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:09] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:09] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:09] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:09] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:09] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:09] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:09] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:09] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:09] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:09] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:09] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:09] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:10] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:10] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:10] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:10] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:10] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:10] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:10] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:10] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:10] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:10] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:10] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:10] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:10] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:10] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:10] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:10] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:10] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:10] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:10] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:10] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:11] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:11] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:11] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:11] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:11] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:11] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:11] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:11] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:11] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:11] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:11] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:11] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:11] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:11] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:11] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:11] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:11] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:11] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:11] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:12] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:12] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:12] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:12] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:12] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:12] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:12] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:12] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:12] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:12] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:12] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:12] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:12] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:12] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:12] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:12] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:12] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:12] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:12] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:12] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:13] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:13] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:13] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:13] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:13] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:13] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:13] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:13] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:13] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:13] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:13] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:13] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:13] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:13] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:13] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:13] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:13] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:13] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:13] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:13] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:14] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:14] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:14] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:14] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:14] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:14] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:14] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:14] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:14] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:14] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:14] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:14] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:14] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:14] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:14] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:14] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:14] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:14] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:14] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:15] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:15] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:15] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:15] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:15] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:15] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:15] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:15] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:15] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:15] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:15] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:15] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:15] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:15] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:15] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:15] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:15] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:15] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:15] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:15] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:16] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:16] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:16] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:16] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:16] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:16] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:16] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:16] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:16] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:16] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:16] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:16] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:16] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:16] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:16] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:16] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:16] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:16] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:16] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:16] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:17] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:17] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:17] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:17] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:17] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:17] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:17] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:17] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:17] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:17] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:17] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:17] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:17] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:17] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:17] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:17] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:17] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:17] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:17] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:18] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:18] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:18] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:18] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:18] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:18] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:18] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:18] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:18] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:18] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:18] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:18] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:18] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:18] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:18] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:18] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:18] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:18] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:18] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:18] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:19] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:19] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:19] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:19] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:19] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:19] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:19] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:19] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:19] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:19] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:19] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:19] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:19] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:19] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:19] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:19] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:19] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:19] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:19] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:19] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:20] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:20] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:20] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:20] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:20] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:20] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:20] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:20] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:20] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:20] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:20] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:20] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:20] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:20] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:20] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:20] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:20] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:20] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:20] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:21] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:21] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:21] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:21] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:21] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:21] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:21] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:21] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:21] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:21] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:21] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:21] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:21] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:21] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:21] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:21] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:21] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:21] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:21] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:21] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:22] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:22] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:22] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:22] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:22] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:22] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:22] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:22] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:22] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:22] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:22] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:22] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:22] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:22] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:22] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:22] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:22] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:22] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:22] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:22] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:23] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:23] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:23] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:23] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:23] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:23] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:23] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:23] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:23] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:23] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:23] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:23] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:23] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:23] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:23] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:23] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:23] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:23] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:23] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:24] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:24] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:24] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:24] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:24] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:24] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:24] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:24] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:24] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:24] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:24] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:24] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:24] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:24] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:24] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:24] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:24] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:24] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:24] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:24] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:25] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:25] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:25] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:25] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:25] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:25] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:25] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:25] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:25] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:25] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:25] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:25] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:25] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:25] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:25] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:25] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:25] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:25] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:25] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:25] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:26] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:26] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:26] 1919932563: unknown_command : Отмена
+[19:26] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:26] 1919932563: start_command : User started the bot
+[19:26] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:26] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:26] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:26] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:26] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:26] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:26] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:26] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:26] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:26] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:26] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:26] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:26] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:26] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:26] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:26] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:27] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:27] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:27] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:27] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:27] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:27] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:27] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:27] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:27] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:27] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:27] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:27] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:27] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:27] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:27] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:27] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:27] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:27] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:27] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:27] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:28] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:28] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:28] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:28] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:28] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:28] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:28] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:28] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:28] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:28] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:28] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:28] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:28] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:28] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:28] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:28] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:28] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:28] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:28] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:28] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:29] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:29] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:29] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:29] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:29] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:29] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:29] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:29] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:29] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:29] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:29] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:29] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:29] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:29] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:29] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:29] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:29] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:29] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:29] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:30] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:30] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:30] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:30] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:30] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:30] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:30] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:30] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:30] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:30] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:30] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:30] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:30] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:30] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:30] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:30] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:30] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:30] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:30] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:30] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:31] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:31] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:31] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:31] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:31] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:31] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:31] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:31] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:31] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:31] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:31] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:31] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:31] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:31] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:31] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:31] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:31] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:31] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:31] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:31] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:32] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:32] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:32] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:32] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:32] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:32] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:32] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:32] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:32] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:32] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:32] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:32] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:32] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:32] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:32] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:32] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:32] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:32] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:32] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:33] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:33] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:33] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:33] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:33] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:33] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:33] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:33] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:33] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:33] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:33] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:33] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:33] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:33] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:33] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:33] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:33] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:33] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:33] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:33] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:34] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:34] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:34] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:34] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:34] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:34] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:34] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:34] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:34] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:34] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:34] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:34] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:34] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:34] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:34] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:34] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:34] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:34] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:34] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:34] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:35] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:35] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:35] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:35] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:35] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:35] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:35] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:35] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:35] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:35] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:35] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:35] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:35] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:35] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:35] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:35] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:35] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:35] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:35] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:36] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:36] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:36] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:36] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:36] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:36] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:36] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:36] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:36] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:36] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:36] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:36] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:36] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:36] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:36] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:36] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:36] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:36] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:36] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:36] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:37] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:37] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:37] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:37] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:37] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:37] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:37] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:37] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:37] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:37] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:37] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:37] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:37] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:37] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:37] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:37] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:37] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:37] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:37] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:37] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:38] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:38] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:38] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:38] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:38] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:38] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:38] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:38] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:38] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:38] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:38] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:38] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:38] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:38] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:38] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:38] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:38] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:38] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:38] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:39] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:39] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:39] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:39] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:39] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:39] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:39] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:39] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:39] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:39] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:39] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:39] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:39] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:39] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:39] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:39] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:39] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:39] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:39] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:39] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:40] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:40] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:40] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:40] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:40] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:40] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:40] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:40] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:40] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:40] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:40] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:40] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:40] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:40] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:40] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:40] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:40] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:40] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:40] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:40] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:41] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:41] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:41] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:41] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:41] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:41] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:41] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:41] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:41] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:41] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:41] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:41] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:41] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:41] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:41] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:41] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:41] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:41] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:41] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:42] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:42] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:42] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:42] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:42] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:42] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:42] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:42] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:42] 1919932563: Print job 155 still in progress for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[19:42] 1919932563: Print job 155 completed for file a054f6f0ed8edf522cfe0455c15de824.pdf
+[20:12] 7676096317: start_command : User started the bot
+[20:12] 7676096317: start_command : User started the bot
+[20:19] 952674340: start_command : User started the bot
+[20:37] 7676096317: file_print : User requested file print
+[20:37] 7676096317: cancel : User cancelled the print

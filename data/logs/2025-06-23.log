@@ -1,0 +1,586 @@
+[01:40] 905836968: file_print : User requested file print
+[01:43] 7676096317: file_print : User requested file print
+[01:46] 905836968: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[01:46] 905836968: unknown_command
+[01:46] 905836968: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[01:46] 905836968: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[01:46] 905836968: handle_document : Downloading file: documents/file_39.docx
+[01:46] 905836968: handle_document : Downloading file: documents/file_40.DOCX
+[01:46] 905836968: handle_document : Downloading file: documents/file_41.docx
+[01:48] 905836968: file_print : User requested file print
+[01:48] 905836968: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[01:48] 905836968: handle_document : Downloading file: documents/file_39.docx
+[01:52] 905836968: unknown_command
+[01:53] 905836968: unknown_command
+[01:53] 905836968: file_print : User requested file print
+[01:53] 905836968: unknown_command
+[01:58] 1803285492: file_print : User requested file print
+[01:58] 1803285492: cancel : User cancelled the print
+[03:09] 7676096317: file_print : User requested file print
+[03:53] 7676096317: start_command : User started the bot
+[03:53] 7676096317: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[03:53] 7676096317: handle_document : Processing file: буклет диплом.pdf
+[03:53] 7676096317: handle_document : Downloading file: documents/file_42.pdf
+[03:53] 7676096317: handle_document : File downloaded successfully: documents/file_42.pdf
+[03:53] 7676096317: handle_document : File processed: data/uploads/7676096317/буклет диплом.pdf, pages: 2, price: 0.4
+[03:53] 8059903469: pay_card : User select Card payment
+[03:53] 7676096317: cancel : User cancelled the print
+[03:54] 7676096317: start_command : User started the bot
+[03:54] 7676096317: start_command : User started the bot
+[04:05] 7676096317: start_command : User started the bot
+[04:05] 7676096317: file_print : User requested file print
+[04:05] 7676096317: cancel : User cancelled the print
+[04:05] 7676096317: file_print : User requested file print
+[04:05] 7676096317: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[04:05] 7676096317: handle_document : Processing file: буклет диплом.pdf
+[04:05] 7676096317: handle_document : Downloading file: documents/file_43.pdf
+[04:05] 7676096317: handle_document : File downloaded successfully: documents/file_43.pdf
+[04:05] 7676096317: handle_document : File processed: data/uploads/7676096317/буклет диплом.pdf, pages: 2, price: 0.4
+[04:06] 8059903469: pay_cash : User select Cash payment
+[04:06] 7676096317: cancel : User cancelled the print
+[04:06] 7676096317: cancel : User cancelled the print
+[04:06] 7676096317: file_print : User requested file print
+[04:06] 7676096317: cancel : User cancelled the print
+[04:06] 7676096317: file_print : User requested file print
+[04:06] 7676096317: file_print : User requested file print
+[04:06] 7676096317: cancel : User cancelled the print
+[04:06] 7676096317: file_print : User requested file print
+[04:07] 7676096317: cancel : User cancelled the print
+[04:07] 7676096317: cancel : User cancelled the print
+[04:07] 7676096317: file_print : User requested file print
+[04:07] 7676096317: cancel : User cancelled the print
+[11:09] 1216618635: start_command : User started the bot
+[12:15] 7676096317: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[12:15] 7676096317: handle_document : Processing file: Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:15] 7676096317: handle_document : Downloading file: documents/file_44.docx
+[12:15] 7676096317: handle_document : File downloaded successfully: documents/file_44.docx
+[12:15] 7676096317: handle_document : Converted DOCX to PDF: data/tmp/converted.pdf
+[12:15] 7676096317: handle_document : File processed: data/uploads/7676096317/Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.pdf, pages: 7, price: 1.4
+[12:15] 8059903469: pay_card : User select Card payment
+[12:15] 8059903469: confirm_print
+[12:15] 7676096317: print_worker : Starting print job: Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:15] 7676096317: Start file printing: Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx, lp output: request id is _192_168_31_87-68 (1 file(s))
+[12:15] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:15] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:15] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:15] 7676096317: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[12:15] 7676096317: handle_document : Processing file: Сократить.....docx
+[12:15] 7676096317: handle_document : Downloading file: documents/file_45.docx
+[12:15] 7676096317: handle_document : File downloaded successfully: documents/file_45.docx
+[12:15] 7676096317: handle_document : Converted DOCX to PDF: data/tmp/converted.pdf
+[12:15] 7676096317: handle_document : File processed: data/uploads/7676096317/Сократить.....pdf, pages: 4, price: 0.8
+[12:15] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:15] 8059903469: pay_card : User select Card payment
+[12:15] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:15] 8059903469: confirm_print
+[12:15] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:15] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:15] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:15] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:15] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:15] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:15] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:16] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:16] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:16] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:16] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:16] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:16] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:16] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:16] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:16] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:16] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:16] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:16] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:16] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:16] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:16] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:16] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:16] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:16] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:16] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:16] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:17] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:17] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:17] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:17] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:17] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:17] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:17] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:17] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:17] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:17] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:17] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:17] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:17] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:17] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:17] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:17] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:17] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:17] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:17] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:17] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:18] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:18] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:18] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:18] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:18] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:18] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:18] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:18] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:18] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:18] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:18] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:18] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:18] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:18] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:18] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:18] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:18] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:18] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:18] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:19] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:19] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:19] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:19] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:19] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:19] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:19] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:19] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:19] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:19] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:19] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:19] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:19] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:19] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:19] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:19] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:19] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:19] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:19] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:19] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:20] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:20] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:20] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:20] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:20] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:20] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:20] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:20] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:20] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:20] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:20] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:20] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:20] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:20] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:20] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:20] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:20] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:20] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:20] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:20] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:21] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:21] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:21] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:21] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:21] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:21] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:21] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:21] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:21] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:21] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:21] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:21] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:21] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:21] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:21] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:21] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:21] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:21] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:21] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:22] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:22] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:22] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:22] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:22] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:22] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:22] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:22] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:22] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:22] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:22] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:22] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:22] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:22] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:22] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:22] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:22] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:22] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:22] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:22] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:23] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:23] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:23] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:23] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:23] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:23] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:23] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:23] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:23] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:23] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:23] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:23] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:23] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:23] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:23] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:23] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:23] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:23] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:23] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:23] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:24] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:24] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:24] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:24] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:24] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:24] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:24] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:24] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:24] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:24] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:24] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:24] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:24] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:24] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:24] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:24] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:24] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:24] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:24] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:25] 7676096317: Print job 68 still in progress for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:25] 7676096317: Print job 68 completed for file Уважаемые_председатель_и_члены_государственной_экзаменационной_комиссии.docx
+[12:25] 7676096317: print_worker : Starting print job: Сократить.....docx
+[12:25] 7676096317: Start file printing: Сократить.....docx, lp output: request id is _192_168_31_87-72 (1 file(s))
+[12:25] 7676096317: Print job 72 still in progress for file Сократить.....docx
+[12:25] 7676096317: Print job 72 still in progress for file Сократить.....docx
+[12:25] 7676096317: Print job 72 still in progress for file Сократить.....docx
+[12:25] 7676096317: Print job 72 still in progress for file Сократить.....docx
+[12:25] 7676096317: Print job 72 still in progress for file Сократить.....docx
+[12:25] 7676096317: Print job 72 still in progress for file Сократить.....docx
+[12:25] 7676096317: Print job 72 still in progress for file Сократить.....docx
+[12:25] 7676096317: Print job 72 still in progress for file Сократить.....docx
+[12:25] 7676096317: Print job 72 still in progress for file Сократить.....docx
+[12:25] 7676096317: Print job 72 still in progress for file Сократить.....docx
+[12:25] 7676096317: Print job 72 still in progress for file Сократить.....docx
+[12:25] 7676096317: Print job 72 completed for file Сократить.....docx
+[12:33] 501609661: start_command : User started the bot
+[12:39] 7676096317: unknown_command : 1. Начало диплома фулл
+4. Раздел 4 Конец ЧБ
+6. Прилож ЧБ
+7. ЧБ
+8. ЧБ
+9. duplex
+10. Буква Т, ЧБ
+[13:43] 890198039: start_command : User started the bot
+[13:43] 890198039: file_print : User requested file print
+[13:43] 890198039: cancel : User cancelled the print
+[13:56] 926309732: start_command : User started the bot
+[13:57] 926309732: file_print : User requested file print
+[13:57] 926309732: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[13:57] 926309732: handle_document : Processing file: M-Банкинг чек-8589935974.pdf
+[13:57] 926309732: handle_document : Downloading file: documents/file_46.pdf
+[13:57] 926309732: handle_document : File downloaded successfully: documents/file_46.pdf
+[13:57] 926309732: handle_document : File processed: data/uploads/926309732/M-Банкинг чек-8589935974.pdf, pages: 1, price: 0.2
+[13:58] 8059903469: pay_cash : User select Cash payment
+[13:58] 8059903469: confirm_print
+[13:58] 926309732: print_worker : Starting print job: M-Банкинг чек-8589935974.pdf
+[13:58] 926309732: Start file printing: M-Банкинг чек-8589935974.pdf, lp output: request id is _192_168_31_87-97 (1 file(s))
+[13:58] 926309732: Print job 97 still in progress for file M-Банкинг чек-8589935974.pdf
+[13:58] 926309732: Print job 97 still in progress for file M-Банкинг чек-8589935974.pdf
+[13:58] 926309732: Print job 97 still in progress for file M-Банкинг чек-8589935974.pdf
+[13:58] 926309732: Print job 97 still in progress for file M-Банкинг чек-8589935974.pdf
+[13:58] 926309732: Print job 97 still in progress for file M-Банкинг чек-8589935974.pdf
+[13:58] 926309732: Print job 97 completed for file M-Банкинг чек-8589935974.pdf
+[14:03] 7676096317: start_command : User started the bot
+[14:05] 7676096317: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[14:05] 7676096317: handle_document : Processing file: M-Банкинг чек-8589935974.pdf
+[14:05] 7676096317: handle_document : Downloading file: documents/file_47.pdf
+[14:05] 7676096317: handle_document : File downloaded successfully: documents/file_47.pdf
+[14:05] 7676096317: handle_document : File processed: data/uploads/7676096317/M-Банкинг чек-8589935974.pdf, pages: 1, price: 0.2
+[14:05] 8059903469: pay_cash : User select Cash payment
+[14:05] 8059903469: confirm_print
+[14:05] 7676096317: print_worker : Starting print job: M-Банкинг чек-8589935974.pdf
+[14:05] 7676096317: Start file printing: M-Банкинг чек-8589935974.pdf, lp output: request id is _192_168_31_87-98 (1 file(s))
+[14:05] 7676096317: Print job 98 still in progress for file M-Банкинг чек-8589935974.pdf
+[14:05] 7676096317: Print job 98 still in progress for file M-Банкинг чек-8589935974.pdf
+[14:05] 7676096317: Print job 98 still in progress for file M-Банкинг чек-8589935974.pdf
+[14:05] 7676096317: Print job 98 still in progress for file M-Банкинг чек-8589935974.pdf
+[14:05] 7676096317: Print job 98 still in progress for file M-Банкинг чек-8589935974.pdf
+[14:05] 7676096317: Print job 98 completed for file M-Банкинг чек-8589935974.pdf
+[17:04] 906437929: start_command : User started the bot
+[17:05] 906437929: file_print : User requested file print
+[17:05] 906437929: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[17:05] 906437929: handle_document : Processing file: мяу.docx
+[17:05] 906437929: handle_document : Downloading file: documents/file_48.docx
+[17:05] 906437929: handle_document : File downloaded successfully: documents/file_48.docx
+[17:05] 906437929: handle_document : Converted DOCX to PDF: data/tmp/converted.pdf
+[17:05] 906437929: handle_document : File processed: data/uploads/906437929/мяу.pdf, pages: 2, price: 0.4
+[17:05] 8059903469: pay_cash : User select Cash payment
+[17:05] 8059903469: confirm_print
+[17:05] 906437929: print_worker : Starting print job: мяу.docx
+[17:06] 906437929: Start file printing: мяу.docx, lp output: request id is _192_168_31_87-108 (1 file(s))
+[17:06] 906437929: Print job 108 still in progress for file мяу.docx
+[17:06] 906437929: Print job 108 still in progress for file мяу.docx
+[17:06] 906437929: Print job 108 still in progress for file мяу.docx
+[17:06] 906437929: Print job 108 still in progress for file мяу.docx
+[17:06] 906437929: Print job 108 still in progress for file мяу.docx
+[17:06] 906437929: Print job 108 still in progress for file мяу.docx
+[17:06] 906437929: Print job 108 still in progress for file мяу.docx
+[17:06] 906437929: Print job 108 still in progress for file мяу.docx
+[17:06] 906437929: Print job 108 completed for file мяу.docx
+[19:45] 7676096317: start_command : User started the bot
+[19:50] 7676096317: unknown_command
+[20:01] 7676096317: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[20:01] 7676096317: handle_document : Processing file: Вопросы к экзамену.docx
+[20:01] 7676096317: handle_document : Downloading file: documents/file_49.docx
+[20:01] 7676096317: handle_document : File downloaded successfully: documents/file_49.docx
+[20:01] 7676096317: handle_document : Converted DOCX to PDF: data/tmp/converted.pdf
+[20:01] 7676096317: handle_document : File processed: data/uploads/7676096317/Вопросы к экзамену.pdf, pages: 2, price: 0.4
+[20:01] 8059903469: pay_cash : User select Cash payment
+[20:01] 8059903469: confirm_print
+[20:01] 7676096317: print_worker : Starting print job: Вопросы к экзамену.docx
+[20:01] 7676096317: Start file printing: Вопросы к экзамену.docx, lp output: request id is _192_168_31_87-110 (1 file(s))
+[20:01] 7676096317: Print job 110 still in progress for file Вопросы к экзамену.docx
+[20:01] 7676096317: Print job 110 still in progress for file Вопросы к экзамену.docx
+[20:01] 7676096317: Print job 110 still in progress for file Вопросы к экзамену.docx
+[20:01] 7676096317: Print job 110 still in progress for file Вопросы к экзамену.docx
+[20:01] 7676096317: Print job 110 still in progress for file Вопросы к экзамену.docx
+[20:01] 7676096317: Print job 110 still in progress for file Вопросы к экзамену.docx
+[20:01] 7676096317: Print job 110 still in progress for file Вопросы к экзамену.docx
+[20:01] 7676096317: Print job 110 still in progress for file Вопросы к экзамену.docx
+[20:01] 7676096317: Print job 110 completed for file Вопросы к экзамену.docx
+[20:03] 7676096317: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[20:03] 7676096317: handle_document : Processing file: шпоры по фо.docx
+[20:03] 7676096317: handle_document : Downloading file: documents/file_50.docx
+[20:03] 7676096317: handle_document : File downloaded successfully: documents/file_50.docx
+[20:03] 7676096317: handle_document : Converted DOCX to PDF: data/tmp/converted.pdf
+[20:03] 7676096317: handle_document : File processed: data/uploads/7676096317/шпоры по фо.pdf, pages: 63, price: 12.6
+[20:05] 8059903469: pay_card : User select Card payment
+[20:05] 8059903469: pay_card : User select Card payment
+[20:05] 8059903469: confirm_print
+[20:05] 7676096317: print_worker : Starting print job: шпоры по фо.docx
+[20:05] 7676096317: Start file printing: шпоры по фо.docx, lp output: request id is _192_168_31_87-111 (1 file(s))
+[20:05] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:05] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:05] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:06] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:06] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:06] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:06] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:06] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:06] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:06] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:06] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:06] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:06] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:06] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:06] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:06] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:06] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:06] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:06] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:06] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:06] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:06] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:06] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:07] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:07] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:07] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:07] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:07] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:07] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:07] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:07] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:07] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:07] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:07] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:07] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:07] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:07] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:07] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:07] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:07] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:07] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:07] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:07] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:08] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:08] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:08] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:08] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:08] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:08] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:08] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:08] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:08] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:08] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:08] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:08] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:08] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:08] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:08] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:08] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:08] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:08] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:08] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:09] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:09] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:09] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:09] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:09] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:09] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:09] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:09] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:09] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:09] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:09] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:09] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:09] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:09] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:09] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:09] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:09] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:09] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:09] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:09] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:10] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:10] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:10] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:10] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:10] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:10] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:10] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:10] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:10] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:10] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:10] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:10] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:10] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:10] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:10] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:10] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:10] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:10] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:10] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:10] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:11] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:11] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:11] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:11] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:11] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:11] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:11] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:11] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:11] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:11] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:11] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:11] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:11] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:11] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:11] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:11] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:11] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:11] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:11] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:12] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:12] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:12] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:12] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:12] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:12] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:12] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:12] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:12] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:12] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:12] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:12] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:12] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:12] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:12] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:12] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:12] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:12] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:12] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:12] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:13] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:13] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:13] 7676096317: Print job 111 still in progress for file шпоры по фо.docx
+[20:13] 7676096317: Print job 111 completed for file шпоры по фо.docx
+[20:20] 7676096317: start_command : User started the bot
+[20:25] 7676096317: start_command : User started the bot
+[20:45] 7676096317: start_command : User started the bot
+[21:06] 920670699: start_command : User started the bot
+[21:06] 920670699: file_print : User requested file print
+[21:06] 7676096317: file_print : User requested file print
+[21:06] 920670699: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[21:06] 920670699: handle_document : Processing file: paymentCheck_2025-06-21T174535.652625.pdf
+[21:06] 920670699: handle_document : Downloading file: documents/file_51.pdf
+[21:06] 920670699: handle_document : File downloaded successfully: documents/file_51.pdf
+[21:06] 920670699: handle_document : File processed: data/uploads/920670699/paymentCheck_2025-06-21T174535.652625.pdf, pages: 1, price: 0.2
+[21:07] 8059903469: pay_cash : User select Cash payment
+[21:07] 8059903469: confirm_print
+[21:07] 920670699: print_worker : Starting print job: paymentCheck_2025-06-21T174535.652625.pdf
+[21:07] 920670699: Start file printing: paymentCheck_2025-06-21T174535.652625.pdf, lp output: request id is _192_168_31_87-112 (1 file(s))
+[21:07] 920670699: Print job 112 still in progress for file paymentCheck_2025-06-21T174535.652625.pdf
+[21:07] 920670699: Print job 112 still in progress for file paymentCheck_2025-06-21T174535.652625.pdf
+[21:07] 920670699: Print job 112 still in progress for file paymentCheck_2025-06-21T174535.652625.pdf
+[21:07] 920670699: Print job 112 still in progress for file paymentCheck_2025-06-21T174535.652625.pdf
+[21:07] 920670699: Print job 112 still in progress for file paymentCheck_2025-06-21T174535.652625.pdf
+[21:07] 920670699: Print job 112 completed for file paymentCheck_2025-06-21T174535.652625.pdf
+[21:08] 7676096317: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[21:08] 7676096317: handle_document : Processing file: доклад (2).pdf
+[21:08] 7676096317: handle_document : Downloading file: documents/file_52.pdf
+[21:08] 7676096317: handle_document : File downloaded successfully: documents/file_52.pdf
+[21:08] 7676096317: handle_document : File processed: data/uploads/7676096317/доклад (2).pdf, pages: 3, price: 0.6
+[21:08] 8059903469: pay_cash : User select Cash payment
+[21:08] 8059903469: confirm_print
+[21:08] 7676096317: print_worker : Starting print job: доклад (2).pdf
+[21:08] 7676096317: Start file printing: доклад (2).pdf, lp output: request id is _192_168_31_87-113 (1 file(s))
+[21:08] 7676096317: Print job 113 still in progress for file доклад (2).pdf
+[21:08] 7676096317: Print job 113 still in progress for file доклад (2).pdf
+[21:08] 7676096317: Print job 113 still in progress for file доклад (2).pdf
+[21:08] 7676096317: Print job 113 still in progress for file доклад (2).pdf
+[21:08] 7676096317: Print job 113 still in progress for file доклад (2).pdf
+[21:08] 7676096317: Print job 113 still in progress for file доклад (2).pdf
+[21:08] 7676096317: Print job 113 still in progress for file доклад (2).pdf
+[21:08] 7676096317: Print job 113 still in progress for file доклад (2).pdf
+[21:08] 7676096317: Print job 113 still in progress for file доклад (2).pdf
+[21:08] 7676096317: Print job 113 completed for file доклад (2).pdf
+[21:09] 7676096317: main_menu : Show main menu
+[21:09] 7676096317: file_print : User requested file print
+[21:09] 7676096317: cancel : User cancelled the print
+[21:09] 7676096317: file_print : User requested file print
+[21:09] 7676096317: cancel : User cancelled the print
+[21:13] 7676096317: unknown_command : независимости 88,
+[21:51] 7676096317: start_command : User started the bot
+[21:51] 7676096317: start_command : User started the bot
+[21:51] 7676096317: start_command : User started the bot
+[21:51] 7676096317: file_print : User requested file print
+[21:51] 7676096317: cancel : User cancelled the print
+[21:52] 7676096317: start_command : User started the bot
+[21:52] 7676096317: file_print : User requested file print
+[21:52] 7676096317: file_print : User requested file print
+[21:52] 7676096317: start_command : User started the bot
+[21:58] 7676096317: file_print : User requested file print
+[21:58] 7676096317: cancel : User cancelled the print
+[21:58] 7676096317: file_print : User requested file print
+[21:58] 7676096317: cancel : User cancelled the print
+[22:07] 7676096317: file_print : User requested file print
+[22:08] 7676096317: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[22:08] 7676096317: handle_document : Processing file: доклад (2).pdf
+[22:08] 7676096317: handle_document : Downloading file: documents/file_53.pdf
+[22:08] 7676096317: handle_document : File downloaded successfully: documents/file_53.pdf
+[22:08] 7676096317: handle_document : File processed: data/uploads/7676096317/доклад (2).pdf, pages: 3, price: 0.6
+[22:13] 7676096317: cancel : User cancelled the print
+[22:14] 7676096317: file_print : User requested file print
+[22:14] 7676096317: cancel : User cancelled the print
+[23:06] 7676096317: start_command : User started the bot

@@ -31,13 +31,13 @@ async def handle_print_file(callback: Message, state: FSMContext):
 
 @router.message(F.document)
 async def handle_document(message: Message, state: FSMContext):
-    log(message.from_user.id, f"handle_document", "User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes")
     doc = message.document
     original_file_name = doc.file_name
-
     user_id = message.from_user.id
 
+    log(message.from_user.id, f"handle_document", "User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes")
     if is_banned(user_id):
+        log(user_id, "handle_document", "User is banned")
         await message.answer("🚫 Вы были заблокированы. Обратитесь к администратору.")
         return
 
@@ -52,22 +52,23 @@ async def handle_document(message: Message, state: FSMContext):
     uploaded_file_path = os.path.join(user_folder, original_file_name)
 
     processing_msg = await message.answer(FILE_PROCESSING_TEXT.format(file_name=original_file_name))
+    log(user_id, "handle_document", f"Processing file: {original_file_name}")
 
     try:
         tg_file = await message.bot.get_file(doc.file_id)
         log(user_id, "handle_document", f"Downloading file: {tg_file.file_path}")
         file_data = await message.bot.download_file(tg_file.file_path)
+        log(user_id, "handle_document", f"File downloaded successfully: {tg_file.file_path}")
         with open(uploaded_file_path, "wb") as f:
             f.write(file_data.read())
-
         _, ext = os.path.splitext(original_file_name)
         ext = ext.lower()
 
         if ext == ".docx":
-            # Конвертируем в data/tmp/converted.pdf для подсчёта страниц
-            temp_pdf = await convert_docx_to_pdf(uploaded_file_path)
 
-            # Формируем финальный путь с исходным именем, но расширением .pdf
+            temp_pdf = await convert_docx_to_pdf(uploaded_file_path)
+            log(user_id, "handle_document", f"Converted DOCX to PDF: {temp_pdf}")
+
             pdf_file_name = os.path.splitext(original_file_name)[0] + ".pdf"
             final_pdf_path = os.path.join(user_folder, pdf_file_name)
             os.replace(temp_pdf, final_pdf_path)
@@ -78,6 +79,7 @@ async def handle_document(message: Message, state: FSMContext):
         page_count, _ = await get_page_count(processed_pdf_path)
         price = calculate_price(page_count)
 
+        log(user_id, "handle_document", f"File processed: {processed_pdf_path}, pages: {page_count}, price: {price}")
         await processing_msg.edit_text(
             FILE_PROCESSING_SUCCESS_TEXT.format(
                 file_name=original_file_name,

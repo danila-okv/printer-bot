@@ -19,7 +19,7 @@ def init_db():
     with get_connection() as conn:
         c = conn.cursor()
 
-        # Баны
+        # Banlist
         c.execute("""
         CREATE TABLE IF NOT EXISTS bans (
             user_id     INTEGER PRIMARY KEY,
@@ -28,7 +28,7 @@ def init_db():
         );
         """)
 
-        # Задания на печать
+        # Print job
         c.execute("""
         CREATE TABLE IF NOT EXISTS print_jobs (
             job_id        INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -46,7 +46,7 @@ def init_db():
         );
         """)
 
-        # Состояние бота (pause/resume и другие флаги)
+        # Bot state (pause/resume)
         c.execute("""
         CREATE TABLE IF NOT EXISTS bot_state (
             key   TEXT PRIMARY KEY,
@@ -54,7 +54,7 @@ def init_db():
         );
         """)
 
-        # Очередь действий, совершённых во время паузы
+        # Queue after /pause
         c.execute("""
         CREATE TABLE IF NOT EXISTS paused_actions (
             id          INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -64,7 +64,7 @@ def init_db():
         );
         """)
 
-        # Промо-акции
+        # Promo
         c.execute("""
         CREATE TABLE IF NOT EXISTS promos (
             code                TEXT PRIMARY KEY,
@@ -77,7 +77,7 @@ def init_db():
         );
         """)
 
-        # Бонусные (бесплатные) страницы у пользователей
+        # Bonuses
         c.execute("""
         CREATE TABLE IF NOT EXISTS user_bonus (
             user_id     INTEGER PRIMARY KEY,
@@ -85,13 +85,21 @@ def init_db():
         );
         """)
 
-        # Расходы на расходники
+        # Expenses
         c.execute("""
         CREATE TABLE IF NOT EXISTS expenses (
             id          INTEGER PRIMARY KEY AUTOINCREMENT,
             amount      REAL NOT NULL,
             description TEXT,
             created_at  TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        );
+        """)
+
+        # Active inline-keyboards
+        c.execute("""
+        CREATE TABLE IF NOT EXISTS active_keyboards (
+            user_id     INTEGER PRIMARY KEY,
+            message_id  INTEGER NOT NULL
         );
         """)
 

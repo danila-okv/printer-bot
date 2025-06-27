@@ -2,7 +2,7 @@ from aiogram import Router
 from aiogram.types import Message
 from aiogram.filters import Command
 from aiogram.fsm.context import FSMContext
-from analytics.logger import log
+from modules.analytics.logger import log
 from .main_menu import send_main_menu
 
 router = Router()

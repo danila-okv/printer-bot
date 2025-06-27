@@ -1,7 +1,7 @@
 from aiogram.fsm.state import StatesGroup, State
 from aiogram.types import CallbackQuery
 from aiogram.fsm.context import FSMContext
-from ui.main_menu import send_main_menu
+from modules.ui.main_menu import send_main_menu
 
 class UserStates(StatesGroup):
     preview_before_payment = State()

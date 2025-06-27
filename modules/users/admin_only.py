@@ -2,8 +2,8 @@ from functools import wraps
 from aiogram.types import Message, CallbackQuery
 from aiogram.exceptions import TelegramBadRequest
 from config import ADMIN_IDS
-from ui.keyboard_tracker import send_managed_message
-from ui.messages import ACCESS_DENIED_TEXT
+from modules.ui.keyboard_tracker import send_managed_message
+from modules.ui.messages import ACCESS_DENIED_TEXT
 
 def admin_only(handler):
     @wraps(handler)

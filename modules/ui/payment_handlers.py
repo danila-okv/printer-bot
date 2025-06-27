@@ -2,15 +2,15 @@ from aiogram import Router, F, Bot
 from aiogram.types import CallbackQuery
 from aiogram.fsm.state import State, StatesGroup
 from aiogram.fsm.context import FSMContext
-from billing.ledger import log_print_job
-from printing.print_job import PrintJob
-from users.state import ensure_print_data
-from printing.print_service import add_job
-from ui.messages import *
-from ui.keyboards import pay_methods_kb, pay_confirm_kb
-from ui.callbacks import *
-from users.state import UserStates
-from analytics.logger import log
+from modules.billing.ledger import log_print_job
+from modules.printing.print_job import PrintJob
+from modules.users.state import ensure_print_data
+from modules.printing.print_service import add_job
+from .messages import *
+from .keyboards import pay_methods_kb, pay_confirm_kb
+from .callbacks import *
+from modules.users.state import UserStates
+from modules.analytics.logger import log
 
 router = Router()
 

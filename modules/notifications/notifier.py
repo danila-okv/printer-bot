@@ -1,7 +1,7 @@
 from aiogram import Bot
-from ui.keyboards import print_done_kb
-from ui.messages import PRINT_DONE_TEXT
-from analytics.logger import log
+from modules.ui.keyboards import print_done_kb
+from modules.ui.messages import PRINT_DONE_TEXT
+from modules.analytics.logger import log
 
 async def notify_print_complete(user_id: int, bot: Bot, file_name: str):
     try:

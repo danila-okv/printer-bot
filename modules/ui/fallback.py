@@ -1,7 +1,7 @@
 from aiogram import Router
 from aiogram.types import Message
-from ui.messages import UNKNOWN_COMMAND_TEXT
-from analytics.logger import log
+from .messages import UNKNOWN_COMMAND_TEXT
+from modules.analytics.logger import log
 
 router = Router()
 

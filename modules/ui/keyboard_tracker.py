@@ -1,22 +1,23 @@
-import sqlite3
+# modules/ui/keyboard_tracker.py
+
+from db import get_connection
 from aiogram import Bot
 from aiogram.types import Message, InlineKeyboardMarkup
 
-DB_PATH = "data/bot.db"
-
 def get_active_message_id(user_id: int) -> int | None:
-    with sqlite3.connect(DB_PATH) as conn:
-        cur = conn.cursor()
-        cur.execute("SELECT message_id FROM active_keyboards WHERE user_id = ?", (user_id,))
+    with get_connection() as conn:
+        cur = conn.execute(
+            "SELECT message_id FROM active_keyboards WHERE user_id = ?",
+            (user_id,)
+        )
         row = cur.fetchone()
-        return row[0] if row else None
+        return row["message_id"] if row else None
 
 def update_active_message(user_id: int, message_id: int):
-    with sqlite3.connect(DB_PATH) as conn:
-        cur = conn.cursor()
-        cur.execute("""
-            INSERT INTO active_keyboards (user_id, message_id)
-            VALUES (?, ?)
+    with get_connection() as conn:
+        conn.execute("""
+            INSERT INTO active_keyboards(user_id, message_id)
+            VALUES(?, ?)
             ON CONFLICT(user_id) DO UPDATE SET message_id = excluded.message_id
         """, (user_id, message_id))
         conn.commit()
@@ -31,14 +32,24 @@ async def send_managed_message(
     old_msg_id = get_active_message_id(user_id)
 
     if old_msg_id:
+        # Снимаем старую клавиатуру
         try:
-            await bot.edit_message_reply_markup(chat_id=user_id, message_id=old_msg_id, reply_markup=None)
+            await bot.edit_message_reply_markup(
+                chat_id=user_id,
+                message_id=old_msg_id,
+                reply_markup=None
+            )
         except Exception:
             pass
 
     # Отправляем новое сообщение
-    new_msg = await bot.send_message(chat_id=user_id, text=text, reply_markup=reply_markup, parse_mode=parse_mode)
+    new_msg = await bot.send_message(
+        chat_id=user_id,
+        text=text,
+        reply_markup=reply_markup,
+        parse_mode=parse_mode
+    )
 
-    # Сохраняем новое как активное
+    # Сохраняем его как текущее активное
     update_active_message(user_id, new_msg.message_id)
     return new_msg

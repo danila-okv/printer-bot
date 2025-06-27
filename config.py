@@ -1,2 +1,3 @@
 ADMIN_IDS = {7676096317}
 DB_PATH = "bot.db"
+LOGS_PATH = "logs/"

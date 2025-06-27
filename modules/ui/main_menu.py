@@ -2,12 +2,12 @@ from aiogram import Router, F, Bot
 from aiogram.types import CallbackQuery, InlineKeyboardButton, InlineKeyboardMarkup
 from aiogram.fsm.context import FSMContext
 
-from ui.messages import *
-from ui.keyboards import main_menu_kb
-from ui.callbacks import MAIN_MENU
-from analytics.logger import log
-from printing.printer_status import get_printer_status
-from ui.keyboard_tracker import send_managed_message
+from .messages import *
+from .keyboards import main_menu_kb
+from .callbacks import MAIN_MENU
+from modules.analytics.logger import log
+from modules.printing.printer_status import get_printer_status
+from .keyboard_tracker import send_managed_message
 router = Router()
 
 @router.callback_query(F.data ==MAIN_MENU)

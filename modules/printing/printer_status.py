@@ -1,5 +1,5 @@
 import subprocess
-from analytics.logger import log
+from modules.analytics.logger import log
 
 def get_printer_status() -> str:
     try:

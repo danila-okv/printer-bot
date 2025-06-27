@@ -4,9 +4,9 @@ import subprocess
 from dataclasses import dataclass
 from collections import deque
 from aiogram import Bot
-from printing.print_job import PrintJob
-from ui.messages import *
-from analytics.logger import log
+from .print_job import PrintJob
+from modules.ui.messages import *
+from modules.analytics.logger import log
 
 # Очередь и управление
 print_queue = deque()

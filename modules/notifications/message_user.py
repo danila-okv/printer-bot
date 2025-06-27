@@ -3,8 +3,8 @@ from aiogram.types import Message
 from aiogram.filters import Command
 from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import State, StatesGroup
-from users.admin_only import admin_only
-from analytics.logger import log
+from modules.users.admin_only import admin_only
+from modules.analytics.logger import log
 
 router = Router()
 

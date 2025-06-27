@@ -4,15 +4,15 @@ from aiogram import Router, F
 from aiogram.types import Message
 from aiogram.fsm.context import FSMContext
 
-from printing.pdf_utils import get_page_count, is_supported_file, convert_docx_to_pdf
-from billing.price_calc import calculate_price
-from ui.keyboards import print_preview_kb
-from users.banlist import is_banned
-from ui.main_menu import send_main_menu
-from users.state import UserStates
-from ui.messages import *
-from analytics.logger import log
-from ui.keyboard_tracker import send_managed_message
+from modules.printing.pdf_utils import get_page_count, is_supported_file, convert_docx_to_pdf
+from modules.billing.price_calc import calculate_price
+from .keyboards import print_preview_kb
+from modules.users.banlist import is_banned
+from .main_menu import send_main_menu
+from modules.users.state import UserStates
+from .messages import *
+from modules.analytics.logger import log
+from .keyboard_tracker import send_managed_message
 
 router = Router()
 

@@ -8,10 +8,12 @@ from aiogram.fsm.storage.memory import MemoryStorage
 from dotenv import load_dotenv
 
 # Роутеры
-from ui import main_menu
-from notifications import message_user
-from analytics import analytics
-from ui import cancel, fallback, file, payment_handlers, start
+from modules.ui import main_menu
+from modules.notifications import message_user
+from modules.analytics import analytics
+from modules.ui import cancel, fallback, file, payment_handlers, start
+from modules.admin import panel
+
 
 from db import init_db
 
@@ -38,6 +40,7 @@ async def main():
     dp.include_router(payment_handlers.router)
     dp.include_router(start.router)
     dp.include_router(main_menu.router)
+    dp.include_router(panel.router)
     dp.include_router(cancel.router)
     dp.include_router(analytics.router)
     dp.include_router(message_user.router)

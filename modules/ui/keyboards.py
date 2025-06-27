@@ -3,9 +3,9 @@ from aiogram.types import (
     InlineKeyboardMarkup,
     InlineKeyboardButton
 )
-from ui.messages import *
-from ui.callbacks import *
-from ui.buttons import *
+from .messages import *
+from .callbacks import *
+from .buttons import *
 
 main_menu_kb = InlineKeyboardMarkup(
     inline_keyboard=[

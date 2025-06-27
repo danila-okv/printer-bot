@@ -3,9 +3,9 @@ import os
 import subprocess
 from dataclasses import dataclass
 from aiogram import Bot
-from ui.messages import PRINT_DONE_TEXT
-from ui.keyboards import print_done_kb, print_error_kb
-from analytics.logger import log
+from modules.ui.messages import PRINT_DONE_TEXT
+from modules.ui.keyboards import print_done_kb, print_error_kb
+from modules.analytics.logger import log
 
 @dataclass
 class PrintJob:

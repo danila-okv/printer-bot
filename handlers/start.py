@@ -2,10 +2,8 @@ from aiogram import Router
 from aiogram.types import Message
 from aiogram.filters import Command
 from aiogram.fsm.context import FSMContext
-from keyboards import main_menu_keyboard
-from messages import MAIN_MENU_TEXT
-from services.printer_status import get_printer_status
 from logger import log
+from .main_menu import send_main_menu
 
 router = Router()
 
@@ -13,5 +11,4 @@ router = Router()
 async def start_command(message: Message, state: FSMContext):
     log(message.from_user.id, "start_command", "User started the bot")
     await state.clear()
-    printer_msg = get_printer_status()
-    await message.answer(MAIN_MENU_TEXT.format(printer_status=printer_msg), reply_markup=main_menu_keyboard)
+    await send_main_menu(message.bot, message.from_user.id)

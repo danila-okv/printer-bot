@@ -6,8 +6,6 @@ from collections import deque
 from aiogram import Bot
 from print_job import PrintJob
 from messages import *
-from keyboards import print_done_keyboard
-from handlers.notifier import notify_print_complete
 from logger import log
 
 # Очередь и управление

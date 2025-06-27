@@ -1462,3 +1462,5 @@
 [20:19] 952674340: start_command : User started the bot
 [20:37] 7676096317: file_print : User requested file print
 [20:37] 7676096317: cancel : User cancelled the print
+[22:40] 7676096317: start_command : User started the bot
+[22:40] 7676096317: unknown_command : /stats

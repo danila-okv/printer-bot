@@ -4,7 +4,7 @@ import subprocess
 from dataclasses import dataclass
 from aiogram import Bot
 from messages import PRINT_DONE_TEXT
-from keyboards import print_done_keyboard, print_error_keyboard
+from keyboards import print_done_kb, print_error_kb
 from logger import log
 
 @dataclass
@@ -44,14 +44,14 @@ class PrintJob:
             await self.bot.send_message(
                 chat_id=self.user_id,
                 text=PRINT_DONE_TEXT,
-                reply_markup=print_done_keyboard
+                reply_markup=print_done_kb
             )
         except Exception as e:
             log(self.user_id, f"Print error: {e}")
             await self.bot.send_message(
                 chat_id=self.user_id,
                 text=f"❌ Ошибка при печати файла «{self.file_name}». Попробуйте позже.",
-                reply_markup=print_error_keyboard
+                reply_markup=print_error_kb
             )
 
 def add_job(job: PrintJob):

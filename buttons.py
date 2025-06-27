@@ -1,0 +1,23 @@
+# Global
+BUTTON_SUPPORT = "📞 По вопросам"
+BUTTON_CANCEL = "❌ Отмена"
+BUTTON_RETURN = "⏪ Назад"
+BUTTON_CONFIRM = "🖨️ Подтвердить"
+BUTTON_DONE = "✅ Готово"
+
+# Profile
+BUTTON_PROFILE = "👤 Профиль"
+BUTTON_ORDERDS = "📑 История"
+
+# Print options
+BUTTON_PRINT_OPTIONS = "⚙️ Настройки печати"
+BUTTON_OPTIONS_PAGES = "📄 Страницы"
+BUTTON_OPTIONS_DUPLEX = "↔️ Двусторонняя"
+BUTTON_OPTIONS_LAYOUT = "📚 Шпоры"
+
+# Payment
+BUTTON_PAY_CASH = "💵 Наличные"
+BUTTON_PAY_CARD = "💳 Перевод"
+BUTTON_PAY_BELARUSBANK = "🏛 Беларусбанк"
+BUTTON_PAY_ALFA = "🏦 Альфа-банк"
+BUTTON_PAY_OTHER = "🌀 Другой"

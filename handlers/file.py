@@ -6,28 +6,18 @@ from aiogram.fsm.context import FSMContext
 
 from services.pdf_utils import get_page_count, is_supported_file, convert_docx_to_pdf
 from services.price_calc import calculate_price
-from keyboards import cancel_keyboard, payment_method_keyboard
+from keyboards import print_preview_kb
 from services.banlist import is_banned
-from handlers.menu import send_main_menu
-from states import UserStates
-from callbacks import FILE_PRINT
+from handlers.main_menu import send_main_menu
+from state import UserStates
 from messages import *
 from logger import log
+from utils.keyboard_tracker import send_managed_message
 
 router = Router()
 
 UPLOAD_DIR = "data/uploads"
 os.makedirs(UPLOAD_DIR, exist_ok=True)
-
-@router.callback_query(F.data == FILE_PRINT)
-async def handle_print_file(callback: Message, state: FSMContext):
-    log(callback.from_user.id, FILE_PRINT, "User requested file print")
-    await state.clear()
-    await callback.message.edit_text(
-        text=FILE_REQUEST_TEXT,
-        reply_markup=cancel_keyboard
-    )
-    await state.set_state(UserStates.waiting_for_file)
 
 @router.message(F.document)
 async def handle_document(message: Message, state: FSMContext):
@@ -51,7 +41,11 @@ async def handle_document(message: Message, state: FSMContext):
     os.makedirs(user_folder, exist_ok=True)
     uploaded_file_path = os.path.join(user_folder, original_file_name)
 
-    processing_msg = await message.answer(FILE_PROCESSING_TEXT.format(file_name=original_file_name))
+    processing_msg = await send_managed_message(
+        bot=message.bot,
+        user_id=message.from_user.id,
+        text=FILE_PROCESSING_TEXT.format(file_name=original_file_name)
+    )
     log(user_id, "handle_document", f"Processing file: {original_file_name}")
 
     try:
@@ -86,15 +80,15 @@ async def handle_document(message: Message, state: FSMContext):
                 page_count=page_count,
                 price=price,
             ),
-            reply_markup=payment_method_keyboard
+            reply_markup=print_preview_kb
         )
 
-        await state.set_state(UserStates.waiting_for_method)
+        await state.set_state(UserStates.preview_before_payment)
         await state.update_data(
             price=price,
             file_path=processed_pdf_path,
             page_count=page_count,
-            file_name=original_file_name,  # отображаемое имя
+            file_name=original_file_name,
         )
 
     except Exception as err:

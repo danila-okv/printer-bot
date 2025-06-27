@@ -8,8 +8,15 @@ from aiogram.fsm.storage.memory import MemoryStorage
 from dotenv import load_dotenv
 
 # Роутеры
-from handlers import file, main_menu, pay, start, fallback, cancel
-from services import analytics, message_user
+from ui import main_menu
+from notifications import message_user
+from analytics import analytics
+from ui import cancel, fallback, file, payment_handlers, start
+
+from db import init_db
+
+if __name__ == "__main__":
+    init_db()
 
 # Загружаем токен из .env
 load_dotenv()
@@ -28,7 +35,7 @@ async def main():
 
     # Подключаем обработчики
     dp.include_router(file.router)
-    dp.include_router(pay.router)
+    dp.include_router(payment_handlers.router)
     dp.include_router(start.router)
     dp.include_router(main_menu.router)
     dp.include_router(cancel.router)

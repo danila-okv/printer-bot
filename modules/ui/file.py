@@ -1,0 +1,96 @@
+import os
+
+from aiogram import Router, F
+from aiogram.types import Message
+from aiogram.fsm.context import FSMContext
+
+from printing.pdf_utils import get_page_count, is_supported_file, convert_docx_to_pdf
+from billing.price_calc import calculate_price
+from ui.keyboards import print_preview_kb
+from users.banlist import is_banned
+from ui.main_menu import send_main_menu
+from users.state import UserStates
+from ui.messages import *
+from analytics.logger import log
+from ui.keyboard_tracker import send_managed_message
+
+router = Router()
+
+UPLOAD_DIR = "data/uploads"
+os.makedirs(UPLOAD_DIR, exist_ok=True)
+
+@router.message(F.document)
+async def handle_document(message: Message, state: FSMContext):
+    doc = message.document
+    original_file_name = doc.file_name
+    user_id = message.from_user.id
+
+    log(message.from_user.id, f"handle_document", "User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes")
+    if is_banned(user_id):
+        log(user_id, "handle_document", "User is banned")
+        await message.answer("🚫 Вы были заблокированы. Обратитесь к администратору.")
+        return
+
+    if not is_supported_file(original_file_name):
+        log(user_id, "handle_document", f"Unsupported file type: {original_file_name}")
+        await message.answer(FILE_TYPE_ERROR_TEXT)
+        return
+
+    user_id = message.from_user.id
+    user_folder = os.path.join(UPLOAD_DIR, str(user_id))
+    os.makedirs(user_folder, exist_ok=True)
+    uploaded_file_path = os.path.join(user_folder, original_file_name)
+
+    processing_msg = await send_managed_message(
+        bot=message.bot,
+        user_id=message.from_user.id,
+        text=FILE_PROCESSING_TEXT.format(file_name=original_file_name)
+    )
+    log(user_id, "handle_document", f"Processing file: {original_file_name}")
+
+    try:
+        tg_file = await message.bot.get_file(doc.file_id)
+        log(user_id, "handle_document", f"Downloading file: {tg_file.file_path}")
+        file_data = await message.bot.download_file(tg_file.file_path)
+        log(user_id, "handle_document", f"File downloaded successfully: {tg_file.file_path}")
+        with open(uploaded_file_path, "wb") as f:
+            f.write(file_data.read())
+        _, ext = os.path.splitext(original_file_name)
+        ext = ext.lower()
+
+        if ext == ".docx":
+
+            temp_pdf = await convert_docx_to_pdf(uploaded_file_path)
+            log(user_id, "handle_document", f"Converted DOCX to PDF: {temp_pdf}")
+
+            pdf_file_name = os.path.splitext(original_file_name)[0] + ".pdf"
+            final_pdf_path = os.path.join(user_folder, pdf_file_name)
+            os.replace(temp_pdf, final_pdf_path)
+            processed_pdf_path = final_pdf_path
+        else:
+            processed_pdf_path = uploaded_file_path
+
+        page_count, _ = await get_page_count(processed_pdf_path)
+        price = calculate_price(page_count)
+
+        log(user_id, "handle_document", f"File processed: {processed_pdf_path}, pages: {page_count}, price: {price}")
+        await processing_msg.edit_text(
+            FILE_PROCESSING_SUCCESS_TEXT.format(
+                file_name=original_file_name,
+                page_count=page_count,
+                price=price,
+            ),
+            reply_markup=print_preview_kb
+        )
+
+        await state.set_state(UserStates.preview_before_payment)
+        await state.update_data(
+            price=price,
+            file_path=processed_pdf_path,
+            page_count=page_count,
+            file_name=original_file_name,
+        )
+
+    except Exception as err:
+        await processing_msg.edit_text(FILE_PROCESSING_FAILURE_TEXT.format(file_name=original_file_name))
+        await send_main_menu(message.bot, message.chat.id)

@@ -1,6 +1,2 @@
-import os
-from dotenv import load_dotenv
-
-load_dotenv()
-
-ADMIN_IDS = set(map(int, os.getenv("ADMIN_IDS", "").split(",")))
+ADMIN_IDS = {7676096317}
+DB_PATH = "bot.db"

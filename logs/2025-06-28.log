@@ -1,0 +1,18 @@
+[00:31] 7676096317: start_command : User started the bot
+[00:32] 7676096317: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[00:32] 7676096317: handle_document : Processing file: M-Банкинг чек-4294968789.docx
+[00:32] 7676096317: handle_document : Downloading file: documents/file_17.docx
+[00:32] 7676096317: handle_document : File downloaded successfully: documents/file_17.docx
+[00:32] 7676096317: handle_document : Converted DOCX to PDF: data/tmp/converted.pdf
+[00:32] 7676096317: handle_document : File processed: data/uploads/7676096317/M-Банкинг чек-4294968789.pdf, pages: 1, price: 0.2
+[00:32] 7931008794: pay_card : User select Card payment
+[00:32] 7931008794: pay_cash : User select Cash payment
+[00:32] 7676096317: pay_confirm
+[00:32] 7676096317: print_worker : Starting print job: M-Банкинг чек-4294968789.docx
+[00:32] 7676096317: Start file printing: M-Банкинг чек-4294968789.docx, lp output: request id is _192_168_31_87-245 (1 file(s))
+[00:32] 7676096317: Print job 245 still in progress for file M-Банкинг чек-4294968789.docx
+[00:32] 7676096317: Print job 245 still in progress for file M-Банкинг чек-4294968789.docx
+[00:32] 7676096317: Print job 245 still in progress for file M-Банкинг чек-4294968789.docx
+[00:33] 7676096317: Print job 245 still in progress for file M-Банкинг чек-4294968789.docx
+[00:33] 7676096317: Print job 245 still in progress for file M-Банкинг чек-4294968789.docx
+[00:33] 7676096317: Print job 245 completed for file M-Банкинг чек-4294968789.docx

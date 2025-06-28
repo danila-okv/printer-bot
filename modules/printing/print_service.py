@@ -1,9 +1,6 @@
 import asyncio
-import os
-import subprocess
 from dataclasses import dataclass
 from collections import deque
-from aiogram import Bot
 from .print_job import PrintJob
 from modules.ui.messages import *
 from modules.analytics.logger import log

@@ -16,3 +16,51 @@
 [00:33] 7676096317: Print job 245 still in progress for file M-Банкинг чек-4294968789.docx
 [00:33] 7676096317: Print job 245 still in progress for file M-Банкинг чек-4294968789.docx
 [00:33] 7676096317: Print job 245 completed for file M-Банкинг чек-4294968789.docx
+[01:22] 7676096317: start_command : User started the bot
+[01:23] 7676096317: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[01:23] 7676096317: handle_document : Processing file: M-Банкинг чек-4294968789.docx
+[01:23] 7676096317: handle_document : Downloading file: documents/file_18.docx
+[01:23] 7676096317: handle_document : File downloaded successfully: documents/file_18.docx
+[01:23] 7676096317: handle_document : Converted DOCX to PDF: data/tmp/converted.pdf
+[01:23] 7676096317: handle_document : File processed: data/uploads/7676096317/M-Банкинг чек-4294968789.pdf, pages: 1, price: 0.2
+[01:23] 7931008794: pay_card : User select Card payment
+[01:23] 7931008794: pay_cash : User select Cash payment
+[01:25] 7676096317: pay_confirm
+[01:26] 7676096317: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[01:26] 7676096317: handle_document : Processing file: M-Банкинг чек-4294968789.docx
+[01:26] 7676096317: handle_document : Downloading file: documents/file_19.docx
+[01:26] 7676096317: handle_document : File downloaded successfully: documents/file_19.docx
+[01:26] 7676096317: handle_document : Converted DOCX to PDF: data/tmp/converted.pdf
+[01:26] 7676096317: handle_document : File processed: data/uploads/7676096317/M-Банкинг чек-4294968789.pdf, pages: 1, price: 0.2
+[01:26] 7931008794: pay_card : User select Card payment
+[01:26] 7931008794: pay_cash : User select Cash payment
+[01:32] 7676096317: unknown_command : s
+[01:33] 7676096317: pay_confirm
+[01:33] 7676096317: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[01:33] 7676096317: handle_document : Processing file: M-Банкинг чек-4294968789.docx
+[01:33] 7676096317: handle_document : Downloading file: documents/file_20.docx
+[01:33] 7676096317: handle_document : File downloaded successfully: documents/file_20.docx
+[01:33] 7676096317: handle_document : Converted DOCX to PDF: data/tmp/converted.pdf
+[01:33] 7676096317: handle_document : File processed: data/uploads/7676096317/M-Банкинг чек-4294968789.pdf, pages: 1, price: 0.2
+[01:33] 7931008794: pay_card : User select Card payment
+[01:33] 7931008794: pay_cash : User select Cash payment
+[01:33] 7676096317: pay_confirm
+[01:33] 7676096317: print_worker : Starting print job: M-Банкинг чек-4294968789.docx
+[01:33] 7676096317: Start file printing: M-Банкинг чек-4294968789.docx, lp output: request id is Pantum_P3010DW_Series_27888F_auto-246 (1 file(s))
+[01:33] 7676096317: Print job 246 still in progress for file M-Банкинг чек-4294968789.docx
+[01:33] 7676096317: Print job 246 still in progress for file M-Банкинг чек-4294968789.docx
+[01:33] 7676096317: Print job 246 still in progress for file M-Банкинг чек-4294968789.docx
+[01:33] 7676096317: Print job 246 still in progress for file M-Банкинг чек-4294968789.docx
+[01:33] 7676096317: Print job 246 still in progress for file M-Банкинг чек-4294968789.docx
+[01:34] 7676096317: Print job 246 still in progress for file M-Банкинг чек-4294968789.docx
+[01:34] 7676096317: Print job 246 still in progress for file M-Банкинг чек-4294968789.docx
+[01:34] 7676096317: Print job 246 still in progress for file M-Банкинг чек-4294968789.docx
+[01:34] 7676096317: Print job 246 still in progress for file M-Банкинг чек-4294968789.docx
+[01:34] 7676096317: Print job 246 still in progress for file M-Банкинг чек-4294968789.docx
+[01:34] 7676096317: Print job 246 completed for file M-Банкинг чек-4294968789.docx
+[01:36] 7676096317: start_command : User started the bot
+[01:37] 645785112: unknown_command : Shush’s
+[01:37] 645785112: start_command : User started the bot
+[01:38] 645785112: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[01:38] 645785112: handle_document : User is banned
+[01:49] 7676096317: unknown_command : /git branch test

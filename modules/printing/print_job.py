@@ -1,11 +1,16 @@
+# modules/printing/print_job.py
+
 import asyncio
 import os
 import subprocess
 from dataclasses import dataclass
+from datetime import datetime
 from aiogram import Bot
 from modules.ui.messages import PRINT_DONE_TEXT
 from modules.ui.keyboards import print_done_kb, print_error_kb
 from modules.analytics.logger import log
+from db import get_connection
+
 
 @dataclass
 class PrintJob:
@@ -13,46 +18,89 @@ class PrintJob:
     file_path: str
     file_name: str
     bot: Bot
+    pages: int
+    duplex: bool = False
+    layout: str = ""         # например "9-up"
+    page_ranges: str = ""    # например "1,3-5"
 
     async def run(self):
+        job_id = None
         try:
-            # Отправляем файл в печать через lp и получаем job-id
-            result = subprocess.run(["lp", "-o", "ColorModel=Mono", self.file_path], capture_output=True, text=True)
+            # Формируем команду
+            cmd = ["lp"]
+            if self.duplex:
+                cmd += ["-o", "sides=two-sided-long-edge"]
+            if self.layout:
+                cmd += ["-o", f"number-up={self.layout}"]
+            if self.page_ranges:
+                cmd += ["-P", self.page_ranges]
+            cmd.append(self.file_path)
+
+            # Запускаем печать
+            result = subprocess.run(cmd, capture_output=True, text=True)
             if result.returncode != 0:
                 raise RuntimeError(f"lp error: {result.stderr.strip()}")
 
-            print_id_line = result.stdout.strip()  # e.g. "request id is HP_Printer-65 (1 file(s))"
-            log(self.user_id, f"Start file printing: {self.file_name}, lp output: {print_id_line}")
+            job_id_str = result.stdout.strip()
+            log(self.user_id, f"Запущена печать {self.file_name}: {job_id_str}")
 
-            job_id = None
-            if "-" in print_id_line:
-                job_id = print_id_line.split("-")[1].split()[0]
+            # Извлекаем job_id из lp ответа
+            if "-" in job_id_str:
+                job_id = job_id_str.split("-")[1].split()[0]
 
-            if not job_id:
-                log(self.user_id, f"Failed to extract job-id from lp output: {print_id_line}")
-                raise RuntimeError(f"Failed to extract job-id from lp output: {print_id_line}")
+            # Сохраняем job в БД
+            self.save_to_db(status="queued", job_id=job_id)
 
-            # Check if the job is in progress every 3 seconds
+            # Ждём завершения
             while True:
                 lpstat = subprocess.run(["lpstat", "-W", "not-completed"], capture_output=True, text=True)
-                if job_id not in lpstat.stdout:
+                if job_id and job_id not in lpstat.stdout:
                     break
-                log(self.user_id, f"Print job {job_id} still in progress for file {self.file_name}")
                 await asyncio.sleep(3)
 
-            log(self.user_id, f"Print job {job_id} completed for file {self.file_name}")
+            # Завершено
+            log(self.user_id, f"Печать завершена: {self.file_name}")
+            self.update_status("done")
             await self.bot.send_message(
                 chat_id=self.user_id,
                 text=PRINT_DONE_TEXT,
                 reply_markup=print_done_kb
             )
+
         except Exception as e:
-            log(self.user_id, f"Print error: {e}")
+            log(self.user_id, f"Ошибка печати: {e}")
+            self.update_status("error")
             await self.bot.send_message(
                 chat_id=self.user_id,
                 text=f"❌ Ошибка при печати файла «{self.file_name}». Попробуйте позже.",
                 reply_markup=print_error_kb
             )
+
+    def save_to_db(self, status: str = "queued", job_id: str | None = None):
+        with get_connection() as conn:
+            conn.execute("""
+                INSERT INTO print_jobs (
+                    user_id, file_name, pages, duplex, layout,
+                    page_ranges, status, created_at
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+            """, (
+                self.user_id, self.file_name, self.pages,
+                int(self.duplex), self.layout, self.page_ranges,
+                status, datetime.now()
+            ))
+            conn.commit()
+
+    def update_status(self, status: str):
+        with get_connection() as conn:
+            conn.execute("""
+                UPDATE print_jobs
+                SET status = ?, completed_at = ?
+                WHERE user_id = ? AND file_name = ? AND status != 'done'
+            """, (
+                status, datetime.now(), self.user_id, self.file_name
+            ))
+            conn.commit()
+
 
 def add_job(job: PrintJob):
     asyncio.create_task(job.run())

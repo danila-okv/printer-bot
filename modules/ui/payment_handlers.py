@@ -11,11 +11,13 @@ from .keyboards import pay_methods_kb, pay_confirm_kb
 from .callbacks import *
 from modules.users.state import UserStates
 from modules.analytics.logger import log
+from modules.admin.bot_control import check_paused
 
 router = Router()
 
 # Cash payment handler
 @router.callback_query(F.data == PAY_CASH)
+@check_paused
 async def handle_cash_payment(callback: CallbackQuery, state: FSMContext):
     data = await ensure_print_data(state, callback)
     if data is None:
@@ -32,6 +34,7 @@ async def handle_cash_payment(callback: CallbackQuery, state: FSMContext):
 
 # Card payment handler
 @router.callback_query(F.data == PAY_CARD)
+@check_paused
 async def handle_card_payment(callback: CallbackQuery, state: FSMContext):
     data = await ensure_print_data(state, callback)
     if data is None:
@@ -45,6 +48,7 @@ async def handle_card_payment(callback: CallbackQuery, state: FSMContext):
 
 # Pay with Alfa
 @router.callback_query(F.data == PAY_ALFA)
+@check_paused
 async def handle_alfa_payment(callback: CallbackQuery, state: FSMContext):
     data = await ensure_print_data(state, callback)
     if data is None:
@@ -59,6 +63,7 @@ async def handle_alfa_payment(callback: CallbackQuery, state: FSMContext):
 
 # Pay with Belarusbank
 @router.callback_query(F.data == PAY_BELARUSBANK)
+@check_paused
 async def handle_belarusbank_payment(callback: CallbackQuery, state: FSMContext):
     data = await ensure_print_data(state, callback)
     if data is None:
@@ -73,6 +78,7 @@ async def handle_belarusbank_payment(callback: CallbackQuery, state: FSMContext)
 
 # Pay with Other bank
 @router.callback_query(F.data == PAY_OTHER)
+@check_paused
 async def handle_other_payment(callback: CallbackQuery, state: FSMContext):
     data = await ensure_print_data(state, callback)
     if data is None:
@@ -86,7 +92,9 @@ async def handle_other_payment(callback: CallbackQuery, state: FSMContext):
     await state.set_state(UserStates.waiting_for_card_confirm)
 
 # Pay confirm
+
 @router.callback_query(F.data == PAY_CONFIRM)
+@check_paused
 async def handle_pay_confirm(callback: CallbackQuery, state: FSMContext):
     log(callback.from_user.id, PAY_CONFIRM)
     data = await ensure_print_data(state, callback)

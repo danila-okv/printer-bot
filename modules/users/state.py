@@ -6,10 +6,11 @@ from modules.ui.main_menu import send_main_menu
 class UserStates(StatesGroup):
     preview_before_payment = State()
     adjusting_print_settings = State()
-    awaiting_page_range_input = State()
+    awaiting_page_range_input = State()    
     waiting_for_method = State()
     waiting_for_cash_confirm = State()
     waiting_for_card_confirm = State()
+
 
 REQUIRED_PRINT_FIELDS = ("file_name", "file_path", "page_count", "price")
 

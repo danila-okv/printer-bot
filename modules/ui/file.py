@@ -13,6 +13,7 @@ from modules.users.state import UserStates
 from .messages import *
 from modules.analytics.logger import log
 from .keyboard_tracker import send_managed_message
+from modules.admin.bot_control import check_paused
 
 router = Router()
 
@@ -20,6 +21,7 @@ UPLOAD_DIR = "data/uploads"
 os.makedirs(UPLOAD_DIR, exist_ok=True)
 
 @router.message(F.document)
+@check_paused
 async def handle_document(message: Message, state: FSMContext):
     doc = message.document
     original_file_name = doc.file_name

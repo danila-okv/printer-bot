@@ -1,7 +1,7 @@
 import os
 from datetime import datetime
+from config import LOG_DIR
 
-LOG_DIR = "data/logs"
 os.makedirs(LOG_DIR, exist_ok=True)
 
 def log(user_id: int, handler: str, user_input: str = "", extra: str = ""):

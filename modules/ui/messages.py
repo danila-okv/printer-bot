@@ -25,54 +25,33 @@ FILE_TYPE_ERROR_TEXT = "⚠️ Ух, пока что работаю только
 
 # Payment messages
 PAY_CASH_TEXT = """
-✅ Файл <b>{file_name}</b> обработан
-
-📄 Страниц: <b>{page_count}</b>
-💰 К оплате: <b>{price:.2f} руб.</b>
-
 💵 Ты выбрал: <b>Наличные</b>  
 Оставляй деньги в комнате <b>1708А</b>
 """
 
 PAY_CARD_TEXT = """
-✅ Файл <b>{file_name}</b> обработан
-
-📄 Страниц: <b>{page_count}</b>
-💰 К оплате: <b>{price:.2f} руб.</b>
-
 💳 Как удобнее перевести?
 """
 
 PAY_ALFA_TEXT = """
-✅ Файл <b>{file_name}</b> обработан
-
-📄 Страниц: <b>{page_count}</b>
-💰 К оплате: <b>{price:.2f} руб.</b>
-
 💵 Ты выбрал: <b>Альфа-банк</b>  
 Переводи по номеру телефона - +375 (25) 727-07-03
 """
 
 PAY_BELARUSBANK_TEXT = """
-✅ Файл <b>{file_name}</b> обработан
-
-📄 Страниц: <b>{page_count}</b>
-💰 К оплате: <b>{price:.2f} руб.</b>
-
 💵 Ты выбрал: <b>Беларусбанк</b>  
 Переводи по номеру телефона - +375 (25) 727-07-03
 """
 
 PAY_OTHER_TEXT = """
-✅ Файл <b>{file_name}</b> обработан
-
-📄 Страниц: <b>{page_count}</b>
-💰 К оплате: <b>{price:.2f} руб.</b>
-
 💵 Ты выбрал: <b>Другое</b>  
 Переводи через ЕРИП чбез комиссии:
 1. Банковские, финансовые и услуги - Альфа-Банк
 2. Пополнение счета, <code>375257270703</code> (нажми, чтобы скопировать)
+"""
+
+PRINT_OPTIONS_TEXT = """
+⚙️ Выбери опции:
 """
 
 PAY_TIMEOUT_TEXT = """
@@ -80,7 +59,7 @@ PAY_TIMEOUT_TEXT = """
 Если передумал — все ок. Если нет — пришли файл заново
 """
 
-PAY_SUCCESS_TEXT = "✅ Платёж получен. Запускаю печать..."
+PAY_SUCCESS_TEXT = "✅ Ты подтвердил оплату"
 
 PAY_FAILURE_TEXT = "❌ Платёж не найден. Проверь перевод и попробуй снова"
 
@@ -94,3 +73,66 @@ PRINT_DONE_TEXT = """✅ Готово!\n Можешь забрать свой ф
 """
 
 PRINT_CANCELLED_TEXT = "❌ Печать отменена. Если что-то не так, пиши в поддержку"
+
+def get_print_preview_text(data: dict) -> str:
+    header = format_print_text(data)
+
+    return header
+
+def get_print_options_text(data: dict) -> str:
+    header = format_print_text(data)
+
+    return header + PAY_CASH_TEXT
+
+def get_cash_payment_text(data: dict) -> str:
+    header = format_print_text(data)
+
+    return header + PAY_CASH_TEXT
+
+def get_card_payment_text(data: dict) -> str:
+    header = format_print_text(data)
+
+    return header + PAY_CARD_TEXT
+
+def get_alfa_payment_text(data: dict) -> str:
+    header = format_print_text(data)
+
+    return header + PAY_ALFA_TEXT
+
+def get_belarusbank_payment_text(data: dict) -> str:
+    header = format_print_text(data)
+
+    return header + PAY_BELARUSBANK_TEXT
+
+def get_other_payment_text(data: dict) -> str:
+    header = format_print_text(data)
+
+    return header + PAY_OTHER_TEXT
+
+def format_print_text(data: dict) -> str:
+    header = f"""
+    ✅ Файл <b>{data["file_name"]}</b> обработан
+
+    📄 Страниц: <b>{data["page_count"]}</b>
+    💰 К оплате: <b>{data["price"]:.2f} руб.</b>
+    """
+    
+    opts = []
+    
+    pr = data.get("pages")
+    if pr:
+        opts.append(f"Страницы: {pr}")
+    
+    duplex = data.get("duplex", False)
+    if duplex:
+        opts.append(f"Двусторонняя печать")
+    
+    layout = data.get("layout")
+    if layout:
+        opts.append(f"Макет: {layout} на лист")
+
+    if not opts:
+        return header
+
+    options_block = "\n".join(["", "‼️ <b>Выбранные опции:</b>"] + opts)
+    return header + options_block

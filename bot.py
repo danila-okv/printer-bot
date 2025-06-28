@@ -11,7 +11,7 @@ from dotenv import load_dotenv
 from modules.ui import main_menu
 from modules.notifications import message_user
 from modules.analytics import analytics
-from modules.ui import cancel, fallback, file, payment_handlers, start
+from modules.ui import cancel, fallback, file, payment_handlers, start, print_options, return_handler 
 from modules.admin import panel, shell, printer
 
 from db import init_db
@@ -42,8 +42,10 @@ async def main():
     dp.include_router(panel.router)
     dp.include_router(cancel.router)
     dp.include_router(analytics.router)
+    dp.include_router(print_options.router)
     dp.include_router(message_user.router)
     dp.include_router(shell.router)
+    dp.include_router(return_handler.router)
     dp.include_router(printer.router)
     dp.include_router(fallback.router)
 

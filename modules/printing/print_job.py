@@ -8,7 +8,7 @@ from datetime import datetime
 from aiogram import Bot
 from modules.ui.messages import PRINT_DONE_TEXT
 from modules.ui.keyboards import print_done_kb, print_error_kb
-from modules.analytics.logger import log
+from modules.analytics.logger import info, error
 from db import get_connection
 
 
@@ -18,7 +18,7 @@ class PrintJob:
     file_path: str
     file_name: str
     bot: Bot
-    pages: int
+    pages: int = 0
     duplex: bool = False
     layout: str = ""         # например "9-up"
     page_ranges: str = ""    # например "1,3-5"
@@ -42,7 +42,7 @@ class PrintJob:
                 raise RuntimeError(f"lp error: {result.stderr.strip()}")
 
             job_id_str = result.stdout.strip()
-            log(self.user_id, f"Запущена печать {self.file_name}: {job_id_str}")
+            info(self.user_id, "print_job", f"Job started {self.file_name}: {job_id_str}")
 
             # Извлекаем job_id из lp ответа
             if "-" in job_id_str:
@@ -59,7 +59,7 @@ class PrintJob:
                 await asyncio.sleep(3)
 
             # Завершено
-            log(self.user_id, f"Печать завершена: {self.file_name}")
+            info(self.user_id, "print_job", f"Printing ended: {self.file_name}")
             self.update_status("done")
             await self.bot.send_message(
                 chat_id=self.user_id,
@@ -68,7 +68,7 @@ class PrintJob:
             )
 
         except Exception as e:
-            log(self.user_id, f"Ошибка печати: {e}")
+            error(self.user_id, "print_job", f"Printing error: {e}")
             self.update_status("error")
             await self.bot.send_message(
                 chat_id=self.user_id,

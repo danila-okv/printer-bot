@@ -12,6 +12,8 @@ BUTTON_ORDERDS = "📑 История"
 # Print options
 BUTTON_PRINT_OPTIONS = "⚙️ Настройки печати"
 BUTTON_OPTIONS_PAGES = "📄 Страницы"
+BUTTON_OPTIONS_DUPLEX_DISABLED = "❌ Двусторонняя"
+BUTTON_OPTIONS_DUPLEX_ENABLED = "✅ Двусторонняя"
 BUTTON_OPTIONS_DUPLEX = "↔️ Двусторонняя"
 BUTTON_OPTIONS_LAYOUT = "📚 Шпоры"
 

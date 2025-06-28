@@ -16,6 +16,14 @@ main_menu_kb = InlineKeyboardMarkup(
     ] 
 )
 
+return_kb = InlineKeyboardMarkup(
+    inline_keyboard=[
+        [
+            InlineKeyboardButton(text=BUTTON_RETURN, callback_data=RETURN)
+        ]
+    ] 
+)
+
 cancel_kb = InlineKeyboardMarkup(
     inline_keyboard=[
         [
@@ -36,7 +44,7 @@ profile_kb = InlineKeyboardMarkup(
 pay_confirm_kb = InlineKeyboardMarkup(
     inline_keyboard=[
         [
-            InlineKeyboardButton(text=BUTTON_CANCEL, callback_data=CANCEL),
+            InlineKeyboardButton(text=BUTTON_RETURN, callback_data=RETURN),
             InlineKeyboardButton(text=BUTTON_CONFIRM, callback_data=PAY_CONFIRM)
         ]
     ]
@@ -49,41 +57,46 @@ pay_methods_kb = InlineKeyboardMarkup(
             InlineKeyboardButton(text=BUTTON_PAY_BELARUSBANK, callback_data=PAY_BELARUSBANK)
         ],
         [   
-            InlineKeyboardButton(text=BUTTON_PAY_OTHER, callback_data=PAY_OTHER),
-            InlineKeyboardButton(text=BUTTON_CANCEL, callback_data=RETURN)
-        ]
-    ]
-)
-
-# TODO: Remove when payment_method_kb will confirm printing
-print_confirm_kb = InlineKeyboardMarkup(
-    inline_keyboard=[
-        [
-            InlineKeyboardButton(text=BUTTON_CONFIRM, callback_data=CONFIRM),
-            InlineKeyboardButton(text=BUTTON_CANCEL, callback_data=CANCEL)
+            InlineKeyboardButton(text=BUTTON_RETURN, callback_data=RETURN),
+            InlineKeyboardButton(text=BUTTON_PAY_OTHER, callback_data=PAY_OTHER)
         ]
     ]
 )
 
 print_preview_kb = InlineKeyboardMarkup(inline_keyboard=[
         [InlineKeyboardButton(text=BUTTON_PRINT_OPTIONS, callback_data=PRINT_OPTIONS)],
-        [InlineKeyboardButton(text=BUTTON_PAY_CASH, callback_data=PAY_CASH),
-         InlineKeyboardButton(text=BUTTON_PAY_CARD, callback_data=PAY_CARD)
-         ],
+        [
+            InlineKeyboardButton(text=BUTTON_PAY_CASH, callback_data=PAY_CASH),
+            InlineKeyboardButton(text=BUTTON_PAY_CARD, callback_data=PAY_CARD)
+        ],
         [InlineKeyboardButton(text=BUTTON_CANCEL, callback_data=CANCEL)]
     ]
 )
 
-print_options_kb = InlineKeyboardMarkup(inline_keyboard=[
-        [InlineKeyboardButton(text=BUTTON_OPTIONS_PAGES, callback_data=OPTIONS_PAGES)],
-        [InlineKeyboardButton(text=BUTTON_OPTIONS_DUPLEX, callback_data=OPTIONS_DUPLEX)],
-        [InlineKeyboardButton(text=BUTTON_OPTIONS_LAYOUT, callback_data=OPTIONS_LAYOUT)],
+print_options_duplex_on_kb = InlineKeyboardMarkup(inline_keyboard=[
         [
-            InlineKeyboardButton(text=BUTTON_DONE, callback_data=DONE),
-            InlineKeyboardButton(text=BUTTON_RETURN, callback_data=RETURN)
+            InlineKeyboardButton(text=BUTTON_OPTIONS_LAYOUT, callback_data=OPTIONS_LAYOUT),
+            InlineKeyboardButton(text=BUTTON_OPTIONS_DUPLEX_DISABLED, callback_data=OPTIONS_DUPLEX)
+        ],
+        [
+            InlineKeyboardButton(text=BUTTON_RETURN, callback_data=RETURN),
+            InlineKeyboardButton(text=BUTTON_OPTIONS_PAGES, callback_data=OPTIONS_PAGES)
         ]
     ]
 )
+
+print_options_duplex_off_kb = InlineKeyboardMarkup(inline_keyboard=[
+        [
+            InlineKeyboardButton(text=BUTTON_OPTIONS_LAYOUT, callback_data=OPTIONS_LAYOUT),
+            InlineKeyboardButton(text=BUTTON_OPTIONS_DUPLEX_ENABLED, callback_data=OPTIONS_DUPLEX)
+        ],
+        [
+            InlineKeyboardButton(text=BUTTON_RETURN, callback_data=RETURN),
+            InlineKeyboardButton(text=BUTTON_OPTIONS_PAGES, callback_data=OPTIONS_PAGES)
+        ]
+    ]
+)
+
 
 print_done_kb = InlineKeyboardMarkup(
     inline_keyboard=[

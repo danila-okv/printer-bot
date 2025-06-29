@@ -41,7 +41,7 @@ profile_kb = InlineKeyboardMarkup(
     ]
 )
 
-pay_confirm_kb = InlineKeyboardMarkup(
+payment_confirm_kb = InlineKeyboardMarkup(
     inline_keyboard=[
         [
             InlineKeyboardButton(text=BUTTON_RETURN, callback_data=RETURN),
@@ -50,7 +50,7 @@ pay_confirm_kb = InlineKeyboardMarkup(
     ]
 )
 
-pay_methods_kb = InlineKeyboardMarkup(
+payment_methods_kb = InlineKeyboardMarkup(
     inline_keyboard=[
         [
             InlineKeyboardButton(text=BUTTON_PAY_ALFA, callback_data=PAY_ALFA),
@@ -63,6 +63,8 @@ pay_methods_kb = InlineKeyboardMarkup(
     ]
 )
 
+
+
 print_preview_kb = InlineKeyboardMarkup(inline_keyboard=[
         [InlineKeyboardButton(text=BUTTON_PRINT_OPTIONS, callback_data=PRINT_OPTIONS)],
         [
@@ -73,29 +75,6 @@ print_preview_kb = InlineKeyboardMarkup(inline_keyboard=[
     ]
 )
 
-print_options_duplex_on_kb = InlineKeyboardMarkup(inline_keyboard=[
-        [
-            InlineKeyboardButton(text=BUTTON_OPTIONS_LAYOUT, callback_data=OPTIONS_LAYOUT),
-            InlineKeyboardButton(text=BUTTON_OPTIONS_DUPLEX_DISABLED, callback_data=OPTIONS_DUPLEX)
-        ],
-        [
-            InlineKeyboardButton(text=BUTTON_RETURN, callback_data=RETURN),
-            InlineKeyboardButton(text=BUTTON_OPTIONS_PAGES, callback_data=OPTIONS_PAGES)
-        ]
-    ]
-)
-
-print_options_duplex_off_kb = InlineKeyboardMarkup(inline_keyboard=[
-        [
-            InlineKeyboardButton(text=BUTTON_OPTIONS_LAYOUT, callback_data=OPTIONS_LAYOUT),
-            InlineKeyboardButton(text=BUTTON_OPTIONS_DUPLEX_ENABLED, callback_data=OPTIONS_DUPLEX)
-        ],
-        [
-            InlineKeyboardButton(text=BUTTON_RETURN, callback_data=RETURN),
-            InlineKeyboardButton(text=BUTTON_OPTIONS_PAGES, callback_data=OPTIONS_PAGES)
-        ]
-    ]
-)
 
 
 print_done_kb = InlineKeyboardMarkup(
@@ -115,3 +94,60 @@ print_error_kb = InlineKeyboardMarkup(
         ]
     ]
 )
+
+# Print Options keyboards
+def get_print_options_kb(duplex: bool) -> InlineKeyboardMarkup:
+    duplex_text = BUTTON_OPTIONS_DUPLEX_DISABLED
+    if duplex:
+        duplex_text = BUTTON_OPTIONS_DUPLEX_ENABLED
+
+    markup = InlineKeyboardMarkup(inline_keyboard=[
+            [
+                InlineKeyboardButton(text=BUTTON_OPTIONS_LAYOUT, callback_data=OPTIONS_LAYOUT),
+                InlineKeyboardButton(text=duplex_text, callback_data=OPTIONS_DUPLEX)
+            ],
+            [
+                InlineKeyboardButton(text=BUTTON_RETURN, callback_data=RETURN),
+                InlineKeyboardButton(text=BUTTON_OPTIONS_PAGES, callback_data=OPTIONS_PAGES)
+            ]
+        ]
+    )
+    return markup
+
+def get_print_layouts_kb(selected_layout: str) -> InlineKeyboardMarkup:
+    keyboard = []
+    row = []
+
+    for layout in LAYOUTS:
+        # Добавляем галочку, если выбран
+        layout_text = BUTTONS_LAYOUT.get(layout, "Unknown layout")
+        text = f"✅ {layout_text}" if layout == selected_layout else f"📄 {layout_text}"
+
+        button = InlineKeyboardButton(
+            text=text,
+            callback_data=layout
+        )
+        row.append(button)
+
+        if len(row) == 2:
+            keyboard.append(row)
+            row = []
+
+    # Добавляем последнюю неполную строку кнопок (если осталась одна)
+    if row:
+        keyboard.append(row)
+        row = []
+
+    # Добавляем кнопку "Назад"
+    back_button = InlineKeyboardButton(
+        text="⬅️ Назад",
+        callback_data="go_back"
+    )
+
+    # Если последняя строка пустая — создаём новую строку, иначе — добавляем в текущую
+    if not keyboard or len(keyboard[-1]) == 2:
+        keyboard.append([back_button])
+    else:
+        keyboard[-1].append(back_button)
+
+    return InlineKeyboardMarkup(inline_keyboard=keyboard)

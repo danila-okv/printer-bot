@@ -2,7 +2,7 @@ from aiogram import Router
 from aiogram.types import Message
 from aiogram.filters import Command
 from datetime import datetime, date
-from modules.users.admin_only import admin_only
+from modules.decorators import admin_only
 
 router = Router()
 

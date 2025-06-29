@@ -2,7 +2,7 @@
 
 from aiogram import Router, types
 from aiogram.filters import Command
-from modules.users.admin_only import admin_only
+from modules.decorators import admin_only
 from modules.printing.printer_status import (
     get_printer_status,
     get_printer_latency,

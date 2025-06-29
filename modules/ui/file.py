@@ -13,7 +13,7 @@ from modules.users.state import UserStates
 from .messages import *
 from modules.analytics.logger import action, warning, info, error
 from .keyboard_tracker import send_managed_message
-from modules.admin.bot_control import check_paused
+from modules.decorators import check_paused
 
 router = Router()
 
@@ -101,13 +101,16 @@ async def handle_document(message: Message, state: FSMContext):
 
         page_count, _ = await get_page_count(processed_pdf_path)
         price = calculate_price(page_count)
+        await state.update_data(
+            price=price,
+            file_path=processed_pdf_path,
+            page_count=page_count,
+            file_name=original_file_name,
+        )
+        data = await state.get_data()
 
         await processing_msg.edit_text(
-            FILE_PROCESSING_SUCCESS_TEXT.format(
-                file_name=original_file_name,
-                page_count=page_count,
-                price=price,
-            ),
+            get_print_preview_text(data),
             reply_markup=print_preview_kb
         )
         info(
@@ -117,12 +120,7 @@ async def handle_document(message: Message, state: FSMContext):
         )
 
         await state.set_state(UserStates.preview_before_payment)
-        await state.update_data(
-            price=price,
-            file_path=processed_pdf_path,
-            page_count=page_count,
-            file_name=original_file_name,
-        )
+        
 
     except Exception as err:
         await processing_msg.edit_text(FILE_PROCESSING_FAILURE_TEXT.format(file_name=original_file_name))

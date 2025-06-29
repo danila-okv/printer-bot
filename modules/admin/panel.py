@@ -1,5 +1,5 @@
 from aiogram import Router, types
-from modules.users.admin_only import admin_only
+from modules.decorators import admin_only
 from modules.users.banlist import ban_user, unban_user
 from modules.ui.keyboard_tracker import send_managed_message
 from aiogram.filters import Command
@@ -86,7 +86,6 @@ async def cmd_resume(message: types.Message):
         await message.bot.send_message(
             chat_id=uid,
             text=(
-                "✅ Бот возобновил работу — ваш запрос, "
-                "отправленный во время паузы, теперь можно повторить."
+                "🤖 Я на месте, "
             )
         )

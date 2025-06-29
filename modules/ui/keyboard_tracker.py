@@ -20,7 +20,8 @@ def update_active_message(user_id: int, message_id: int):
             INSERT INTO active_keyboards(user_id, message_id)
             VALUES(?, ?)
             ON CONFLICT(user_id) DO UPDATE SET message_id = excluded.message_id
-        """, (user_id, message_id))
+        """, (user_id, message_id)
+        )
         conn.commit()
 
 async def send_managed_message(

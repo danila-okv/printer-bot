@@ -1,3 +1,10 @@
+from .buttons import (
+    LAYOUT_1,
+    LAYOUT_2, 
+    LAYOUT_9,
+    LAYOUT_16
+)
+
 # Global
 MAIN_MENU = "main_menu"
 CONFIRM = "confirm"
@@ -18,7 +25,9 @@ PAY_BELARUSBANK = "pay_belarusbank"
 PAY_OTHER = "pay_other"
 
 # Print options
+PRINT_PREVIEW = "print_preview"
 PRINT_OPTIONS = "print_options"
 OPTIONS_PAGES = "print_pages"
 OPTIONS_DUPLEX = "print_duplex"
 OPTIONS_LAYOUT = "print_layout"
+LAYOUTS = ["1", "2", "9", "16"]

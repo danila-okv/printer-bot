@@ -1,0 +1,221 @@
+[18:50] [INFO] [7676096317] [handle_document] User uploaded a document for printing, Формуляр для задания 1.pdf, 25038 bytes
+[18:50] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[18:50] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>Формуляр для задания 1.pdf</b> получил. Считаю страницы...
+[18:50] [INFO] [7676096317] [handle_document] Start file processing: Формуляр для задания 1.pdf
+[18:50] [INFO] [7676096317] [handle_document] Downloading file: documents/file_75.pdf
+[18:50] [INFO] [7676096317] [handle_document] File downloaded: documents/file_75.pdf
+[18:50] [INFO] [7676096317] [handle_document] File processed. pages: 1, price: 0.2
+[18:50] [ACTION] [7676096317] [print_options] Started Option selection
+[18:50] [ACTION] [7676096317] [print_layout] Selected Layout option
+[18:51] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[18:51] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 
+📤 Присылай .docx или .pdf — я напечатаю в комнате <b>1708А</b>
+
+🖨 ЧБ-печать — <b>20 коп/страница</b>  
+
+[18:51] [ACTION] [7676096317] [Command /start] User started bot
+[18:51] [INFO] [7676096317] [handle_document] User uploaded a document for printing, M-Банкинг чек-8589935003.pdf, 34229 bytes
+[18:51] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[18:51] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>M-Банкинг чек-8589935003.pdf</b> получил. Считаю страницы...
+[18:51] [INFO] [7676096317] [handle_document] Start file processing: M-Банкинг чек-8589935003.pdf
+[18:51] [INFO] [7676096317] [handle_document] Downloading file: documents/file_76.pdf
+[18:51] [INFO] [7676096317] [handle_document] File downloaded: documents/file_76.pdf
+[18:51] [INFO] [7676096317] [handle_document] File processed. pages: 1, price: 0.2
+[18:51] [ACTION] [7676096317] [print_options] Started Option selection
+[18:51] [ACTION] [7676096317] [print_layout] Selected Layout option
+[18:53] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[18:53] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 
+📤 Присылай .docx или .pdf — я напечатаю в комнате <b>1708А</b>
+
+🖨 ЧБ-печать — <b>20 коп/страница</b>  
+
+[18:53] [ACTION] [7676096317] [Command /start] User started bot
+[18:54] [INFO] [7676096317] [handle_document] User uploaded a document for printing, M-Банкинг чек-8589935003.pdf, 34229 bytes
+[18:54] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[18:54] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>M-Банкинг чек-8589935003.pdf</b> получил. Считаю страницы...
+[18:54] [INFO] [7676096317] [handle_document] Start file processing: M-Банкинг чек-8589935003.pdf
+[18:54] [INFO] [7676096317] [handle_document] Downloading file: documents/file_77.pdf
+[18:54] [INFO] [7676096317] [handle_document] File downloaded: documents/file_77.pdf
+[18:54] [INFO] [7676096317] [handle_document] File processed. pages: 1, price: 0.2
+[18:54] [ACTION] [7676096317] [print_options] Started Option selection
+[18:54] [ACTION] [7676096317] [print_layout] Selected Layout option
+[18:57] [INFO] [7676096317] [handle_document] User uploaded a document for printing, Формуляр для задания 1.pdf, 25038 bytes
+[18:57] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[18:57] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>Формуляр для задания 1.pdf</b> получил. Считаю страницы...
+[18:57] [INFO] [7676096317] [handle_document] Start file processing: Формуляр для задания 1.pdf
+[18:57] [INFO] [7676096317] [handle_document] Downloading file: documents/file_78.pdf
+[18:57] [INFO] [7676096317] [handle_document] File downloaded: documents/file_78.pdf
+[18:57] [INFO] [7676096317] [handle_document] File processed. pages: 1, price: 0.2
+[18:57] [ACTION] [7676096317] [print_options] Started Option selection
+[18:57] [ACTION] [7676096317] [print_layout] Selected Layout option
+[19:00] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[19:00] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 
+📤 Присылай .docx или .pdf — я напечатаю в комнате <b>1708А</b>
+
+🖨 ЧБ-печать — <b>20 коп/страница</b>  
+
+[19:00] [WARNING] [7676096317] [Ensure print data] Data lost
+[19:00] [INFO] [7676096317] [handle_document] User uploaded a document for printing, M-Банкинг чек-4294968828.docx, 60857 bytes
+[19:00] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[19:00] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>M-Банкинг чек-4294968828.docx</b> получил. Считаю страницы...
+[19:00] [INFO] [7676096317] [handle_document] Start file processing: M-Банкинг чек-4294968828.docx
+[19:00] [INFO] [7676096317] [handle_document] Downloading file: documents/file_79.docx
+[19:00] [INFO] [7676096317] [handle_document] File downloaded: documents/file_79.docx
+[19:00] [INFO] [7676096317] [handle_document] Converted DOCX to PDF: data/tmp/converted.pdf
+[19:00] [INFO] [7676096317] [handle_document] File processed. pages: 1, price: 0.2
+[19:00] [ACTION] [7676096317] [print_options] Started Option selection
+[19:01] [INFO] [7676096317] [handle_document] User uploaded a document for printing, ДОКЛАД.docx, 17113 bytes
+[19:01] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[19:01] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>ДОКЛАД.docx</b> получил. Считаю страницы...
+[19:01] [INFO] [7676096317] [handle_document] Start file processing: ДОКЛАД.docx
+[19:01] [INFO] [7676096317] [handle_document] Downloading file: documents/file_80.docx
+[19:01] [INFO] [7676096317] [handle_document] File downloaded: documents/file_80.docx
+[19:01] [INFO] [7676096317] [handle_document] Converted DOCX to PDF: data/tmp/converted.pdf
+[19:01] [INFO] [7676096317] [handle_document] File processed. pages: 2, price: 0.4
+[19:01] [ACTION] [7676096317] [print_options] Started Option selection
+[19:02] [INFO] [7676096317] [handle_document] User uploaded a document for printing, Формуляр для задания 1.pdf, 25038 bytes
+[19:02] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[19:02] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>Формуляр для задания 1.pdf</b> получил. Считаю страницы...
+[19:02] [INFO] [7676096317] [handle_document] Start file processing: Формуляр для задания 1.pdf
+[19:02] [INFO] [7676096317] [handle_document] Downloading file: documents/file_81.pdf
+[19:02] [INFO] [7676096317] [handle_document] File downloaded: documents/file_81.pdf
+[19:02] [INFO] [7676096317] [handle_document] File processed. pages: 1, price: 0.2
+[19:02] [ACTION] [7676096317] [print_options] Started Option selection
+[19:02] [INFO] [7676096317] [handle_document] User uploaded a document for printing, Формуляр для задания 1.pdf, 25038 bytes
+[19:02] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[19:02] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>Формуляр для задания 1.pdf</b> получил. Считаю страницы...
+[19:02] [INFO] [7676096317] [handle_document] Start file processing: Формуляр для задания 1.pdf
+[19:02] [INFO] [7676096317] [handle_document] Downloading file: documents/file_81.pdf
+[19:02] [INFO] [7676096317] [handle_document] File downloaded: documents/file_81.pdf
+[19:02] [INFO] [7676096317] [handle_document] File processed. pages: 1, price: 0.2
+[19:02] [ACTION] [7676096317] [print_options] Started Option selection
+[19:03] [INFO] [7676096317] [handle_document] User uploaded a document for printing, Формуляр для задания 1.pdf, 25038 bytes
+[19:03] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[19:03] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>Формуляр для задания 1.pdf</b> получил. Считаю страницы...
+[19:03] [INFO] [7676096317] [handle_document] Start file processing: Формуляр для задания 1.pdf
+[19:03] [INFO] [7676096317] [handle_document] Downloading file: documents/file_81.pdf
+[19:03] [INFO] [7676096317] [handle_document] File downloaded: documents/file_81.pdf
+[19:03] [INFO] [7676096317] [handle_document] File processed. pages: 1, price: 0.2
+[19:03] [ACTION] [7676096317] [print_options] Started Option selection
+[19:03] [ACTION] [7676096317] [print_layout] Selected Layout option
+[19:15] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[19:15] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 
+📤 Присылай .docx или .pdf — я напечатаю в комнате <b>1708А</b>
+
+🖨 ЧБ-печать — <b>20 коп/страница</b>  
+
+[19:15] [ACTION] [7676096317] [Command /start] User started bot
+[19:15] [INFO] [7676096317] [handle_document] User uploaded a document for printing, M-Банкинг чек-4294968828.docx, 60857 bytes
+[19:15] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[19:15] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>M-Банкинг чек-4294968828.docx</b> получил. Считаю страницы...
+[19:15] [INFO] [7676096317] [handle_document] Start file processing: M-Банкинг чек-4294968828.docx
+[19:15] [INFO] [7676096317] [handle_document] Downloading file: documents/file_82.docx
+[19:15] [INFO] [7676096317] [handle_document] File downloaded: documents/file_82.docx
+[19:15] [INFO] [7676096317] [handle_document] Converted DOCX to PDF: data/tmp/converted.pdf
+[19:15] [INFO] [7676096317] [handle_document] File processed. pages: 1, price: 0.2
+[19:15] [ACTION] [7676096317] [print_options] Started Option selection
+[19:18] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[19:18] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 
+📤 Присылай .docx или .pdf — я напечатаю в комнате <b>1708А</b>
+
+🖨 ЧБ-печать — <b>20 коп/страница</b>  
+
+[19:18] [WARNING] [7676096317] [Ensure print data] Data lost
+[19:18] [INFO] [7676096317] [handle_document] User uploaded a document for printing, Формуляр для задания 1.pdf, 25038 bytes
+[19:18] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[19:18] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>Формуляр для задания 1.pdf</b> получил. Считаю страницы...
+[19:18] [INFO] [7676096317] [handle_document] Start file processing: Формуляр для задания 1.pdf
+[19:18] [INFO] [7676096317] [handle_document] Downloading file: documents/file_83.pdf
+[19:18] [INFO] [7676096317] [handle_document] File downloaded: documents/file_83.pdf
+[19:18] [INFO] [7676096317] [handle_document] File processed. pages: 1, price: 0.2
+[19:18] [ACTION] [7676096317] [print_options] Started Option selection
+[19:18] [ACTION] [7676096317] [print_layout] Selected Layout option
+[20:04] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[20:04] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 
+📤 Присылай .docx или .pdf — я напечатаю в комнате <b>1708А</b>
+
+🖨 ЧБ-печать — <b>20 коп/страница</b>  
+
+[20:04] [ACTION] [7676096317] [Command /start] User started bot
+[20:04] [INFO] [7676096317] [handle_document] User uploaded a document for printing, M-Банкинг чек-4294968828.docx, 60857 bytes
+[20:04] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[20:04] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>M-Банкинг чек-4294968828.docx</b> получил. Считаю страницы...
+[20:04] [INFO] [7676096317] [handle_document] Start file processing: M-Банкинг чек-4294968828.docx
+[20:04] [INFO] [7676096317] [handle_document] Downloading file: documents/file_82.docx
+[20:04] [INFO] [7676096317] [handle_document] File downloaded: documents/file_82.docx
+[20:04] [INFO] [7676096317] [handle_document] Converted DOCX to PDF: data/tmp/converted.pdf
+[20:04] [INFO] [7676096317] [handle_document] File processed. pages: 1, price: 0.2
+[20:04] [ACTION] [7676096317] [print_options] Started Option selection
+[20:04] [ACTION] [7676096317] [print_layout] Show layouts
+[20:04] [ACTION] [7676096317] [print_layout] Select layout - 9
+[20:04] [ACTION] [7676096317] [print_layout] Select layout - 16
+[20:04] [ACTION] [7676096317] [print_layout] Select layout - 2
+[20:04] [ACTION] [7676096317] [print_layout] Select layout - 1
+[20:04] [ACTION] [7676096317] [print_layout] Select layout - 16
+[20:04] [ACTION] [7676096317] [print_layout] Select layout - 2
+[20:05] [ACTION] [7676096317] [print_layout] Select layout - 9
+[20:05] [ACTION] [7676096317] [print_layout] Select layout - 1
+[20:33] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[20:33] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 
+📤 Присылай .docx или .pdf — я напечатаю в комнате <b>1708А</b>
+
+🖨 ЧБ-печать — <b>20 коп/страница</b>  
+
+[20:33] [ACTION] [7676096317] [Command /start] User started bot
+[20:33] [INFO] [7676096317] [handle_document] User uploaded a document for printing, 64a73ccbef1f77c6556f7effdc1f1642.pdf, 35971 bytes
+[20:33] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[20:33] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>64a73ccbef1f77c6556f7effdc1f1642.pdf</b> получил. Считаю страницы...
+[20:33] [INFO] [7676096317] [handle_document] Start file processing: 64a73ccbef1f77c6556f7effdc1f1642.pdf
+[20:33] [INFO] [7676096317] [handle_document] Downloading file: documents/file_84.pdf
+[20:33] [INFO] [7676096317] [handle_document] File downloaded: documents/file_84.pdf
+[20:33] [INFO] [7676096317] [handle_document] File processed. pages: 1, price: 0.2
+[20:33] [ACTION] [7676096317] [print_options] Started Option selection
+[20:33] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[20:33] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 
+📤 Присылай .docx или .pdf — я напечатаю в комнате <b>1708А</b>
+
+🖨 ЧБ-печать — <b>20 коп/страница</b>  
+
+[20:33] [WARNING] [7676096317] [ensure_data:handle_option_layout] Data lost
+[20:37] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[20:37] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 
+📤 Присылай .docx или .pdf — я напечатаю в комнате <b>1708А</b>
+
+🖨 ЧБ-печать — <b>20 коп/страница</b>  
+
+[20:37] [ACTION] [7676096317] [Command /start] User started bot
+[20:37] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[20:37] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 
+📤 Присылай .docx или .pdf — я напечатаю в комнате <b>1708А</b>
+
+🖨 ЧБ-печать — <b>20 коп/страница</b>  
+
+[20:37] [ACTION] [7676096317] [Command /start] User started bot
+[20:38] [INFO] [7676096317] [handle_document] User uploaded a document for printing, Перечень_графического_материала.docx, 36951 bytes
+[20:38] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[20:38] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>Перечень_графического_материала.docx</b> получил. Считаю страницы...
+[20:38] [INFO] [7676096317] [handle_document] Start file processing: Перечень_графического_материала.docx
+[20:38] [INFO] [7676096317] [handle_document] Downloading file: documents/file_85.docx
+[20:38] [INFO] [7676096317] [handle_document] File downloaded: documents/file_85.docx
+[20:38] [INFO] [7676096317] [handle_document] Converted DOCX to PDF: data/tmp/converted.pdf
+[20:38] [INFO] [7676096317] [handle_document] File processed. pages: 1, price: 0.2
+[20:38] [ACTION] [7676096317] [cancel] Cancelled order
+[20:38] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 
+📤 Присылай .docx или .pdf — я напечатаю в комнате <b>1708А</b>
+
+🖨 ЧБ-печать — <b>20 коп/страница</b>  
+
+[20:46] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[20:46] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 
+📤 Присылай .docx или .pdf — я напечатаю в комнате <b>1708А</b>
+
+🖨 ЧБ-печать — <b>20 коп/страница</b>  
+
+[20:46] [ACTION] [7676096317] [Command /start] User started bot
+[20:47] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[20:47] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 
+📤 Присылай .docx или .pdf — я напечатаю в комнате <b>1708А</b>
+
+🖨 ЧБ-печать — <b>20 коп/страница</b>  
+
+[20:47] [ACTION] [7676096317] [Command /start] User started bot

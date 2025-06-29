@@ -18,7 +18,7 @@ class PrintJob:
     file_path: str
     file_name: str
     bot: Bot
-    pages: int = 0
+    page_count: int = 0
     duplex: bool = False
     layout: str = ""         # например "9-up"
     page_ranges: str = ""    # например "1,3-5"

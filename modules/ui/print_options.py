@@ -3,27 +3,28 @@ from aiogram.types import CallbackQuery
 from aiogram.fsm.state import State, StatesGroup
 from aiogram.fsm.context import FSMContext
 
-from modules.users.state import ensure_print_data
 from .keyboard_tracker import send_managed_message
 from .messages import *
 from .callbacks import *
 from modules.users.state import UserStates
-from .keyboards import print_options_duplex_off_kb, print_options_duplex_on_kb, return_kb
+from .keyboards import get_print_options_kb, return_kb, get_print_layouts_kb
 from modules.analytics.logger import action, warning, error, info
+from modules.decorators import check_paused
+from modules.decorators import ensure_data    
+
 router = Router()
 
 # Handle Options
 @router.callback_query(F.data == PRINT_OPTIONS)
-async def handle_print_options(callback: CallbackQuery, state: FSMContext):
-    data = await ensure_print_data(state, callback)
-    if data is None:
-        return
-    
+@check_paused
+@ensure_data
+async def handle_print_options(callback: CallbackQuery, state: FSMContext, data: dict):    
     await state.set_state(UserStates.adjusting_print_settings)
+    duplex = data.get("duplex", False)
 
     await callback.message.edit_text(
         text = get_print_options_text(data),
-        reply_markup=print_options_duplex_on_kb
+        reply_markup=get_print_options_kb(duplex)
     )
     action(
         user_id=callback.from_user.id,
@@ -34,11 +35,9 @@ async def handle_print_options(callback: CallbackQuery, state: FSMContext):
 
 # Handle Pages option
 @router.callback_query(F.data == OPTIONS_PAGES)
-async def handle_option_pages(callback: CallbackQuery, state: FSMContext):
-    data = await ensure_print_data(state, callback)
-    if data is None:
-        return
-
+@check_paused
+@ensure_data
+async def handle_option_pages(callback: CallbackQuery, state: FSMContext, data: dict):
     await state.set_state(UserStates.awaiting_page_range_input)
 
     await send_managed_message(
@@ -57,16 +56,13 @@ async def handle_option_pages(callback: CallbackQuery, state: FSMContext):
 
 # Handle Duplex option
 @router.callback_query(F.data == OPTIONS_DUPLEX)
-async def handle_option_duplex(callback: CallbackQuery, state: FSMContext):
-    data = await ensure_print_data(state, callback)
-    if data is None:
-        return
-    
+@check_paused
+@ensure_data
+async def handle_option_duplex(callback: CallbackQuery, state: FSMContext, data: dict):
     new = not data.get("duplex", False)
     await state.update_data(duplex=new)
 
-    kb = print_options_duplex_off_kb if new else print_options_duplex_on_kb
-    await callback.message.edit_reply_markup(reply_markup=kb)
+    await callback.message.edit_reply_markup(reply_markup=get_print_options_kb(new))
     action(
         user_id=callback.from_user.id,
         handler=OPTIONS_DUPLEX,
@@ -76,18 +72,17 @@ async def handle_option_duplex(callback: CallbackQuery, state: FSMContext):
 
 # Handle Layout option
 @router.callback_query(F.data == OPTIONS_LAYOUT)
-async def handle_option_layout(callback: CallbackQuery, state: FSMContext):
-    data = await ensure_print_data(state, callback)
-    if data is None:
-        return
-    
+@check_paused
+@ensure_data
+async def handle_option_layout(callback: CallbackQuery, state: FSMContext, data: dict):
+    layout = data.get("layout", "1")
     await callback.message.edit_text(
-        text = format_print_text(data) + "\n\nВыберите Layout:",
-        reply_markup=print_options_duplex_on_kb
+        text = get_print_layouts_text(data),
+        reply_markup=get_print_layouts_kb(layout)
     )
     action(
         user_id=callback.from_user.id,
         handler=OPTIONS_LAYOUT,
-        msg="Selected Layout option"
+        msg="Show layouts"
     )
     await callback.answer()

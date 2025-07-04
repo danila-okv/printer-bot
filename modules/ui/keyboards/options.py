@@ -1,7 +1,7 @@
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 from ..callbacks import (
-    CONFIRM, RETURN, LAYOUTS,OPTION_DUPLEX, OPTION_LAYOUT, OPTION_PAGES
+    CONFIRM, BACK, LAYOUTS,OPTION_DUPLEX, OPTION_LAYOUT, OPTION_PAGES
 )
 from .buttons import (
     BUTTON_CONFIRM, BUTTON_EDIT, BUTTON_RETURN, BUTTONS_LAYOUT,
@@ -12,7 +12,7 @@ confim_page_ranges_kb = InlineKeyboardMarkup(
     inline_keyboard=[
         [
             InlineKeyboardButton(text=BUTTON_CONFIRM, callback_data=CONFIRM),
-            InlineKeyboardButton(text=BUTTON_EDIT, callback_data=RETURN)
+            InlineKeyboardButton(text=BUTTON_EDIT, callback_data=BACK)
         ]
     ]
 )
@@ -26,7 +26,7 @@ def get_print_options_kb(duplex: bool) -> InlineKeyboardMarkup:
                 InlineKeyboardButton(text=duplex_text, callback_data=OPTION_DUPLEX)
             ],
             [
-                InlineKeyboardButton(text=BUTTON_RETURN, callback_data=RETURN),
+                InlineKeyboardButton(text=BUTTON_RETURN, callback_data=BACK),
                 InlineKeyboardButton(text=BUTTON_OPTIONS_PAGES, callback_data=OPTION_PAGES)
             ]
         ]
@@ -59,7 +59,7 @@ def get_print_layouts_kb(selected_layout: str) -> InlineKeyboardMarkup:
     # Добавляем кнопку "Назад"
     back_button = InlineKeyboardButton(
         text=BUTTON_RETURN,
-        callback_data=RETURN
+        callback_data=BACK
     )
 
     # Если последняя строка пустая — создаём новую строку, иначе — добавляем в текущую

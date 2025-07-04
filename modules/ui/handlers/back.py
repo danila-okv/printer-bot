@@ -8,12 +8,12 @@ from ..keyboards.preview import print_preview_kb
 from ..keyboards.payment import payment_methods_kb
 from ..keyboards.options import get_print_options_kb
 from ..messages import *
-from ..callbacks import RETURN
+from ..callbacks import BACK
 from aiogram.exceptions import TelegramBadRequest
 
 router = Router()
 
-@router.callback_query(F.data == RETURN)
+@router.callback_query(F.data == BACK)
 @check_paused
 @ensure_data
 async def handle_return(callback: CallbackQuery, state: FSMContext, data: dict):

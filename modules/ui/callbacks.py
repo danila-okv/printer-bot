@@ -8,7 +8,7 @@ from .keyboards.buttons import (
 # Global
 MAIN_MENU = "main_menu"
 CONFIRM = "confirm"
-RETURN = "return"
+BACK = "back"
 CANCEL = "cancel"
 DONE = "done"
 

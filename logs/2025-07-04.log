@@ -255,3 +255,69 @@
 [13:54] [INFO] [7676096317] [keyboard_tracker] Manage message sent: Приняты страницы: 1
 [13:54] [ACTION] [7676096317] [print_pages] Select Pages option
 [13:54] [WARNING] [7676096317] [unknown_command] 1
+[14:12] [INFO] [7676096317] [handle_document] User uploaded a document for printing, литература на лето.docx, 13186 bytes
+[14:12] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>литература на лето.docx</b> получил. Считаю страницы...
+[14:12] [INFO] [7676096317] [handle_document] Start file processing: литература на лето.docx
+[14:12] [INFO] [7676096317] [handle_document] Downloading file: documents/file_98.docx
+[14:12] [INFO] [7676096317] [handle_document] File downloaded: documents/file_98.docx
+[14:12] [INFO] [7676096317] [handle_document] Converted DOCX to PDF: data/tmp/converted.pdf
+[14:12] [INFO] [7676096317] [handle_document] File processed. pages: 1, price: 0.2
+[14:12] [ACTION] [7676096317] [print_options] Started Option selection
+[14:12] [ACTION] [7676096317] [print_pages] Select Pages option
+[14:12] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[14:12] [INFO] [7676096317] [keyboard_tracker] Manage message sent: Приняты страницы: 1
+[14:12] [ACTION] [7676096317] [print_duplex] Switched duplex option
+[14:12] [ACTION] [7676096317] [print_duplex] Switched duplex option
+[14:12] [ACTION] [7676096317] [print_duplex] Switched duplex option
+[14:12] [ACTION] [7676096317] [print_duplex] Switched duplex option
+[14:12] [ACTION] [7676096317] [print_duplex] Switched duplex option
+[14:12] [ACTION] [7676096317] [print_pages] Select Pages option
+[14:12] [ACTION] [7676096317] [pay_card] Selected Card payment method
+[14:12] [ACTION] [7676096317] [pay_belarusbank] Selected Belarusbank payment method
+[14:13] [INFO] [7676096317] [pay_confirm] Confirm payment
+[14:13] [INFO] [7676096317] [pay_confirm] Add Print Job
+[14:13] [INFO] [7676096317] [print_worker] Starting print job: литература на лето.docx
+[14:13] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[14:13] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🖨️ Печатаю <b>литература на лето.docx</b>...
+[14:13] [INFO] [7676096317] [print_job] Job started литература на лето.docx: request id is printer_vpn_ddns_net-309 (1 file(s))
+[14:14] [INFO] [7676096317] [print_job] Printing ended: литература на лето.docx
+[14:14] [INFO] [7676096317] [keyboard_tracker] Manage message sent: ✅ Готово!
+ Можешь забрать свой файл в комнате <b>1708А</b> (2-я секция)
+Заходи без стука
+
+[14:14] [INFO] [7676096317] [handle_document] User uploaded a document for printing, литература на лето.docx, 13186 bytes
+[14:14] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[14:14] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>литература на лето.docx</b> получил. Считаю страницы...
+[14:14] [INFO] [7676096317] [handle_document] Start file processing: литература на лето.docx
+[14:14] [INFO] [7676096317] [handle_document] Downloading file: documents/file_98.docx
+[14:14] [INFO] [7676096317] [handle_document] File downloaded: documents/file_98.docx
+[14:14] [INFO] [7676096317] [handle_document] Converted DOCX to PDF: data/tmp/converted.pdf
+[14:14] [INFO] [7676096317] [handle_document] File processed. pages: 1, price: 0.2
+[14:14] [ACTION] [7676096317] [pay_cash] Selected Cash payment method
+[14:15] [INFO] [7676096317] [pay_confirm] Confirm payment
+[14:15] [INFO] [7676096317] [pay_confirm] Add Print Job
+[14:15] [INFO] [7676096317] [print_worker] Starting print job: литература на лето.docx
+[14:15] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[14:15] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🖨️ Печатаю <b>литература на лето.docx</b>...
+[14:15] [ERROR] [7676096317] [print_job] Printing error: lp error: lp: Error - No default destination.
+[14:15] [INFO] [7676096317] [keyboard_tracker] Manage message sent: ❌ Ошибка при печати файла «литература на лето.docx». Попробуйте позже.
+[14:15] [INFO] [7676096317] [handle_document] User uploaded a document for printing, литература на лето.docx, 13186 bytes
+[14:15] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[14:15] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>литература на лето.docx</b> получил. Считаю страницы...
+[14:15] [INFO] [7676096317] [handle_document] Start file processing: литература на лето.docx
+[14:15] [INFO] [7676096317] [handle_document] Downloading file: documents/file_98.docx
+[14:15] [INFO] [7676096317] [handle_document] File downloaded: documents/file_98.docx
+[14:15] [INFO] [7676096317] [handle_document] Converted DOCX to PDF: data/tmp/converted.pdf
+[14:15] [INFO] [7676096317] [handle_document] File processed. pages: 1, price: 0.2
+[14:15] [ACTION] [7676096317] [pay_cash] Selected Cash payment method
+[14:15] [INFO] [7676096317] [pay_confirm] Confirm payment
+[14:15] [INFO] [7676096317] [pay_confirm] Add Print Job
+[14:15] [INFO] [7676096317] [print_worker] Starting print job: литература на лето.docx
+[14:15] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[14:15] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🖨️ Печатаю <b>литература на лето.docx</b>...
+[14:15] [INFO] [7676096317] [print_job] Job started литература на лето.docx: request id is printer_vpn_ddns_net-310 (1 file(s))
+[14:16] [INFO] [7676096317] [print_job] Printing ended: литература на лето.docx
+[14:16] [INFO] [7676096317] [keyboard_tracker] Manage message sent: ✅ Готово!
+ Можешь забрать свой файл в комнате <b>1708А</b> (2-я секция)
+Заходи без стука
+

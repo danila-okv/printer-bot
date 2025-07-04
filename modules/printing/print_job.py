@@ -22,7 +22,7 @@ class PrintJob:
     page_count: int = 0
     duplex: bool = False
     layout: str = "1"         # например "9-up"
-    page_ranges: str = ""    # например "1,3-5"
+    pages: str = ""    # например "1,3-5"
 
     async def run(self):
         job_id = None
@@ -33,8 +33,8 @@ class PrintJob:
                 cmd += ["-o", "sides=two-sided-long-edge"]
             if self.layout:
                 cmd += ["-o", f"number-up={self.layout}"]
-            if self.page_ranges:
-                cmd += ["-P", self.page_ranges]
+            if self.pages:
+                cmd += ["-P", self.pages]
             cmd.append(self.file_path)
 
             # Запускаем печать
@@ -83,11 +83,11 @@ class PrintJob:
             conn.execute("""
                 INSERT INTO print_jobs (
                     user_id, file_name, page_count, duplex, layout,
-                    page_ranges, status, created_at
+                    pages, status, created_at
                 ) VALUES (?, ?, ?, ?, ?, ?, ?, ?)
             """, (
                 self.user_id, self.file_name, self.page_count,
-                int(self.duplex), self.layout, self.page_ranges,
+                int(self.duplex), self.layout, self.pages,
                 status, datetime.now()
             ))
             conn.commit()

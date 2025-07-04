@@ -126,7 +126,7 @@ async def handle_pay_confirm(callback: CallbackQuery, state: FSMContext, data: d
     duplex = data.get("sides", False)
     layout = data.get("layout", "1")
     price = data.get("price")
-    page_ranges = data.get("page_ranges")
+    pages = data.get("pages")
     method = data.get("method", "cash")
 
     info(
@@ -151,7 +151,7 @@ async def handle_pay_confirm(callback: CallbackQuery, state: FSMContext, data: d
         page_count,
         duplex,
         layout,
-        page_ranges
+        pages
     )
     
     add_job(job)

@@ -6,7 +6,7 @@ from aiogram.fsm.context import FSMContext
 from modules.decorators import ensure_data
 from modules.users.state import UserStates
 from ..keyboards.common import return_kb
-from ..keyboards.options import get_print_options_kb, get_print_layouts_kb, confim_page_ranges_kb
+from ..keyboards.options import get_print_options_kb, get_print_layouts_kb, confim_pages_kb
 from ..keyboards.tracker import send_managed_message
 from modules.analytics.logger import action, warning, error, info
 from modules.decorators import check_paused
@@ -122,7 +122,7 @@ async def handle_pages_selection(callback: CallbackQuery, state: FSMContext, dat
 @router.message(UserStates.awaiting_page_range_input)
 @check_paused
 @ensure_data
-async def handle_page_ranges_input(message: Message, state: FSMContext, data: dict):
+async def handle_pages_input(message: Message, state: FSMContext, data: dict):
     text = message.text.strip()
 
     page_count = data.get("page_count", 0)
@@ -135,7 +135,7 @@ async def handle_page_ranges_input(message: Message, state: FSMContext, data: di
             bot=message.bot,
             user_id=message.from_user.id,
             text=f"Приняты страницы: {pages}",
-            reply_markup=confim_page_ranges_kb
+            reply_markup=confim_pages_kb
         )
     except ValueError as e:
         await message.answer(f"Ошибка: {e}")

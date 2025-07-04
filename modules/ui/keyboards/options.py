@@ -8,7 +8,7 @@ from .buttons import (
     BUTTON_OPTIONS_DUPLEX, BUTTON_OPTIONS_LAYOUT, BUTTON_OPTIONS_PAGES
 )
 
-confim_page_ranges_kb = InlineKeyboardMarkup(
+confim_pages_kb = InlineKeyboardMarkup(
     inline_keyboard=[
         [
             InlineKeyboardButton(text=BUTTON_CONFIRM, callback_data=CONFIRM),

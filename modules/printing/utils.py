@@ -1,6 +1,6 @@
 import re
 
-def parse_page_ranges(input_str, max_pages=None):
+def parse_pages(input_str, max_pages=None):
     pages = set()
     input_str = input_str.replace(" ", "")
     parts = input_str.split(',')

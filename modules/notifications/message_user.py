@@ -5,7 +5,7 @@ from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import State, StatesGroup
 from modules.decorators import admin_only
 from modules.analytics.logger import warning, error, action, info
-
+from modules.ui.keyboards.tracker import send_managed_message
 router = Router()
 
 class MessageUserState(StatesGroup):
@@ -58,7 +58,11 @@ async def confirm_and_send(message: Message, state: FSMContext):
     text = data["message_text"]
 
     try:
-        await message.bot.send_message(chat_id=user_id, text=text)
+        await send_managed_message(
+            message.bot,
+            user_id,
+            text
+        )
         await message.answer("✅ Сообщение успешно отправлено.")
         action(
             message.from_user.id,

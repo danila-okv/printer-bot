@@ -219,3 +219,68 @@
 🖨 ЧБ-печать — <b>20 коп/страница</b>  
 
 [20:47] [ACTION] [7676096317] [Command /start] User started bot
+[20:53] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[20:53] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 
+📤 Присылай .docx или .pdf — я напечатаю в комнате <b>1708А</b>
+
+🖨 ЧБ-печать — <b>20 коп/страница</b>  
+
+[20:53] [ACTION] [7676096317] [Command /start] User started bot
+[20:54] [WARNING] [7676096317] [unknown_command] sss
+[00:26] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 
+📤 Присылай .docx или .pdf — я напечатаю в комнате <b>1708А</b>
+
+🖨 ЧБ-печать — <b>20 коп/страница</b>  
+
+[00:26] [ACTION] [7676096317] [Command /start] User started bot
+[00:26] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[00:26] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 
+📤 Присылай .docx или .pdf — я напечатаю в комнате <b>1708А</b>
+
+🖨 ЧБ-печать — <b>20 коп/страница</b>  
+
+[00:26] [ACTION] [7676096317] [Command /start] User started bot
+[00:27] [WARNING] [7676096317] [unknown_command] v
+[00:27] [INFO] [7676096317] [handle_document] User uploaded a document for printing, План.pdf, 324490 bytes
+[00:27] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[00:27] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>План.pdf</b> получил. Считаю страницы...
+[00:27] [INFO] [7676096317] [handle_document] Start file processing: План.pdf
+[00:27] [INFO] [7676096317] [handle_document] Downloading file: documents/file_86.pdf
+[00:27] [INFO] [7676096317] [handle_document] File downloaded: documents/file_86.pdf
+[00:27] [INFO] [7676096317] [handle_document] File processed. pages: 8, price: 1.6
+[00:28] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[00:28] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 
+📤 Присылай .docx или .pdf — я напечатаю в комнате <b>1708А</b>
+
+🖨 ЧБ-печать — <b>20 коп/страница</b>  
+
+[00:28] [WARNING] [7676096317] [ensure_data:handle_print_options] Data lost
+[00:28] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 
+📤 Присылай .docx или .pdf — я напечатаю в комнате <b>1708А</b>
+
+🖨 ЧБ-печать — <b>20 коп/страница</b>  
+
+[00:28] [WARNING] [7676096317] [ensure_data:handle_print_options] Data lost
+[00:28] [INFO] [7676096317] [handle_document] User uploaded a document for printing, План.pdf, 324490 bytes
+[00:28] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[00:28] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>План.pdf</b> получил. Считаю страницы...
+[00:28] [INFO] [7676096317] [handle_document] Start file processing: План.pdf
+[00:28] [INFO] [7676096317] [handle_document] Downloading file: documents/file_87.pdf
+[00:28] [INFO] [7676096317] [handle_document] File downloaded: documents/file_87.pdf
+[00:28] [INFO] [7676096317] [handle_document] File processed. pages: 8, price: 1.6
+[00:28] [ACTION] [7676096317] [print_options] Started Option selection
+[00:28] [ACTION] [7676096317] [print_layout] Show layouts
+[00:30] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[00:30] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 
+📤 Присылай .docx или .pdf — я напечатаю в комнате <b>1708А</b>
+
+🖨 ЧБ-печать — <b>20 коп/страница</b>  
+
+[00:30] [ACTION] [7676096317] [Command /start] User started bot
+[00:30] [INFO] [7676096317] [handle_document] User uploaded a document for printing, 2 раздел.pdf, 509950 bytes
+[00:30] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[00:30] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>2 раздел.pdf</b> получил. Считаю страницы...
+[00:30] [INFO] [7676096317] [handle_document] Start file processing: 2 раздел.pdf
+[00:30] [INFO] [7676096317] [handle_document] Downloading file: documents/file_88.pdf
+[00:30] [INFO] [7676096317] [handle_document] File downloaded: documents/file_88.pdf
+[00:30] [INFO] [7676096317] [handle_document] File processed. pages: 19, price: 3.8

@@ -7,15 +7,10 @@ from aiogram.types import CallbackQuery, Message
 from aiogram.fsm.context import FSMContext
 from aiogram.exceptions import TelegramBadRequest
 from modules.ui.messages import ACCESS_DENIED_TEXT
-from modules.ui.main_menu import send_main_menu
-from modules.ui.keyboard_tracker import send_managed_message
+from modules.ui.handlers.main_menu import send_main_menu
+from modules.ui.keyboards.tracker import send_managed_message
 from modules.analytics.logger import warning
 def check_paused(func):
-    """
-    Обёртка для хендлеров:
-    если бот на паузе, сохраняет запрос и отвечает юзеру.
-    Работает и для Message, и для CallbackQuery.
-    """
     @wraps(func)
     async def wrapper(event, *args, **kwargs):
         from modules.admin.bot_control import is_paused, get_pause_reason, queue_action
@@ -64,28 +59,26 @@ REQUIRED_PRINT_FIELDS = ("file_name", "file_path", "page_count", "price")
 def ensure_data(func):
     @wraps(func)
     async def wrapper(update, state: FSMContext, *args, **kwargs):
-        # определяем, что это — CallbackQuery или Message
-        if isinstance(update, CallbackQuery):
-            user_id = update.from_user.id
-            send_fn = update.message.answer
-            bot = update.bot
-        else:
-            user_id = update.from_user.id
-            send_fn = update.answer
-            bot = update.bot
-
+        user_id = update.from_user.id
+        bot = update.bot
         data = await state.get_data()
+
         if not all(data.get(k) for k in REQUIRED_PRINT_FIELDS):
-            await send_fn("❌ Данные утеряны. Начни сначала.")
             await state.clear()
-            await send_main_menu(bot, user_id)
             warning(
                 user_id=user_id,
                 handler=f"ensure_data:{func.__name__}",
                 msg="Data lost"
             )
+
+            if isinstance(update, CallbackQuery):
+                await update.message.edit_text("❌ Данные утеряны. Начни сначала.")
+            else:
+                await update.answer("❌ Данные утеряны. Начни сначала.")
+
+            await send_main_menu(bot, user_id)
             return
-        # прокидываем data дальше в хендлер
+
         return await func(update, state, data, *args, **kwargs)
 
     return wrapper

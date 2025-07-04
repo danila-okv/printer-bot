@@ -8,11 +8,10 @@ from aiogram.fsm.storage.memory import MemoryStorage
 from dotenv import load_dotenv
 
 # Роутеры
-from modules.ui import main_menu
 from modules.notifications import message_user
 from modules.analytics import analytics
-from modules.ui import cancel, fallback, file, payment_handlers, start, print_options, return_handler, print_layout
 from modules.admin import panel, shell, printer
+from modules.ui.router import router as ui_router
 
 from db import init_db
 
@@ -35,20 +34,13 @@ async def main():
     dp = Dispatcher(storage=MemoryStorage())
 
     # Подключаем обработчики
-    dp.include_router(file.router)
-    dp.include_router(payment_handlers.router)
-    dp.include_router(start.router)
-    dp.include_router(main_menu.router)
+    
     dp.include_router(panel.router)
-    dp.include_router(cancel.router)
     dp.include_router(analytics.router)
-    dp.include_router(print_options.router)
     dp.include_router(message_user.router)
     dp.include_router(shell.router)
-    dp.include_router(return_handler.router)
-    dp.include_router(print_layout.router)
     dp.include_router(printer.router)
-    dp.include_router(fallback.router)
+    dp.include_router(ui_router)
 
     # Запускаем бота
     await dp.start_polling(bot)

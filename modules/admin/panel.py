@@ -1,7 +1,7 @@
 from aiogram import Router, types
 from modules.decorators import admin_only
 from modules.users.banlist import ban_user, unban_user
-from modules.ui.keyboard_tracker import send_managed_message
+from modules.ui.keyboards.tracker import send_managed_message
 from aiogram.filters import Command
 from modules.admin.bot_control import (
     set_pause, clear_pause,
@@ -27,13 +27,13 @@ async def cmd_ban(message: types.Message):
         await send_managed_message(
             bot=message.bot,
             user_id=message.from_user.id,
-            text=f"Пользователь {user_id} забанен по причине: «{reason}»"
+            text=f"Пользователь {user_id} заблокирован по причине:\n<i>{reason}</i>"
         )
     except ValueError:
         await send_managed_message(
             bot=message.bot,
             user_id=message.from_user.id,
-            text="Неверный user_id. Должен быть числом."
+            text="Неверный user_id. Он должен быть числом"
         )
 
 @router.message(Command("unban"))
@@ -52,22 +52,22 @@ async def cmd_unban(message: types.Message):
         await send_managed_message(
             bot=message.bot,
             user_id=message.from_user.id,
-            text=f"Пользователь {uid} разбанен."
+            text=f"Пользователь {uid} разблокирован"
         )
     except ValueError:
         await send_managed_message(
             bot=message.bot,
             user_id=message.from_user.id,
-            text="Неверный user_id. Должен быть числом."
+            text="Неверный user_id. Он должен быть числом"
         )
 
 @router.message(Command("pause"))
 @admin_only
 async def cmd_pause(message: types.Message):
     # извлекаем причину (всё, что после команды)
-    reason = message.text.partition(' ')[2].strip() or "Без причины"
+    reason = message.text.partition(' ')[2].strip() or "🤖 Технические работы"
     set_pause(reason)
-    await message.reply(f"⏸️ Бот переведён в режим паузы.\nПричина: «{reason}»")
+    await message.reply(f"⏸️ Бот поставлен на пауза.\nПричина: <i>{reason}</i>")
 
 @router.message(Command("resume"))
 @admin_only
@@ -83,9 +83,8 @@ async def cmd_resume(message: types.Message):
 
     # Шлём одному разу на каждого
     for uid in user_ids:
-        await message.bot.send_message(
-            chat_id=uid,
-            text=(
-                "🤖 Я на месте, "
-            )
+        await send_managed_message(
+            message.bot,
+            uid,
+            text="✅ Бот снова в деле!\nСпасибо за терпение - дарю тебе 5 бесплатных страниц 🎉"
         )

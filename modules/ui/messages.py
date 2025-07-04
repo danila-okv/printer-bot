@@ -55,6 +55,7 @@ PRINT_OPTIONS_TEXT = """
 PRINT_START_TEXT = "🖨️ Печатаю <b>{file_name}</b>..."
 PRINT_QUEUE_TEXT = "📑 Файл <b>{file_name}</b> поставлен в очередь. Жди - скоро распечатаю..."
 PRINT_LAYOUT_SELECTION_TEXT = "Select Layout"
+PRINT_PAGES_INPUT_TEXT = "Input ranges"
 PRINT_DONE_TEXT = """✅ Готово!\n Можешь забрать свой файл в комнате <b>1708А</b> (2-я секция)
 Заходи без стука
 """
@@ -76,7 +77,11 @@ def get_card_payment_text(data: dict) -> str:
     header = format_print_text(data)
     return header + PAY_CARD_TEXT
 
-def get_print_layouts_text(data: dict) -> str:
+def get_pages_input_text(data: dict) -> str:
+    header = format_print_text(data)
+    return header + PRINT_PAGES_INPUT_TEXT
+
+def get_layout_selection_text(data: dict) -> str:
     header = format_print_text(data)
     return header + PRINT_LAYOUT_SELECTION_TEXT
 
@@ -111,7 +116,7 @@ def format_print_text(data: dict) -> str:
         opts.append(f"Двусторонняя печать")
     
     layout = data.get("layout")
-    if layout:
+    if layout and layout != "1":
         opts.append(f"Макет: {layout} на лист")
 
     if not opts:

@@ -1,4 +1,4 @@
-from .buttons import (
+from .keyboards.buttons import (
     LAYOUT_1,
     LAYOUT_2, 
     LAYOUT_9,
@@ -27,7 +27,7 @@ PAY_OTHER = "pay_other"
 # Print options
 PRINT_PREVIEW = "print_preview"
 PRINT_OPTIONS = "print_options"
-OPTIONS_PAGES = "print_pages"
-OPTIONS_DUPLEX = "print_duplex"
-OPTIONS_LAYOUT = "print_layout"
+OPTION_PAGES = "print_pages"
+OPTION_DUPLEX = "print_duplex"
+OPTION_LAYOUT = "print_layout"
 LAYOUTS = ["1", "2", "9", "16"]

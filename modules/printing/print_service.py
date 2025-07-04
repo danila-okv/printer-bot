@@ -4,6 +4,7 @@ from collections import deque
 from .print_job import PrintJob
 from modules.ui.messages import *
 from modules.analytics.logger import error, info
+from modules.ui.keyboards.tracker import send_managed_message
 
 # Очередь и управление
 print_queue = deque()
@@ -24,14 +25,16 @@ async def print_worker():
         try:
             if position > 1:
                 info(job.user_id, "print_worker", f"Queued print job: {job.file_name}, position: {position}")
-                await job.bot.send_message(
-                    chat_id=job.user_id,
+                await send_managed_message(
+                    job.bot,
+                    job.user_id,
                     text=f"📄 Файл {job.file_name} поставлен в очередь на печать. Позиция в очереди: {position}"
                 )
             else:
                 info(job.user_id, "print_worker", f"Starting print job: {job.file_name}")
-                await job.bot.send_message(
-                    chat_id=job.user_id,
+                await send_managed_message(
+                    job.bot,
+                    job.user_id,
                     text=PRINT_START_TEXT.format(file_name=job.file_name)
                 )
             await job.run()

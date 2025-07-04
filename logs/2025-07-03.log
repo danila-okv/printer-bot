@@ -1,0 +1,27 @@
+[13:02] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[13:02] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 
+📤 Присылай .docx или .pdf — я напечатаю в комнате <b>1708А</b>
+
+🖨 ЧБ-печать — <b>20 коп/страница</b>  
+
+[13:02] [ACTION] [7676096317] [Command /start] User started bot
+[13:03] [INFO] [7676096317] [handle_document] User uploaded a document for printing, Содержание.docx, 12436 bytes
+[13:03] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[13:03] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>Содержание.docx</b> получил. Считаю страницы...
+[13:03] [INFO] [7676096317] [handle_document] Start file processing: Содержание.docx
+[13:03] [INFO] [7676096317] [handle_document] Downloading file: documents/file_91.docx
+[13:03] [INFO] [7676096317] [handle_document] File downloaded: documents/file_91.docx
+[13:03] [INFO] [7676096317] [handle_document] Converted DOCX to PDF: data/tmp/converted.pdf
+[13:03] [INFO] [7676096317] [handle_document] File processed. pages: 1, price: 0.2
+[13:03] [ACTION] [7676096317] [print_options] Started Option selection
+[13:03] [ACTION] [7676096317] [print_layout] Show layouts
+[13:03] [ACTION] [7676096317] [print_layout] Select layout - 9
+[13:03] [ACTION] [7676096317] [print_options] Started Option selection
+[13:03] [ACTION] [7676096317] [print_layout] Show layouts
+[13:03] [ACTION] [7676096317] [print_layout] Select layout - 1
+[13:03] [ACTION] [7676096317] [print_options] Started Option selection
+[13:03] [ACTION] [7676096317] [print_layout] Show layouts
+[13:04] [ACTION] [7676096317] [print_options] Started Option selection
+[13:04] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[13:04] [INFO] [7676096317] [keyboard_tracker] Manage message sent: Range
+[13:04] [ACTION] [7676096317] [print_pages] Selected Pages option

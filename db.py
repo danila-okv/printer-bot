@@ -34,7 +34,7 @@ def init_db():
             job_id        INTEGER PRIMARY KEY AUTOINCREMENT,
             user_id       INTEGER NOT NULL,
             file_name     TEXT,
-            pages         INTEGER NOT NULL,
+            page_count    INTEGER NOT NULL,
             duplex        INTEGER DEFAULT 0,        -- 0 = односторонняя, 1 = двухсторонняя
             layout        TEXT,                     -- например "9-up"
             page_ranges   TEXT,                     -- например "1,2-5,10"

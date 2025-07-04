@@ -6,9 +6,9 @@ from modules.billing.ledger import log_print_job
 from modules.printing.print_job import PrintJob
 from modules.decorators import ensure_data
 from modules.printing.print_service import add_job
-from .messages import *
-from .keyboards import payment_methods_kb, payment_confirm_kb
-from .callbacks import *
+from ..messages import *
+from ..keyboards.payment import payment_methods_kb, payment_confirm_kb
+from ..callbacks import *
 from modules.users.state import UserStates
 from modules.analytics.logger import action, warning, error, info
 from modules.decorators import check_paused

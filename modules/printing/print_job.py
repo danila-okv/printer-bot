@@ -7,7 +7,8 @@ from dataclasses import dataclass
 from datetime import datetime
 from aiogram import Bot
 from modules.ui.messages import PRINT_DONE_TEXT
-from modules.ui.keyboards import print_done_kb, print_error_kb
+from modules.ui.keyboards.print import print_done_kb, print_error_kb
+from modules.ui.keyboards.tracker import send_managed_message
 from modules.analytics.logger import info, error
 from db import get_connection
 
@@ -20,7 +21,7 @@ class PrintJob:
     bot: Bot
     page_count: int = 0
     duplex: bool = False
-    layout: str = ""         # например "9-up"
+    layout: str = "1"         # например "9-up"
     page_ranges: str = ""    # например "1,3-5"
 
     async def run(self):
@@ -61,30 +62,31 @@ class PrintJob:
             # Завершено
             info(self.user_id, "print_job", f"Printing ended: {self.file_name}")
             self.update_status("done")
-            await self.bot.send_message(
-                chat_id=self.user_id,
-                text=PRINT_DONE_TEXT,
-                reply_markup=print_done_kb
+            await send_managed_message(
+                self.bot,
+                self.user_id,
+                PRINT_DONE_TEXT,
+                print_done_kb
             )
-
         except Exception as e:
             error(self.user_id, "print_job", f"Printing error: {e}")
             self.update_status("error")
-            await self.bot.send_message(
-                chat_id=self.user_id,
-                text=f"❌ Ошибка при печати файла «{self.file_name}». Попробуйте позже.",
-                reply_markup=print_error_kb
+            await send_managed_message(
+                self.bot,
+                self.user_id,
+                f"❌ Ошибка при печати файла «{self.file_name}». Попробуйте позже.",
+                print_error_kb
             )
 
     def save_to_db(self, status: str = "queued", job_id: str | None = None):
         with get_connection() as conn:
             conn.execute("""
                 INSERT INTO print_jobs (
-                    user_id, file_name, pages, duplex, layout,
+                    user_id, file_name, page_count, duplex, layout,
                     page_ranges, status, created_at
                 ) VALUES (?, ?, ?, ?, ?, ?, ?, ?)
             """, (
-                self.user_id, self.file_name, self.pages,
+                self.user_id, self.file_name, self.page_count,
                 int(self.duplex), self.layout, self.page_ranges,
                 status, datetime.now()
             ))

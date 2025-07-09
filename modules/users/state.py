@@ -5,10 +5,12 @@ from modules.ui.handlers.main_menu import send_main_menu
 from modules.analytics.logger import warning
 
 class UserStates(StatesGroup):
-    preview_before_payment = State()
-    adjusting_print_options = State()
-    awaiting_page_range_input = State()  
+    reviewing_print_details = State()
+    setting_print_options = State()
+    inputting_pages = State()
+    inputting_copies_count = State()
+    confirming_pages = State()
     selecting_print_layout = State()
-    waiting_for_method = State()
-    waiting_for_cash_confirm = State()
-    waiting_for_card_confirm = State()
+    selecting_payment_option = State()
+    confirming_cash_payment = State()
+    confirming_card_payment = State()

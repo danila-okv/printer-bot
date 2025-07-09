@@ -6,7 +6,7 @@ from aiogram.fsm.context import FSMContext
 
 from modules.printing.pdf_utils import get_page_count, is_supported_file, convert_docx_to_pdf
 from modules.billing.price_calc import calculate_price
-from ..keyboards.preview import print_preview_kb
+from ..keyboards.review import details_review_kb
 from modules.users.banlist import is_banned
 from .main_menu import send_main_menu
 from modules.users.state import UserStates
@@ -61,6 +61,13 @@ async def handle_document(message: Message, state: FSMContext):
         user_id=message.from_user.id,
         text=FILE_PROCESSING_TEXT.format(file_name=original_file_name)
     )
+
+    await state.update_data(
+        duplex=False,
+        copies=1,
+        layout=None,
+        pages=None
+    )
     
     info(
         message.from_user.id, 
@@ -110,8 +117,8 @@ async def handle_document(message: Message, state: FSMContext):
         data = await state.get_data()
 
         await processing_msg.edit_text(
-            get_print_preview_text(data),
-            reply_markup=print_preview_kb
+            get_details_review_text(data),
+            reply_markup=details_review_kb
         )
         info(
             message.from_user.id, 
@@ -119,7 +126,7 @@ async def handle_document(message: Message, state: FSMContext):
             f"File processed. pages: {page_count}, price: {price}"
         )
 
-        await state.set_state(UserStates.preview_before_payment)
+        await state.set_state(UserStates.reviewing_print_details)
         
 
     except Exception as err:

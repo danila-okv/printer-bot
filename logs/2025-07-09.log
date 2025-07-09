@@ -1,0 +1,625 @@
+[14:01] [INFO] [7676096317] [handle_document] User uploaded a document for printing, 7a6920dc48ad66f0caac791ed6278183.pdf, 37545 bytes
+[14:01] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[14:01] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>7a6920dc48ad66f0caac791ed6278183.pdf</b> получил. Считаю страницы...
+[14:01] [INFO] [7676096317] [handle_document] Start file processing: 7a6920dc48ad66f0caac791ed6278183.pdf
+[14:01] [INFO] [7676096317] [handle_document] Downloading file: documents/file_106.pdf
+[14:01] [INFO] [7676096317] [handle_document] File downloaded: documents/file_106.pdf
+[14:01] [INFO] [7676096317] [handle_document] File processed. pages: 1, price: 0.2
+[14:02] [ACTION] [7676096317] [print_options] Started Option selection
+[14:02] [ACTION] [7676096317] [option_copies] Select Copies option
+[14:05] [WARNING] [7676096317] [ensure_data:handle_return] Data lost
+[14:05] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 
+📤 Присылай .docx или .pdf — я напечатаю в комнате <b>1708А</b>
+
+🖨 ЧБ-печать — <b>20 коп/страница</b>  
+
+[14:05] [INFO] [7676096317] [handle_document] User uploaded a document for printing, дневник.docx, 41284 bytes
+[14:05] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[14:05] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>дневник.docx</b> получил. Считаю страницы...
+[14:05] [INFO] [7676096317] [handle_document] Start file processing: дневник.docx
+[14:05] [INFO] [7676096317] [handle_document] Downloading file: documents/file_107.docx
+[14:05] [INFO] [7676096317] [handle_document] File downloaded: documents/file_107.docx
+[14:05] [INFO] [7676096317] [handle_document] Converted DOCX to PDF: data/tmp/converted.pdf
+[14:05] [INFO] [7676096317] [handle_document] File processed. pages: 8, price: 1.6
+[14:05] [ACTION] [7676096317] [print_options] Started Option selection
+[14:05] [ACTION] [7676096317] [option_copies] Select Copies option
+[14:05] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[14:05] [INFO] [7676096317] [keyboard_tracker] Manage message sent: Количество копий установлено: 10
+[14:06] [ACTION] [7676096317] [option_pages] Select Pages option
+[14:06] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[14:06] [INFO] [7676096317] [keyboard_tracker] Manage message sent: Приняты страницы: 1-5
+[14:21] [INFO] [7676096317] [handle_document] User uploaded a document for printing, дневник.docx, 41284 bytes
+[14:21] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[14:21] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>дневник.docx</b> получил. Считаю страницы...
+[14:21] [INFO] [7676096317] [handle_document] Start file processing: дневник.docx
+[14:22] [INFO] [7676096317] [handle_document] Downloading file: documents/file_108.docx
+[14:22] [INFO] [7676096317] [handle_document] File downloaded: documents/file_108.docx
+[14:22] [INFO] [7676096317] [handle_document] Converted DOCX to PDF: data/tmp/converted.pdf
+[14:22] [INFO] [7676096317] [handle_document] File processed. pages: 8, price: 1.6
+[14:22] [ACTION] [7676096317] [pay_cash] Selected Cash payment method
+[14:22] [ACTION] [7676096317] [print_options] Started Option selection
+[14:22] [ACTION] [7676096317] [option_copies] Select Copies option
+[14:22] [ACTION] [7676096317] [option_copies] Select Copies option
+[14:22] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[14:22] [INFO] [7676096317] [keyboard_tracker] Manage message sent: Количество копий установлено: 10
+[14:23] [INFO] [7676096317] [handle_document] User uploaded a document for printing, дневник.docx, 41284 bytes
+[14:23] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[14:23] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>дневник.docx</b> получил. Считаю страницы...
+[14:23] [INFO] [7676096317] [handle_document] Start file processing: дневник.docx
+[14:23] [INFO] [7676096317] [handle_document] Downloading file: documents/file_108.docx
+[14:23] [INFO] [7676096317] [handle_document] File downloaded: documents/file_108.docx
+[14:23] [INFO] [7676096317] [handle_document] Converted DOCX to PDF: data/tmp/converted.pdf
+[14:23] [INFO] [7676096317] [handle_document] File processed. pages: 8, price: 1.6
+[14:23] [ACTION] [7676096317] [print_options] Started Option selection
+[14:23] [ACTION] [7676096317] [option_copies] Select Copies option
+[14:23] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[14:23] [INFO] [7676096317] [keyboard_tracker] Manage message sent: Количество копий установлено: 10
+[14:23] [ACTION] [7676096317] [copies_input] Set copies count: 10
+[14:25] [ACTION] [7676096317] [print_options] Started Option selection
+[14:25] [ACTION] [7676096317] [option_copies] Select Copies option
+[14:25] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[14:25] [INFO] [7676096317] [keyboard_tracker] Manage message sent: Количество копий установлено: 10
+[14:25] [ACTION] [7676096317] [copies_input] Set copies count: 10
+[14:27] [INFO] [7676096317] [handle_document] User uploaded a document for printing, дневник.docx, 41284 bytes
+[14:27] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[14:27] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>дневник.docx</b> получил. Считаю страницы...
+[14:27] [INFO] [7676096317] [handle_document] Start file processing: дневник.docx
+[14:27] [INFO] [7676096317] [handle_document] Downloading file: documents/file_108.docx
+[14:27] [INFO] [7676096317] [handle_document] File downloaded: documents/file_108.docx
+[14:27] [INFO] [7676096317] [handle_document] Converted DOCX to PDF: data/tmp/converted.pdf
+[14:27] [INFO] [7676096317] [handle_document] File processed. pages: 8, price: 1.6
+[14:27] [ACTION] [7676096317] [print_options] Started Option selection
+[14:27] [ACTION] [7676096317] [option_pages] Select Pages option
+[14:27] [ACTION] [7676096317] [option_copies] Select Copies option
+[14:27] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[14:27] [INFO] [7676096317] [keyboard_tracker] Manage message sent: Количество копий установлено: 10
+[14:27] [ACTION] [7676096317] [copies_input] Set copies count: 10
+[14:37] [WARNING] [7676096317] [ensure_data:handle_return] Data lost
+[14:37] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 
+📤 Присылай .docx или .pdf — я напечатаю в комнате <b>1708А</b>
+
+🖨 ЧБ-печать — <b>20 коп/страница</b>  
+
+[14:38] [INFO] [7676096317] [handle_document] User uploaded a document for printing, дневник.docx, 41284 bytes
+[14:38] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[14:38] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>дневник.docx</b> получил. Считаю страницы...
+[14:38] [INFO] [7676096317] [handle_document] Start file processing: дневник.docx
+[14:38] [INFO] [7676096317] [handle_document] Downloading file: documents/file_108.docx
+[14:38] [INFO] [7676096317] [handle_document] File downloaded: documents/file_108.docx
+[14:38] [INFO] [7676096317] [handle_document] Converted DOCX to PDF: data/tmp/converted.pdf
+[14:38] [INFO] [7676096317] [handle_document] File processed. pages: 8, price: 1.6
+[14:38] [ACTION] [7676096317] [print_options] Started Option selection
+[14:38] [ACTION] [7676096317] [option_pages] Select Pages option
+[14:38] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[14:38] [INFO] [7676096317] [keyboard_tracker] Manage message sent: Приняты страницы: 1,2-5
+[14:39] [WARNING] [7676096317] [ensure_data:handle_confirm] Data lost
+[14:39] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 
+📤 Присылай .docx или .pdf — я напечатаю в комнате <b>1708А</b>
+
+🖨 ЧБ-печать — <b>20 коп/страница</b>  
+
+[14:39] [INFO] [7676096317] [handle_document] User uploaded a document for printing, дневник.docx, 41284 bytes
+[14:39] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[14:39] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>дневник.docx</b> получил. Считаю страницы...
+[14:39] [INFO] [7676096317] [handle_document] Start file processing: дневник.docx
+[14:39] [INFO] [7676096317] [handle_document] Downloading file: documents/file_108.docx
+[14:39] [INFO] [7676096317] [handle_document] File downloaded: documents/file_108.docx
+[14:39] [INFO] [7676096317] [handle_document] Converted DOCX to PDF: data/tmp/converted.pdf
+[14:39] [INFO] [7676096317] [handle_document] File processed. pages: 8, price: 1.6
+[14:39] [ACTION] [7676096317] [print_options] Started Option selection
+[14:39] [ACTION] [7676096317] [option_pages] Select Pages option
+[14:39] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[14:39] [INFO] [7676096317] [keyboard_tracker] Manage message sent: Приняты страницы: 1,2-5
+[14:41] [INFO] [7676096317] [handle_document] User uploaded a document for printing, дневник.docx, 41284 bytes
+[14:41] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[14:41] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>дневник.docx</b> получил. Считаю страницы...
+[14:41] [INFO] [7676096317] [handle_document] Start file processing: дневник.docx
+[14:41] [INFO] [7676096317] [handle_document] Downloading file: documents/file_108.docx
+[14:41] [INFO] [7676096317] [handle_document] File downloaded: documents/file_108.docx
+[14:41] [INFO] [7676096317] [handle_document] Converted DOCX to PDF: data/tmp/converted.pdf
+[14:41] [INFO] [7676096317] [handle_document] File processed. pages: 8, price: 1.6
+[14:41] [ACTION] [7676096317] [print_options] Started Option selection
+[14:41] [ACTION] [7676096317] [option_pages] Select Pages option
+[14:41] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[14:41] [INFO] [7676096317] [keyboard_tracker] Manage message sent: Приняты страницы: 1,8
+[14:41] [ACTION] [7676096317] [confirm] Pages confirmed: 1,8
+[14:41] [ACTION] [7676096317] [print_options] Started Option selection
+[14:41] [ACTION] [7676096317] [option_copies] Select Copies option
+[14:41] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[14:41] [INFO] [7676096317] [keyboard_tracker] Manage message sent: Количество копий установлено: 10
+[14:41] [ACTION] [7676096317] [copies_input] Set copies count: 10
+[14:41] [ACTION] [7676096317] [confirm] Copies count confirmed: 10
+[14:42] [ACTION] [7676096317] [print_options] Started Option selection
+[14:42] [ACTION] [7676096317] [option_duplex] Switched duplex option
+[14:42] [ACTION] [7676096317] [option_duplex] Switched duplex option
+[14:42] [ACTION] [7676096317] [option_duplex] Switched duplex option
+[14:42] [ACTION] [7676096317] [option_duplex] Switched duplex option
+[14:42] [ACTION] [7676096317] [option_duplex] Switched duplex option
+[14:42] [ACTION] [7676096317] [option_duplex] Switched duplex option
+[14:42] [ACTION] [7676096317] [option_duplex] Switched duplex option
+[14:42] [ACTION] [7676096317] [option_duplex] Switched duplex option
+[14:43] [ACTION] [7676096317] [option_duplex] Switched duplex option
+[14:43] [ACTION] [7676096317] [option_layout] Show layouts
+[14:43] [ACTION] [7676096317] [print_layout] Select layout - 16
+[14:43] [ACTION] [7676096317] [print_layout] Select layout - 9
+[14:43] [ACTION] [7676096317] [print_layout] Select layout - 2
+[14:43] [ACTION] [7676096317] [print_layout] Select layout - 1
+[14:43] [ACTION] [7676096317] [print_layout] Select layout - 9
+[14:43] [ACTION] [7676096317] [print_layout] Select layout - 16
+[14:43] [ACTION] [7676096317] [print_layout] Select layout - 1
+[14:43] [ACTION] [7676096317] [pay_card] Selected Card payment method
+[14:43] [ACTION] [7676096317] [cancel] Cancelled order
+[14:43] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 
+📤 Присылай .docx или .pdf — я напечатаю в комнате <b>1708А</b>
+
+🖨 ЧБ-печать — <b>20 коп/страница</b>  
+
+[14:48] [INFO] [7676096317] [handle_document] User uploaded a document for printing, дневник.docx, 41284 bytes
+[14:48] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[14:48] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>дневник.docx</b> получил. Считаю страницы...
+[14:48] [INFO] [7676096317] [handle_document] Start file processing: дневник.docx
+[14:48] [INFO] [7676096317] [handle_document] Downloading file: documents/file_108.docx
+[14:48] [INFO] [7676096317] [handle_document] File downloaded: documents/file_108.docx
+[14:48] [INFO] [7676096317] [handle_document] Converted DOCX to PDF: data/tmp/converted.pdf
+[14:48] [INFO] [7676096317] [handle_document] File processed. pages: 8, price: 1.6
+[14:48] [ACTION] [7676096317] [print_options] Started Option selection
+[14:48] [ACTION] [7676096317] [print_options] Started Option selection
+[14:49] [ACTION] [7676096317] [print_options] Started Option selection
+[14:49] [ACTION] [7676096317] [option_layout] Show layouts
+[14:49] [ACTION] [7676096317] [cancel] Cancelled order
+[14:49] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 
+📤 Присылай .docx или .pdf — я напечатаю в комнате <b>1708А</b>
+
+🖨 ЧБ-печать — <b>20 коп/страница</b>  
+
+[14:54] [INFO] [7676096317] [handle_document] User uploaded a document for printing, дневник.docx, 41284 bytes
+[14:54] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[14:54] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>дневник.docx</b> получил. Считаю страницы...
+[14:54] [INFO] [7676096317] [handle_document] Start file processing: дневник.docx
+[14:54] [INFO] [7676096317] [handle_document] Downloading file: documents/file_108.docx
+[14:54] [INFO] [7676096317] [handle_document] File downloaded: documents/file_108.docx
+[14:54] [INFO] [7676096317] [handle_document] Converted DOCX to PDF: data/tmp/converted.pdf
+[14:54] [INFO] [7676096317] [handle_document] File processed. pages: 8, price: 1.6
+[14:56] [ACTION] [7676096317] [print_options] Started Option selection
+[14:56] [ACTION] [7676096317] [print_options] Started Option selection
+[14:56] [ACTION] [7676096317] [option_duplex] Switched duplex option
+[14:58] [INFO] [7676096317] [handle_document] User uploaded a document for printing, дневник.docx, 41284 bytes
+[14:58] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[14:58] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>дневник.docx</b> получил. Считаю страницы...
+[14:58] [INFO] [7676096317] [handle_document] Start file processing: дневник.docx
+[14:58] [INFO] [7676096317] [handle_document] Downloading file: documents/file_108.docx
+[14:58] [INFO] [7676096317] [handle_document] File downloaded: documents/file_108.docx
+[14:58] [INFO] [7676096317] [handle_document] Converted DOCX to PDF: data/tmp/converted.pdf
+[14:58] [INFO] [7676096317] [handle_document] File processed. pages: 8, price: 1.6
+[14:58] [ACTION] [7676096317] [print_options] Started Option selection
+[14:58] [ACTION] [7676096317] [option_duplex] Switched duplex option
+[14:58] [ACTION] [7676096317] [option_copies] Select Copies option
+[14:58] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[14:58] [INFO] [7676096317] [keyboard_tracker] Manage message sent: Количество копий установлено: 10
+[14:58] [ACTION] [7676096317] [copies_input] Set copies count: 10
+[14:58] [ACTION] [7676096317] [confirm] Copies count confirmed: 10
+[14:58] [ACTION] [7676096317] [print_options] Started Option selection
+[14:58] [ACTION] [7676096317] [option_layout] Show layouts
+[14:58] [ACTION] [7676096317] [print_layout] Select layout - 16
+[14:58] [INFO] [7676096317] [handle_document] User uploaded a document for printing, дневник.docx, 41284 bytes
+[14:58] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[14:58] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>дневник.docx</b> получил. Считаю страницы...
+[14:58] [INFO] [7676096317] [handle_document] Start file processing: дневник.docx
+[14:58] [INFO] [7676096317] [handle_document] Downloading file: documents/file_108.docx
+[14:58] [INFO] [7676096317] [handle_document] File downloaded: documents/file_108.docx
+[14:58] [INFO] [7676096317] [handle_document] Converted DOCX to PDF: data/tmp/converted.pdf
+[14:58] [INFO] [7676096317] [handle_document] File processed. pages: 8, price: 1.6
+[14:59] [INFO] [7676096317] [handle_document] User uploaded a document for printing, дневник.docx, 41284 bytes
+[14:59] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[14:59] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>дневник.docx</b> получил. Считаю страницы...
+[14:59] [INFO] [7676096317] [handle_document] Start file processing: дневник.docx
+[14:59] [INFO] [7676096317] [handle_document] Downloading file: documents/file_108.docx
+[14:59] [INFO] [7676096317] [handle_document] File downloaded: documents/file_108.docx
+[14:59] [INFO] [7676096317] [handle_document] Converted DOCX to PDF: data/tmp/converted.pdf
+[14:59] [INFO] [7676096317] [handle_document] File processed. pages: 8, price: 1.6
+[14:59] [ACTION] [7676096317] [print_options] Started Option selection
+[14:59] [ACTION] [7676096317] [option_layout] Show layouts
+[15:00] [ACTION] [7676096317] [print_layout] Select layout - 16
+[15:00] [ACTION] [7676096317] [print_options] Started Option selection
+[15:00] [ACTION] [7676096317] [option_pages] Select Pages option
+[15:00] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[15:00] [INFO] [7676096317] [keyboard_tracker] Manage message sent: Приняты страницы: 1,8
+[15:00] [ACTION] [7676096317] [confirm] Pages confirmed: 1,8
+[15:00] [INFO] [7676096317] [handle_document] User uploaded a document for printing, дневник.docx, 41284 bytes
+[15:00] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[15:00] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>дневник.docx</b> получил. Считаю страницы...
+[15:00] [INFO] [7676096317] [handle_document] Start file processing: дневник.docx
+[15:00] [INFO] [7676096317] [handle_document] Downloading file: documents/file_108.docx
+[15:00] [INFO] [7676096317] [handle_document] File downloaded: documents/file_108.docx
+[15:00] [INFO] [7676096317] [handle_document] Converted DOCX to PDF: data/tmp/converted.pdf
+[15:00] [INFO] [7676096317] [handle_document] File processed. pages: 8, price: 1.6
+[15:00] [ACTION] [7676096317] [print_options] Started Option selection
+[15:00] [ACTION] [7676096317] [print_options] Started Option selection
+[15:00] [ACTION] [7676096317] [option_layout] Show layouts
+[15:00] [ACTION] [7676096317] [print_options] Started Option selection
+[15:00] [ACTION] [7676096317] [print_options] Started Option selection
+[15:01] [ACTION] [7676096317] [pay_cash] Selected Cash payment method
+[15:01] [ACTION] [7676096317] [print_options] Started Option selection
+[15:01] [ACTION] [7676096317] [option_duplex] Switched duplex option
+[15:01] [ACTION] [7676096317] [option_duplex] Switched duplex option
+[15:06] [INFO] [7676096317] [handle_document] User uploaded a document for printing, дневник.docx, 41284 bytes
+[15:06] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>дневник.docx</b> получил. Считаю страницы...
+[15:06] [INFO] [7676096317] [handle_document] Start file processing: дневник.docx
+[15:06] [INFO] [7676096317] [handle_document] Downloading file: documents/file_108.docx
+[15:06] [INFO] [7676096317] [handle_document] File downloaded: documents/file_108.docx
+[15:06] [INFO] [7676096317] [handle_document] Converted DOCX to PDF: data/tmp/converted.pdf
+[15:06] [INFO] [7676096317] [handle_document] File processed. pages: 8, price: 1.6
+[15:06] [ACTION] [7676096317] [print_options] Started Option selection
+[15:06] [ACTION] [7676096317] [option_duplex] Switched duplex option
+[15:06] [ACTION] [7676096317] [option_copies] Select Copies option
+[15:06] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[15:06] [INFO] [7676096317] [keyboard_tracker] Manage message sent: Количество копий установлено: 3
+[15:06] [ACTION] [7676096317] [copies_input] Set copies count: 3
+[15:06] [ACTION] [7676096317] [confirm] Copies count confirmed: 3
+[15:06] [ACTION] [7676096317] [print_options] Started Option selection
+[15:07] [ACTION] [7676096317] [option_layout] Show layouts
+[15:07] [ACTION] [7676096317] [print_layout] Select layout - 9
+[15:07] [ACTION] [7676096317] [pay_card] Selected Card payment method
+[15:07] [ACTION] [7676096317] [pay_belarusbank] Selected Belarusbank payment method
+[15:07] [INFO] [7676096317] [pay_confirm] Confirm payment
+[15:07] [INFO] [7676096317] [pay_confirm] Add Print Job
+[15:07] [INFO] [7676096317] [print_worker] Starting print job: debug.pdf
+[15:07] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[15:07] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🖨️ Печатаю <b>debug.pdf</b>...
+[15:07] [INFO] [7676096317] [print_job] Job started debug.pdf: request id is Pantum_P3010DW-320 (1 file(s))
+[15:07] [INFO] [7676096317] [print_job] Printing ended: debug.pdf
+[15:07] [INFO] [7676096317] [keyboard_tracker] Manage message sent: ✅ Готово!
+ Можешь забрать свой файл в комнате <b>1708А</b> (2-я секция)
+Заходи без стука
+
+[15:08] [INFO] [7676096317] [handle_document] User uploaded a document for printing, дневник.docx, 41284 bytes
+[15:08] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[15:08] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>дневник.docx</b> получил. Считаю страницы...
+[15:08] [INFO] [7676096317] [handle_document] Start file processing: дневник.docx
+[15:08] [INFO] [7676096317] [handle_document] Downloading file: documents/file_108.docx
+[15:08] [INFO] [7676096317] [handle_document] File downloaded: documents/file_108.docx
+[15:08] [INFO] [7676096317] [handle_document] Converted DOCX to PDF: data/tmp/converted.pdf
+[15:08] [INFO] [7676096317] [handle_document] File processed. pages: 8, price: 1.6
+[15:08] [ACTION] [7676096317] [print_options] Started Option selection
+[15:08] [ACTION] [7676096317] [option_duplex] Switched duplex option
+[15:09] [ACTION] [7676096317] [option_duplex] Switched duplex option
+[15:09] [ACTION] [7676096317] [option_layout] Show layouts
+[15:09] [ACTION] [7676096317] [print_layout] Select layout - 9
+[15:09] [ACTION] [7676096317] [pay_cash] Selected Cash payment method
+[15:09] [WARNING] [7676096317] [unknown_command] 3
+[15:09] [ACTION] [7676096317] [print_options] Started Option selection
+[15:09] [ACTION] [7676096317] [option_copies] Select Copies option
+[15:09] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[15:09] [INFO] [7676096317] [keyboard_tracker] Manage message sent: Количество копий установлено: 3
+[15:09] [ACTION] [7676096317] [copies_input] Set copies count: 3
+[15:09] [ACTION] [7676096317] [confirm] Copies count confirmed: 3
+[15:09] [ACTION] [7676096317] [pay_cash] Selected Cash payment method
+[15:09] [INFO] [7676096317] [pay_confirm] Confirm payment
+[15:09] [INFO] [7676096317] [pay_confirm] Add Print Job
+[15:09] [INFO] [7676096317] [print_worker] Starting print job: debug.pdf
+[15:09] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[15:09] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🖨️ Печатаю <b>debug.pdf</b>...
+[15:09] [INFO] [7676096317] [print_job] Job started debug.pdf: request id is Pantum_P3010DW-321 (1 file(s))
+[15:10] [INFO] [7676096317] [print_job] Printing ended: debug.pdf
+[15:10] [INFO] [7676096317] [keyboard_tracker] Manage message sent: ✅ Готово!
+ Можешь забрать свой файл в комнате <b>1708А</b> (2-я секция)
+Заходи без стука
+
+[15:11] [INFO] [7676096317] [handle_document] User uploaded a document for printing, дневник.docx, 41284 bytes
+[15:11] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[15:11] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>дневник.docx</b> получил. Считаю страницы...
+[15:11] [INFO] [7676096317] [handle_document] Start file processing: дневник.docx
+[15:11] [INFO] [7676096317] [handle_document] Downloading file: documents/file_109.docx
+[15:11] [INFO] [7676096317] [handle_document] File downloaded: documents/file_109.docx
+[15:11] [INFO] [7676096317] [handle_document] Converted DOCX to PDF: data/tmp/converted.pdf
+[15:11] [INFO] [7676096317] [handle_document] File processed. pages: 8, price: 1.6
+[15:11] [ACTION] [7676096317] [print_options] Started Option selection
+[15:11] [ACTION] [7676096317] [option_duplex] Switched duplex option
+[15:11] [ACTION] [7676096317] [option_copies] Select Copies option
+[15:11] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[15:11] [INFO] [7676096317] [keyboard_tracker] Manage message sent: Количество копий установлено: 3
+[15:11] [ACTION] [7676096317] [copies_input] Set copies count: 3
+[15:11] [ACTION] [7676096317] [confirm] Copies count confirmed: 3
+[15:11] [ACTION] [7676096317] [pay_cash] Selected Cash payment method
+[15:11] [INFO] [7676096317] [pay_confirm] Confirm payment
+[15:11] [INFO] [7676096317] [pay_confirm] Add Print Job
+[15:11] [INFO] [7676096317] [print_worker] Starting print job: debug.pdf
+[15:11] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[15:11] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🖨️ Печатаю <b>debug.pdf</b>...
+[15:11] [INFO] [7676096317] [print_job] Job started debug.pdf: request id is Pantum_P3010DW-322 (1 file(s))
+[15:11] [INFO] [7676096317] [print_job] Printing ended: debug.pdf
+[15:11] [INFO] [7676096317] [keyboard_tracker] Manage message sent: ✅ Готово!
+ Можешь забрать свой файл в комнате <b>1708А</b> (2-я секция)
+Заходи без стука
+
+[15:29] [INFO] [7676096317] [handle_document] User uploaded a document for printing, дневник.docx, 41284 bytes
+[15:29] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[15:29] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>дневник.docx</b> получил. Считаю страницы...
+[15:29] [INFO] [7676096317] [handle_document] Start file processing: дневник.docx
+[15:29] [INFO] [7676096317] [handle_document] Downloading file: documents/file_110.docx
+[15:29] [INFO] [7676096317] [handle_document] File downloaded: documents/file_110.docx
+[15:29] [INFO] [7676096317] [handle_document] Converted DOCX to PDF: data/tmp/converted.pdf
+[15:29] [INFO] [7676096317] [handle_document] File processed. pages: 8, price: 1.6
+[15:29] [ACTION] [7676096317] [print_options] Started Option selection
+[15:29] [ACTION] [7676096317] [option_duplex] Switched duplex option
+[15:30] [INFO] [7676096317] [handle_document] User uploaded a document for printing, дневник.docx, 41284 bytes
+[15:30] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[15:30] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>дневник.docx</b> получил. Считаю страницы...
+[15:30] [INFO] [7676096317] [handle_document] Start file processing: дневник.docx
+[15:30] [INFO] [7676096317] [handle_document] Downloading file: documents/file_110.docx
+[15:30] [INFO] [7676096317] [handle_document] File downloaded: documents/file_110.docx
+[15:30] [INFO] [7676096317] [handle_document] Converted DOCX to PDF: data/tmp/converted.pdf
+[15:30] [INFO] [7676096317] [handle_document] File processed. pages: 8, price: 1.6
+[15:30] [ACTION] [7676096317] [print_options] Started Option selection
+[15:30] [ACTION] [7676096317] [option_duplex] Switched duplex option
+[15:30] [ACTION] [7676096317] [option_duplex] Switched duplex option
+[15:32] [INFO] [7676096317] [handle_document] User uploaded a document for printing, дневник.docx, 41284 bytes
+[15:32] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[15:32] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>дневник.docx</b> получил. Считаю страницы...
+[15:32] [INFO] [7676096317] [handle_document] Start file processing: дневник.docx
+[15:32] [INFO] [7676096317] [handle_document] Downloading file: documents/file_110.docx
+[15:32] [INFO] [7676096317] [handle_document] File downloaded: documents/file_110.docx
+[15:32] [INFO] [7676096317] [handle_document] Converted DOCX to PDF: data/tmp/converted.pdf
+[15:32] [INFO] [7676096317] [handle_document] File processed. pages: 8, price: 1.6
+[15:32] [ACTION] [7676096317] [print_options] Started Option selection
+[15:32] [ACTION] [7676096317] [option_duplex] Switched duplex option
+[15:32] [ACTION] [7676096317] [option_layout] Show layouts
+[15:33] [INFO] [7676096317] [handle_document] User uploaded a document for printing, дневник.docx, 41284 bytes
+[15:33] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[15:33] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>дневник.docx</b> получил. Считаю страницы...
+[15:33] [INFO] [7676096317] [handle_document] Start file processing: дневник.docx
+[15:33] [INFO] [7676096317] [handle_document] Downloading file: documents/file_110.docx
+[15:33] [INFO] [7676096317] [handle_document] File downloaded: documents/file_110.docx
+[15:33] [INFO] [7676096317] [handle_document] Converted DOCX to PDF: data/tmp/converted.pdf
+[15:33] [INFO] [7676096317] [handle_document] File processed. pages: 8, price: 1.6
+[15:33] [ACTION] [7676096317] [print_options] Started Option selection
+[15:33] [ACTION] [7676096317] [option_layout] Show layouts
+[15:33] [ACTION] [7676096317] [print_layout] Select layout - 16
+[15:33] [ACTION] [7676096317] [print_layout] Select layout - 1
+[15:33] [ACTION] [7676096317] [print_layout] Select layout - 16
+[15:33] [ACTION] [7676096317] [print_options] Started Option selection
+[15:33] [ACTION] [7676096317] [option_duplex] Switched duplex option
+[15:33] [ACTION] [7676096317] [option_duplex] Switched duplex option
+[15:33] [ACTION] [7676096317] [option_duplex] Switched duplex option
+[15:33] [ACTION] [7676096317] [option_copies] Select Copies option
+[15:33] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[15:33] [INFO] [7676096317] [keyboard_tracker] Manage message sent: Количество копий установлено: 5
+[15:33] [ACTION] [7676096317] [copies_input] Set copies count: 5
+[15:33] [ACTION] [7676096317] [confirm] Copies count confirmed: 5
+[15:34] [ACTION] [7676096317] [print_options] Started Option selection
+[15:34] [ACTION] [7676096317] [option_pages] Select Pages option
+[15:34] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[15:34] [INFO] [7676096317] [keyboard_tracker] Manage message sent: Приняты страницы: 1,4-5
+[15:34] [ACTION] [7676096317] [confirm] Pages confirmed: 1,4-5
+[15:34] [ACTION] [7676096317] [pay_cash] Selected Cash payment method
+[15:34] [INFO] [7676096317] [pay_confirm] Confirm payment
+[15:34] [INFO] [7676096317] [pay_confirm] Add Print Job
+[15:34] [INFO] [7676096317] [print_worker] Starting print job: debug.pdf
+[15:34] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[15:34] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🖨️ Печатаю <b>debug.pdf</b>...
+[15:34] [INFO] [7676096317] [print_job] Job started debug.pdf: request id is Pantum_P3010DW-323 (1 file(s))
+[15:34] [INFO] [7676096317] [print_job] Printing ended: debug.pdf
+[15:34] [INFO] [7676096317] [keyboard_tracker] Manage message sent: ✅ Готово!
+ Можешь забрать свой файл в комнате <b>1708А</b> (2-я секция)
+Заходи без стука
+
+[15:44] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[15:44] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 
+📤 Присылай .docx или .pdf — я напечатаю в комнате <b>1708А</b>
+
+🖨 ЧБ-печать — <b>20 коп/страница</b>  
+
+[15:44] [ACTION] [7676096317] [Command /start] User started bot
+[15:44] [INFO] [7676096317] [handle_document] User uploaded a document for printing, дневник.docx, 41284 bytes
+[15:44] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[15:44] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>дневник.docx</b> получил. Считаю страницы...
+[15:44] [INFO] [7676096317] [handle_document] Start file processing: дневник.docx
+[15:44] [INFO] [7676096317] [handle_document] Downloading file: documents/file_111.docx
+[15:44] [INFO] [7676096317] [handle_document] File downloaded: documents/file_111.docx
+[15:44] [INFO] [7676096317] [handle_document] Converted DOCX to PDF: data/tmp/converted.pdf
+[15:44] [INFO] [7676096317] [handle_document] File processed. pages: 8, price: 1.6
+[15:44] [ACTION] [7676096317] [pay_cash] Selected Cash payment method
+[15:45] [ACTION] [7676096317] [pay_card] Selected Card payment method
+[15:45] [ACTION] [7676096317] [pay_belarusbank] Selected Belarusbank payment method
+[15:45] [ACTION] [7676096317] [print_options] Started Option selection
+[15:45] [ACTION] [7676096317] [pay_card] Selected Card payment method
+[15:45] [ACTION] [7676096317] [pay_other] Selected Other payment method
+[15:45] [ACTION] [7676096317] [pay_belarusbank] Selected Belarusbank payment method
+[15:45] [ACTION] [7676096317] [print_options] Started Option selection
+[15:45] [ACTION] [7676096317] [option_duplex] Switched duplex option
+[15:45] [ACTION] [7676096317] [option_duplex] Switched duplex option
+[15:45] [ACTION] [7676096317] [option_pages] Select Pages option
+[15:45] [ACTION] [7676096317] [option_copies] Select Copies option
+[15:45] [ACTION] [7676096317] [option_copies] Select Copies option
+[15:45] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[15:45] [INFO] [7676096317] [keyboard_tracker] Manage message sent: Количество копий установлено: 3
+[15:45] [ACTION] [7676096317] [copies_input] Set copies count: 3
+[15:47] [INFO] [7676096317] [handle_document] User uploaded a document for printing, дневник.docx, 41284 bytes
+[15:47] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[15:47] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>дневник.docx</b> получил. Считаю страницы...
+[15:47] [INFO] [7676096317] [handle_document] Start file processing: дневник.docx
+[15:47] [INFO] [7676096317] [handle_document] Downloading file: documents/file_112.docx
+[15:47] [INFO] [7676096317] [handle_document] File downloaded: documents/file_112.docx
+[15:47] [INFO] [7676096317] [handle_document] Converted DOCX to PDF: data/tmp/converted.pdf
+[15:47] [INFO] [7676096317] [handle_document] File processed. pages: 8, price: 1.6
+[15:47] [ACTION] [7676096317] [print_options] Started Option selection
+[15:47] [ACTION] [7676096317] [option_duplex] Switched duplex option
+[15:47] [ACTION] [7676096317] [option_duplex] Switched duplex option
+[15:47] [ACTION] [7676096317] [option_duplex] Switched duplex option
+[15:47] [ACTION] [7676096317] [option_layout] Show layouts
+[15:47] [ACTION] [7676096317] [print_layout] Select layout - 2
+[15:47] [ACTION] [7676096317] [pay_card] Selected Card payment method
+[15:47] [ACTION] [7676096317] [pay_alfa] Selected Alfa payment method
+[15:47] [INFO] [7676096317] [pay_confirm] Confirm payment
+[15:47] [INFO] [7676096317] [pay_confirm] Add Print Job
+[15:47] [INFO] [7676096317] [print_worker] Starting print job: debug.pdf
+[15:47] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[15:47] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🖨️ Печатаю <b>debug.pdf</b>...
+[15:47] [INFO] [7676096317] [print_job] Job started debug.pdf: request id is Pantum_P3010DW-324 (1 file(s))
+[15:48] [INFO] [7676096317] [print_job] Printing ended: debug.pdf
+[15:48] [INFO] [7676096317] [keyboard_tracker] Manage message sent: ✅ Готово!
+ Можешь забрать свой файл в комнате <b>1708А</b> (2-я секция)
+Заходи без стука
+
+[15:48] [INFO] [7676096317] [handle_document] User uploaded a document for printing, Radkovich_Otchetik.docx, 82730 bytes
+[15:48] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[15:48] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>Radkovich_Otchetik.docx</b> получил. Считаю страницы...
+[15:48] [INFO] [7676096317] [handle_document] Start file processing: Radkovich_Otchetik.docx
+[15:48] [INFO] [7676096317] [handle_document] Downloading file: documents/file_113.docx
+[15:48] [INFO] [7676096317] [handle_document] File downloaded: documents/file_113.docx
+[15:48] [INFO] [7676096317] [handle_document] Converted DOCX to PDF: data/tmp/converted.pdf
+[15:48] [INFO] [7676096317] [handle_document] File processed. pages: 33, price: 6.6
+[15:48] [ACTION] [7676096317] [print_options] Started Option selection
+[15:48] [ACTION] [7676096317] [option_layout] Show layouts
+[15:48] [ACTION] [7676096317] [print_layout] Select layout - 16
+[15:48] [ACTION] [7676096317] [print_options] Started Option selection
+[15:48] [ACTION] [7676096317] [option_duplex] Switched duplex option
+[15:48] [ACTION] [7676096317] [pay_cash] Selected Cash payment method
+[15:49] [INFO] [7676096317] [pay_confirm] Confirm payment
+[15:49] [INFO] [7676096317] [pay_confirm] Add Print Job
+[15:49] [INFO] [7676096317] [print_worker] Starting print job: debug.pdf
+[15:49] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[15:49] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🖨️ Печатаю <b>debug.pdf</b>...
+[15:49] [INFO] [7676096317] [print_job] Job started debug.pdf: request id is Pantum_P3010DW-325 (1 file(s))
+[15:49] [INFO] [7676096317] [print_job] Printing ended: debug.pdf
+[15:49] [INFO] [7676096317] [keyboard_tracker] Manage message sent: ✅ Готово!
+ Можешь забрать свой файл в комнате <b>1708А</b> (2-я секция)
+Заходи без стука
+
+[15:50] [INFO] [7676096317] [handle_document] User uploaded a document for printing, Radkovich_Otchetik.docx, 82730 bytes
+[15:50] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[15:50] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>Radkovich_Otchetik.docx</b> получил. Считаю страницы...
+[15:50] [INFO] [7676096317] [handle_document] Start file processing: Radkovich_Otchetik.docx
+[15:50] [INFO] [7676096317] [handle_document] Downloading file: documents/file_113.docx
+[15:50] [INFO] [7676096317] [handle_document] File downloaded: documents/file_113.docx
+[15:50] [INFO] [7676096317] [handle_document] Converted DOCX to PDF: data/tmp/converted.pdf
+[15:50] [INFO] [7676096317] [handle_document] File processed. pages: 33, price: 6.6
+[15:50] [ACTION] [7676096317] [print_options] Started Option selection
+[15:50] [ACTION] [7676096317] [option_layout] Show layouts
+[15:50] [ACTION] [7676096317] [print_layout] Select layout - 1
+[15:51] [ACTION] [7676096317] [print_options] Started Option selection
+[15:51] [ACTION] [7676096317] [option_layout] Show layouts
+[15:51] [ACTION] [7676096317] [print_options] Started Option selection
+[15:51] [ACTION] [7676096317] [option_duplex] Switched duplex option
+[15:51] [ACTION] [7676096317] [option_copies] Select Copies option
+[15:51] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[15:51] [INFO] [7676096317] [keyboard_tracker] Manage message sent: Количество копий установлено: 1
+[15:51] [ACTION] [7676096317] [copies_input] Set copies count: 1
+[15:51] [ACTION] [7676096317] [confirm] Copies count confirmed: 1
+[15:51] [ACTION] [7676096317] [print_options] Started Option selection
+[15:51] [ACTION] [7676096317] [pay_card] Selected Card payment method
+[15:51] [ACTION] [7676096317] [pay_alfa] Selected Alfa payment method
+[15:51] [INFO] [7676096317] [pay_confirm] Confirm payment
+[15:51] [INFO] [7676096317] [pay_confirm] Add Print Job
+[15:51] [INFO] [7676096317] [print_worker] Starting print job: Radkovich_Otchetik.docx
+[15:51] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[15:51] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🖨️ Печатаю <b>Radkovich_Otchetik.docx</b>...
+[15:51] [INFO] [7676096317] [print_job] Job started Radkovich_Otchetik.docx: request id is Pantum_P3010DW-326 (1 file(s))
+[15:51] [INFO] [7676096317] [print_job] Printing ended: Radkovich_Otchetik.docx
+[15:51] [INFO] [7676096317] [keyboard_tracker] Manage message sent: ✅ Готово!
+ Можешь забрать свой файл в комнате <b>1708А</b> (2-я секция)
+Заходи без стука
+
+[15:53] [INFO] [7676096317] [handle_document] User uploaded a document for printing, Radkovich_Otchetik.docx, 82730 bytes
+[15:53] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[15:53] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>Radkovich_Otchetik.docx</b> получил. Считаю страницы...
+[15:53] [INFO] [7676096317] [handle_document] Start file processing: Radkovich_Otchetik.docx
+[15:53] [INFO] [7676096317] [handle_document] Downloading file: documents/file_113.docx
+[15:53] [INFO] [7676096317] [handle_document] File downloaded: documents/file_113.docx
+[15:53] [INFO] [7676096317] [handle_document] Converted DOCX to PDF: data/tmp/converted.pdf
+[15:53] [INFO] [7676096317] [handle_document] File processed. pages: 33, price: 6.6
+[15:53] [ACTION] [7676096317] [print_options] Started Option selection
+[15:53] [ACTION] [7676096317] [option_duplex] Switched duplex option
+[15:53] [ACTION] [7676096317] [option_layout] Show layouts
+[15:53] [ACTION] [7676096317] [print_layout] Select layout - 16
+[15:53] [ACTION] [7676096317] [print_options] Started Option selection
+[15:53] [ACTION] [7676096317] [option_pages] Select Pages option
+[15:54] [ACTION] [7676096317] [option_duplex] Switched duplex option
+[15:54] [ACTION] [7676096317] [pay_card] Selected Card payment method
+[15:54] [ACTION] [7676096317] [pay_alfa] Selected Alfa payment method
+[15:54] [INFO] [7676096317] [pay_confirm] Confirm payment
+[15:54] [INFO] [7676096317] [pay_confirm] Add Print Job
+[15:54] [INFO] [7676096317] [print_worker] Starting print job: Radkovich_Otchetik.docx
+[15:54] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[15:54] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🖨️ Печатаю <b>Radkovich_Otchetik.docx</b>...
+[15:54] [INFO] [7676096317] [print_job] Job started Radkovich_Otchetik.docx: request id is Pantum_P3010DW-327 (1 file(s))
+[15:54] [INFO] [7676096317] [print_job] Printing ended: Radkovich_Otchetik.docx
+[15:54] [INFO] [7676096317] [keyboard_tracker] Manage message sent: ✅ Готово!
+ Можешь забрать свой файл в комнате <b>1708А</b> (2-я секция)
+Заходи без стука
+
+[15:54] [INFO] [7676096317] [handle_document] User uploaded a document for printing, Radkovich_Otchetik.docx, 82730 bytes
+[15:54] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[15:54] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>Radkovich_Otchetik.docx</b> получил. Считаю страницы...
+[15:54] [INFO] [7676096317] [handle_document] Start file processing: Radkovich_Otchetik.docx
+[15:54] [INFO] [7676096317] [handle_document] Downloading file: documents/file_113.docx
+[15:54] [INFO] [7676096317] [handle_document] File downloaded: documents/file_113.docx
+[15:54] [INFO] [7676096317] [handle_document] Converted DOCX to PDF: data/tmp/converted.pdf
+[15:54] [INFO] [7676096317] [handle_document] File processed. pages: 33, price: 6.6
+[15:54] [ACTION] [7676096317] [print_options] Started Option selection
+[15:54] [ACTION] [7676096317] [option_duplex] Switched duplex option
+[15:54] [ACTION] [7676096317] [option_layout] Show layouts
+[15:54] [ACTION] [7676096317] [print_layout] Select layout - 16
+[15:54] [ACTION] [7676096317] [pay_card] Selected Card payment method
+[15:54] [ACTION] [7676096317] [pay_alfa] Selected Alfa payment method
+[15:54] [INFO] [7676096317] [pay_confirm] Confirm payment
+[15:54] [INFO] [7676096317] [pay_confirm] Add Print Job
+[15:54] [INFO] [7676096317] [print_worker] Starting print job: Radkovich_Otchetik.docx
+[15:54] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[15:54] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🖨️ Печатаю <b>Radkovich_Otchetik.docx</b>...
+[15:54] [INFO] [7676096317] [print_job] Job started Radkovich_Otchetik.docx: request id is Pantum_P3010DW-328 (1 file(s))
+[15:55] [INFO] [7676096317] [print_job] Printing ended: Radkovich_Otchetik.docx
+[15:55] [INFO] [7676096317] [keyboard_tracker] Manage message sent: ✅ Готово!
+ Можешь забрать свой файл в комнате <b>1708А</b> (2-я секция)
+Заходи без стука
+
+[15:57] [INFO] [7676096317] [handle_document] User uploaded a document for printing, Radkovich_Otchetik.docx, 82730 bytes
+[15:57] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[15:57] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>Radkovich_Otchetik.docx</b> получил. Считаю страницы...
+[15:57] [INFO] [7676096317] [handle_document] Start file processing: Radkovich_Otchetik.docx
+[15:57] [INFO] [7676096317] [handle_document] Downloading file: documents/file_113.docx
+[15:57] [INFO] [7676096317] [handle_document] File downloaded: documents/file_113.docx
+[15:57] [INFO] [7676096317] [handle_document] Converted DOCX to PDF: data/tmp/converted.pdf
+[15:57] [INFO] [7676096317] [handle_document] File processed. pages: 33, price: 6.6
+[15:57] [ACTION] [7676096317] [print_options] Started Option selection
+[15:57] [ACTION] [7676096317] [option_duplex] Switched duplex option
+[15:57] [ACTION] [7676096317] [option_layout] Show layouts
+[15:57] [ACTION] [7676096317] [print_layout] Select layout - 16
+[15:57] [ACTION] [7676096317] [pay_card] Selected Card payment method
+[15:57] [ACTION] [7676096317] [pay_alfa] Selected Alfa payment method
+[15:57] [INFO] [7676096317] [pay_confirm] Confirm payment
+[15:57] [INFO] [7676096317] [pay_confirm] Add Print Job
+[15:57] [INFO] [7676096317] [print_worker] Starting print job: Radkovich_Otchetik.docx
+[15:57] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[15:57] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🖨️ Печатаю <b>Radkovich_Otchetik.docx</b>...
+[15:57] [INFO] [7676096317] [print_job] Job started Radkovich_Otchetik.docx: request id is Pantum_P3010DW-329 (1 file(s))
+[15:57] [INFO] [7676096317] [print_job] Printing ended: Radkovich_Otchetik.docx
+[15:57] [INFO] [7676096317] [keyboard_tracker] Manage message sent: ✅ Готово!
+ Можешь забрать свой файл в комнате <b>1708А</b> (2-я секция)
+Заходи без стука
+
+[16:01] [INFO] [7676096317] [handle_document] User uploaded a document for printing, Radkovich_Otchetik.docx, 82730 bytes
+[16:01] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[16:01] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>Radkovich_Otchetik.docx</b> получил. Считаю страницы...
+[16:01] [INFO] [7676096317] [handle_document] Start file processing: Radkovich_Otchetik.docx
+[16:01] [INFO] [7676096317] [handle_document] Downloading file: documents/file_113.docx
+[16:01] [INFO] [7676096317] [handle_document] File downloaded: documents/file_113.docx
+[16:01] [INFO] [7676096317] [handle_document] Converted DOCX to PDF: data/tmp/converted.pdf
+[16:01] [INFO] [7676096317] [handle_document] File processed. pages: 33, price: 6.6
+[16:01] [ACTION] [7676096317] [print_options] Started Option selection
+[16:01] [ACTION] [7676096317] [option_copies] Select Copies option
+[16:01] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[16:01] [INFO] [7676096317] [keyboard_tracker] Manage message sent: Количество копий установлено: 3
+[16:01] [ACTION] [7676096317] [copies_input] Set copies count: 3
+[16:01] [ACTION] [7676096317] [confirm] Copies count confirmed: 3
+[16:01] [ACTION] [7676096317] [print_options] Started Option selection
+[16:01] [ACTION] [7676096317] [option_duplex] Switched duplex option
+[16:01] [ACTION] [7676096317] [print_options] Started Option selection
+[16:01] [ACTION] [7676096317] [option_layout] Show layouts
+[16:01] [ACTION] [7676096317] [print_layout] Select layout - 16
+[16:01] [ACTION] [7676096317] [cancel] Cancelled order
+[16:01] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 
+📤 Присылай .docx или .pdf — я напечатаю в комнате <b>1708А</b>
+
+🖨 ЧБ-печать — <b>20 коп/страница</b>  
+

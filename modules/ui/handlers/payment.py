@@ -6,6 +6,10 @@ from modules.billing.ledger import log_print_job
 from modules.printing.print_job import PrintJob
 from modules.decorators import ensure_data
 from modules.printing.print_service import add_job
+from config import (
+    IS_DEBUG, DEBUG_PRINT_FILE_PATH, DEBUG_PRINT_FILE_NAME, DEBUG_PAGE_COUNT,
+    DEBUG_PRICE
+)
 from ..messages import *
 from ..keyboards.payment import payment_methods_kb, payment_confirm_kb
 from ..callbacks import *
@@ -21,7 +25,7 @@ router = Router()
 @ensure_data
 async def handle_cash_payment(callback: CallbackQuery, state: FSMContext, data: dict):
     await state.update_data(method="cash")
-    await state.set_state(UserStates.waiting_for_cash_confirm)
+    await state.set_state(UserStates.confirming_cash_payment)
 
     await callback.message.edit_text(
         text=get_cash_payment_text(data),
@@ -40,7 +44,7 @@ async def handle_cash_payment(callback: CallbackQuery, state: FSMContext, data: 
 @check_paused
 @ensure_data
 async def handle_card_payment(callback: CallbackQuery, state: FSMContext, data: dict):
-    await state.set_state(UserStates.waiting_for_cash_confirm)
+    await state.set_state(UserStates.confirming_cash_payment)
     await state.update_data(method="card")
 
     await callback.message.edit_text(
@@ -61,7 +65,7 @@ async def handle_card_payment(callback: CallbackQuery, state: FSMContext, data: 
 @ensure_data
 async def handle_alfa_payment(callback: CallbackQuery, state: FSMContext, data: dict):
     await state.update_data(method="alfa")
-    await state.set_state(UserStates.waiting_for_card_confirm)
+    await state.set_state(UserStates.confirming_card_payment)
 
     await callback.message.edit_text(
         text=get_alfa_payment_text(data),
@@ -82,7 +86,7 @@ async def handle_alfa_payment(callback: CallbackQuery, state: FSMContext, data: 
 @ensure_data
 async def handle_belarusbank_payment(callback: CallbackQuery, state: FSMContext, data: dict):
     await state.update_data(method="belarusbank")
-    await state.set_state(UserStates.waiting_for_card_confirm)
+    await state.set_state(UserStates.confirming_card_payment)
 
     await callback.message.edit_text(
         text=get_belarusbank_payment_text(data),
@@ -101,7 +105,7 @@ async def handle_belarusbank_payment(callback: CallbackQuery, state: FSMContext,
 @ensure_data
 async def handle_other_payment(callback: CallbackQuery, state: FSMContext, data: dict):
     await state.update_data(method="other")
-    await state.set_state(UserStates.waiting_for_card_confirm)
+    await state.set_state(UserStates.confirming_card_payment)
 
     await callback.message.edit_text(
         text=get_other_payment_text(data),
@@ -123,10 +127,11 @@ async def handle_pay_confirm(callback: CallbackQuery, state: FSMContext, data: d
     file_path = data.get("file_path")
     file_name = data.get("file_name")
     page_count = data.get("page_count")
-    duplex = data.get("sides", False)
+    duplex = data.get("duplex", False)
     layout = data.get("layout", "1")
     price = data.get("price")
     pages = data.get("pages")
+    copies = data.get("copies", 1)
     method = data.get("method", "cash")
 
     info(
@@ -151,7 +156,8 @@ async def handle_pay_confirm(callback: CallbackQuery, state: FSMContext, data: d
         page_count,
         duplex,
         layout,
-        pages
+        pages,
+        copies
     )
     
     add_job(job)

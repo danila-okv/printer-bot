@@ -1,0 +1,155 @@
+[01:16] [WARNING] [7676096317] [ensure_data:handle_return] Data lost
+[01:16] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 
+📤 Присылай .docx или .pdf — я напечатаю в комнате <b>1708А</b>
+
+🖨 ЧБ-печать — <b>20 коп/страница</b>  
+
+[01:17] [INFO] [7676096317] [handle_document] User uploaded a document for printing, 6, 7.docx, 416786 bytes
+[01:17] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[01:17] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>6, 7.docx</b> получил. Считаю страницы...
+[01:17] [INFO] [7676096317] [handle_document] Start file processing: 6, 7.docx
+[01:17] [INFO] [7676096317] [handle_document] Downloading file: documents/file_102.docx
+[01:17] [INFO] [7676096317] [handle_document] File downloaded: documents/file_102.docx
+[01:17] [INFO] [7676096317] [handle_document] Converted DOCX to PDF: data/tmp/converted.pdf
+[01:17] [INFO] [7676096317] [handle_document] File processed. pages: 4, price: 0.8
+[01:17] [ACTION] [7676096317] [print_options] Started Option selection
+[01:17] [ACTION] [7676096317] [print_layout] Show layouts
+[01:17] [ACTION] [7676096317] [print_layout] Select layout - 9
+[01:17] [ACTION] [7676096317] [pay_alfa] Selected Alfa payment method
+[01:17] [INFO] [7676096317] [pay_confirm] Confirm payment
+[01:17] [INFO] [7676096317] [pay_confirm] Add Print Job
+[01:17] [INFO] [7676096317] [print_worker] Starting print job: 6, 7.docx
+[01:17] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[01:17] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🖨️ Печатаю <b>6, 7.docx</b>...
+[01:17] [ERROR] [7676096317] [print_job] Printing error: lp error: lp: Error - No default destination.
+[01:17] [INFO] [7676096317] [keyboard_tracker] Manage message sent: ❌ Ошибка при печати файла «6, 7.docx». Попробуйте позже.
+[01:18] [INFO] [7676096317] [handle_document] User uploaded a document for printing, 6, 7.docx, 416786 bytes
+[01:18] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[01:18] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>6, 7.docx</b> получил. Считаю страницы...
+[01:18] [INFO] [7676096317] [handle_document] Start file processing: 6, 7.docx
+[01:18] [INFO] [7676096317] [handle_document] Downloading file: documents/file_103.docx
+[01:18] [INFO] [7676096317] [handle_document] File downloaded: documents/file_103.docx
+[01:18] [INFO] [7676096317] [handle_document] Converted DOCX to PDF: data/tmp/converted.pdf
+[01:18] [INFO] [7676096317] [handle_document] File processed. pages: 4, price: 0.8
+[01:18] [ACTION] [7676096317] [print_options] Started Option selection
+[01:18] [ACTION] [7676096317] [print_layout] Show layouts
+[01:18] [ACTION] [7676096317] [print_layout] Select layout - 9
+[01:18] [ACTION] [7676096317] [pay_card] Selected Card payment method
+[01:18] [ACTION] [7676096317] [pay_alfa] Selected Alfa payment method
+[01:18] [INFO] [7676096317] [pay_confirm] Confirm payment
+[01:18] [INFO] [7676096317] [pay_confirm] Add Print Job
+[01:18] [INFO] [7676096317] [print_worker] Starting print job: 6, 7.docx
+[01:18] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[01:18] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🖨️ Печатаю <b>6, 7.docx</b>...
+[01:18] [ERROR] [7676096317] [print_job] Printing error: lp error: lp: Error - No default destination.
+[01:18] [INFO] [7676096317] [keyboard_tracker] Manage message sent: ❌ Ошибка при печати файла «6, 7.docx». Попробуйте позже.
+[01:19] [INFO] [7676096317] [handle_document] User uploaded a document for printing, 6, 7.docx, 416786 bytes
+[01:19] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[01:19] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>6, 7.docx</b> получил. Считаю страницы...
+[01:19] [INFO] [7676096317] [handle_document] Start file processing: 6, 7.docx
+[01:19] [INFO] [7676096317] [handle_document] Downloading file: documents/file_103.docx
+[01:19] [INFO] [7676096317] [handle_document] File downloaded: documents/file_103.docx
+[01:19] [INFO] [7676096317] [handle_document] Converted DOCX to PDF: data/tmp/converted.pdf
+[01:19] [INFO] [7676096317] [handle_document] File processed. pages: 4, price: 0.8
+[01:19] [ACTION] [7676096317] [print_options] Started Option selection
+[01:19] [ACTION] [7676096317] [print_layout] Show layouts
+[01:19] [ACTION] [7676096317] [print_layout] Select layout - 9
+[01:19] [ACTION] [7676096317] [pay_card] Selected Card payment method
+[01:19] [ACTION] [7676096317] [pay_belarusbank] Selected Belarusbank payment method
+[01:19] [INFO] [7676096317] [pay_confirm] Confirm payment
+[01:19] [INFO] [7676096317] [pay_confirm] Add Print Job
+[01:19] [INFO] [7676096317] [print_worker] Starting print job: 6, 7.docx
+[01:19] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[01:19] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🖨️ Печатаю <b>6, 7.docx</b>...
+[01:19] [INFO] [7676096317] [print_job] Job started 6, 7.docx: request id is printer_vpn_ddns_net-311 (1 file(s))
+[01:21] [INFO] [7676096317] [keyboard_tracker] Manage message sent: ✅ Бот снова в деле!
+Спасибо за терпение - дарю тебе 5 бесплатных страниц 🎉
+[01:24] [INFO] [7676096317] [handle_document] User uploaded a document for printing, 6, 7.docx, 416786 bytes
+[01:24] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>6, 7.docx</b> получил. Считаю страницы...
+[01:24] [INFO] [7676096317] [handle_document] Start file processing: 6, 7.docx
+[01:24] [INFO] [7676096317] [handle_document] Downloading file: documents/file_103.docx
+[01:24] [INFO] [7676096317] [handle_document] File downloaded: documents/file_103.docx
+[01:24] [INFO] [7676096317] [handle_document] Converted DOCX to PDF: data/tmp/converted.pdf
+[01:24] [INFO] [7676096317] [handle_document] File processed. pages: 4, price: 0.8
+[01:25] [ACTION] [7676096317] [print_options] Started Option selection
+[01:25] [ACTION] [7676096317] [print_duplex] Switched duplex option
+[01:25] [ACTION] [7676096317] [print_layout] Show layouts
+[01:25] [ACTION] [7676096317] [print_layout] Select layout - 9
+[01:25] [ACTION] [7676096317] [print_options] Started Option selection
+[01:25] [ACTION] [7676096317] [print_duplex] Switched duplex option
+[01:25] [ACTION] [7676096317] [pay_card] Selected Card payment method
+[01:25] [ACTION] [7676096317] [pay_belarusbank] Selected Belarusbank payment method
+[01:25] [INFO] [7676096317] [pay_confirm] Confirm payment
+[01:25] [INFO] [7676096317] [pay_confirm] Add Print Job
+[01:25] [WARNING] [7676096317] [ensure_data:handle_pay_confirm] Data lost
+[01:25] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 
+📤 Присылай .docx или .pdf — я напечатаю в комнате <b>1708А</b>
+
+🖨 ЧБ-печать — <b>20 коп/страница</b>  
+
+[01:46] [INFO] [7676096317] [handle_document] User uploaded a document for printing, 3.docx, 194918 bytes
+[01:46] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[01:46] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>3.docx</b> получил. Считаю страницы...
+[01:46] [INFO] [7676096317] [handle_document] Start file processing: 3.docx
+[01:46] [INFO] [7676096317] [handle_document] Downloading file: documents/file_104.docx
+[01:46] [INFO] [7676096317] [handle_document] File downloaded: documents/file_104.docx
+[01:46] [INFO] [7676096317] [handle_document] Converted DOCX to PDF: data/tmp/converted.pdf
+[01:46] [INFO] [7676096317] [handle_document] File processed. pages: 2, price: 0.4
+[01:46] [ACTION] [7676096317] [print_options] Started Option selection
+[01:46] [ACTION] [7676096317] [print_layout] Show layouts
+[01:46] [ACTION] [7676096317] [print_layout] Select layout - 9
+[01:46] [ACTION] [7676096317] [pay_card] Selected Card payment method
+[01:46] [ACTION] [7676096317] [pay_belarusbank] Selected Belarusbank payment method
+[01:46] [INFO] [7676096317] [pay_confirm] Confirm payment
+[01:46] [INFO] [7676096317] [pay_confirm] Add Print Job
+[01:46] [WARNING] [7676096317] [ensure_data:handle_pay_confirm] Data lost
+[01:46] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 
+📤 Присылай .docx или .pdf — я напечатаю в комнате <b>1708А</b>
+
+🖨 ЧБ-печать — <b>20 коп/страница</b>  
+
+[01:47] [INFO] [7676096317] [handle_document] User uploaded a document for printing, 6, 7.docx, 416786 bytes
+[01:47] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[01:47] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>6, 7.docx</b> получил. Считаю страницы...
+[01:47] [INFO] [7676096317] [handle_document] Start file processing: 6, 7.docx
+[01:47] [INFO] [7676096317] [handle_document] Downloading file: documents/file_105.docx
+[01:47] [INFO] [7676096317] [handle_document] File downloaded: documents/file_105.docx
+[01:47] [INFO] [7676096317] [handle_document] Converted DOCX to PDF: data/tmp/converted.pdf
+[01:47] [INFO] [7676096317] [handle_document] File processed. pages: 4, price: 0.8
+[01:47] [ACTION] [7676096317] [print_options] Started Option selection
+[01:47] [ACTION] [7676096317] [print_layout] Show layouts
+[01:47] [ACTION] [7676096317] [print_layout] Select layout - 16
+[01:47] [ACTION] [7676096317] [pay_card] Selected Card payment method
+[01:47] [ACTION] [7676096317] [pay_alfa] Selected Alfa payment method
+[01:47] [INFO] [7676096317] [pay_confirm] Confirm payment
+[01:47] [INFO] [7676096317] [pay_confirm] Add Print Job
+[01:47] [WARNING] [7676096317] [ensure_data:handle_pay_confirm] Data lost
+[01:47] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 
+📤 Присылай .docx или .pdf — я напечатаю в комнате <b>1708А</b>
+
+🖨 ЧБ-печать — <b>20 коп/страница</b>  
+
+[13:54] [INFO] [7676096317] [print_job] Printing ended: 6, 7.docx
+[13:54] [ERROR] [7676096317] [print_job] Printing error: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Can't assign requested address]
+[13:54] [ERROR] [7676096317] [print_worker] Error in print job 6, 7.docx: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Can't assign requested address]
+[13:54] [INFO] [7676096317] [print_worker] Queued print job: 6, 7.docx, position: 3
+[13:54] [ERROR] [7676096317] [print_worker] Error in print job 6, 7.docx: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+[13:54] [INFO] [7676096317] [print_worker] Queued print job: 3.docx, position: 2
+[13:54] [ERROR] [7676096317] [print_worker] Error in print job 3.docx: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+[13:54] [INFO] [7676096317] [print_worker] Starting print job: 6, 7.docx
+[13:54] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[13:54] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🖨️ Печатаю <b>6, 7.docx</b>...
+[13:54] [INFO] [7676096317] [print_job] Job started 6, 7.docx: request id is Pantum_P3010DW-312 (1 file(s))
+[15:37] [WARNING] [7676096317] [unknown_command] концертный зал Минск,
+берется аренда, оплачивается до концерта, оплачивается реклама
+
+Риски на мне за оформление
+
+Попробовать с концертным залом, с ними. Залы имеют право делать концерты под ключ, они имеют право взять гастрольное удостоверение на Дениса. 
+
+Филармония,
+[18:46] [INFO] [7676096317] [print_job] Printing ended: 6, 7.docx
+[18:46] [INFO] [7676096317] [keyboard_tracker] Manage message sent: ✅ Готово!
+ Можешь забрать свой файл в комнате <b>1708А</b> (2-я секция)
+Заходи без стука
+

@@ -321,3 +321,51 @@
  Можешь забрать свой файл в комнате <b>1708А</b> (2-я секция)
 Заходи без стука
 
+[15:41] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[15:41] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 
+📤 Присылай .docx или .pdf — я напечатаю в комнате <b>1708А</b>
+
+🖨 ЧБ-печать — <b>20 коп/страница</b>  
+
+[15:41] [ACTION] [7676096317] [Command /start] User started bot
+[15:41] [INFO] [7676096317] [handle_document] User uploaded a document for printing, M-Банкинг чек-12884902394.pdf, 34114 bytes
+[15:41] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[15:41] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>M-Банкинг чек-12884902394.pdf</b> получил. Считаю страницы...
+[15:41] [INFO] [7676096317] [handle_document] Start file processing: M-Банкинг чек-12884902394.pdf
+[15:41] [INFO] [7676096317] [handle_document] Downloading file: documents/file_99.pdf
+[15:41] [INFO] [7676096317] [handle_document] File downloaded: documents/file_99.pdf
+[15:41] [INFO] [7676096317] [handle_document] File processed. pages: 1, price: 0.2
+[15:41] [ACTION] [7676096317] [print_options] Started Option selection
+[15:41] [ACTION] [7676096317] [print_duplex] Switched duplex option
+[15:41] [ACTION] [7676096317] [print_layout] Show layouts
+[15:41] [ACTION] [7676096317] [print_layout] Select layout - 9
+[15:41] [ACTION] [7676096317] [print_options] Started Option selection
+[15:41] [ACTION] [7676096317] [print_pages] Select Pages option
+[15:41] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[15:41] [INFO] [7676096317] [keyboard_tracker] Manage message sent: Приняты страницы: 1
+[15:59] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[15:59] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 
+📤 Присылай .docx или .pdf — я напечатаю в комнате <b>1708А</b>
+
+🖨 ЧБ-печать — <b>20 коп/страница</b>  
+
+[15:59] [ACTION] [7676096317] [Command /start] User started bot
+[15:59] [INFO] [7676096317] [handle_document] User uploaded a document for printing, литература на лето.docx, 13186 bytes
+[15:59] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[15:59] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>литература на лето.docx</b> получил. Считаю страницы...
+[15:59] [INFO] [7676096317] [handle_document] Start file processing: литература на лето.docx
+[15:59] [INFO] [7676096317] [handle_document] Downloading file: documents/file_100.docx
+[15:59] [INFO] [7676096317] [handle_document] File downloaded: documents/file_100.docx
+[15:59] [INFO] [7676096317] [handle_document] Converted DOCX to PDF: data/tmp/converted.pdf
+[15:59] [INFO] [7676096317] [handle_document] File processed. pages: 1, price: 0.2
+[15:59] [ACTION] [7676096317] [print_options] Started Option selection
+[15:59] [ACTION] [7676096317] [pay_cash] Selected Cash payment method
+[15:59] [ACTION] [7676096317] [print_options] Started Option selection
+[15:59] [ACTION] [7676096317] [print_duplex] Switched duplex option
+[15:59] [ACTION] [7676096317] [print_layout] Show layouts
+[15:59] [ACTION] [7676096317] [print_layout] Select layout - 9
+[16:00] [ACTION] [7676096317] [pay_card] Selected Card payment method
+[16:00] [ACTION] [7676096317] [print_options] Started Option selection
+[16:00] [ACTION] [7676096317] [print_pages] Select Pages option
+[16:00] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[16:00] [INFO] [7676096317] [keyboard_tracker] Manage message sent: Приняты страницы: 1

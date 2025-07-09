@@ -5,8 +5,8 @@ from aiogram.fsm.context import FSMContext
 
 from modules.decorators import ensure_data
 from modules.users.state import UserStates
-from ..keyboards.common import return_kb
-from ..keyboards.options import get_print_options_kb, get_print_layouts_kb, confim_pages_kb
+from ..keyboards.common import back_kb
+from ..keyboards.options import get_print_options_kb, get_print_layouts_kb, confirm_kb
 from ..keyboards.tracker import send_managed_message
 from modules.analytics.logger import action, warning, error, info
 from modules.decorators import check_paused
@@ -15,11 +15,12 @@ from utils.parsers import validate_page_range_str
 
 from ..messages import (
     get_print_options_text, get_layout_selection_text, get_pages_input_text,
+    get_copies_input_text
 
 )
 from ..callbacks import (
     PRINT_OPTIONS, OPTION_DUPLEX, OPTION_LAYOUT, OPTION_PAGES,
-    LAYOUTS
+    OPTION_COPIES, LAYOUTS
 )
 
 router = Router()
@@ -29,7 +30,7 @@ router = Router()
 @check_paused
 @ensure_data
 async def handle_print_options(callback: CallbackQuery, state: FSMContext, data: dict):    
-    await state.set_state(UserStates.adjusting_print_options)
+    await state.set_state(UserStates.setting_print_options)
     duplex = data.get("duplex", False)
 
     await callback.message.edit_text(
@@ -100,26 +101,90 @@ async def handle_layout_selection(callback: CallbackQuery, state: FSMContext, da
         f"Select layout - {callback.data}"
     )
 
+# Handle Copies option
+@router.callback_query(F.data == OPTION_COPIES)
+@check_paused
+@ensure_data
+async def handle_copies_selection(callback: CallbackQuery, state: FSMContext, data: dict):
+    await state.set_state(UserStates.inputting_copies_count)
+
+    await callback.message.edit_text(
+        text=get_copies_input_text(data),
+        reply_markup=back_kb
+    )
+    action(
+        user_id=callback.from_user.id,
+        handler=OPTION_COPIES,
+        msg="Select Copies option"
+    )
+
+    await callback.answer()
+
+# Handle Copies input
+@router.message(UserStates.inputting_copies_count)
+@check_paused
+@ensure_data
+async def handle_copies_input(message: Message, state: FSMContext, data: dict):
+    text = message.text.strip()
+
+    if not text.isdigit():
+        await message.answer("❌ Введите только число, например: 2")
+        warning(
+            message.from_user.id,
+            "copies_input",
+            f"Invalid input for copies: {text} (expected a number)",
+            f"Input: {text}"
+        )
+        return
+
+    copies = int(text)
+    if copies < 1 or copies > 50:
+        await message.answer("❌ Количество копий должно быть от 1 до 50")
+        warning(
+            message.from_user.id,
+            "copies_input",
+            f"Invalid copies count: {copies} (expected 1-50)",
+            f"Input: {text}"
+        )
+        return
+
+    await state.update_data(copies=copies)
+
+    await send_managed_message(
+        bot=message.bot,
+        user_id=message.from_user.id,
+        text=f"Количество копий установлено: {copies}",
+        reply_markup=confirm_kb
+    )
+    
+    action(
+        message.from_user.id,
+        "copies_input",
+        f"Set copies count: {copies}"
+    )
+    
+
 # Handle Pages option
 @router.callback_query(F.data == OPTION_PAGES)
 @check_paused
 @ensure_data
 async def handle_pages_selection(callback: CallbackQuery, state: FSMContext, data: dict):
-    await state.set_state(UserStates.awaiting_page_range_input)
+    await state.set_state(UserStates.inputting_pages)
 
     await callback.message.edit_text(
         text=get_pages_input_text(data),
-        reply_markup=return_kb
+        reply_markup=back_kb
     )
     action(
         user_id=callback.from_user.id,
         handler=OPTION_PAGES,
         msg="Select Pages option"
     )
+
     callback.answer()
 
 # Handle Page ranges input
-@router.message(UserStates.awaiting_page_range_input)
+@router.message(UserStates.inputting_pages)
 @check_paused
 @ensure_data
 async def handle_pages_input(message: Message, state: FSMContext, data: dict):
@@ -129,13 +194,13 @@ async def handle_pages_input(message: Message, state: FSMContext, data: dict):
 
     try:
         pages = validate_page_range_str(text, page_count)
-        await state.update_data(selected_pages=pages)
+        await state.update_data(pages=pages)
         
         await send_managed_message(
             bot=message.bot,
             user_id=message.from_user.id,
             text=f"Приняты страницы: {pages}",
-            reply_markup=confim_pages_kb
+            reply_markup=confirm_kb
         )
     except ValueError as e:
         await message.answer(f"Ошибка: {e}")

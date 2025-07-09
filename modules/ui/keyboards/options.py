@@ -1,14 +1,16 @@
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 from ..callbacks import (
-    CONFIRM, BACK, LAYOUTS,OPTION_DUPLEX, OPTION_LAYOUT, OPTION_PAGES
+    CONFIRM, BACK, LAYOUTS,OPTION_DUPLEX, OPTION_LAYOUT, OPTION_PAGES,
+    OPTION_COPIES
 )
 from .buttons import (
-    BUTTON_CONFIRM, BUTTON_EDIT, BUTTON_RETURN, BUTTONS_LAYOUT,
-    BUTTON_OPTIONS_DUPLEX, BUTTON_OPTIONS_LAYOUT, BUTTON_OPTIONS_PAGES
+    BUTTON_CONFIRM, BUTTON_EDIT, BUTTON_BACK, BUTTONS_LAYOUT,
+    BUTTON_OPTION_DUPLEX, BUTTON_OPTION_LAYOUT, BUTTON_OPTION_PAGES,
+    BUTTON_OPTION_COPIES
 )
 
-confim_pages_kb = InlineKeyboardMarkup(
+confirm_kb = InlineKeyboardMarkup(
     inline_keyboard=[
         [
             InlineKeyboardButton(text=BUTTON_CONFIRM, callback_data=CONFIRM),
@@ -18,16 +20,19 @@ confim_pages_kb = InlineKeyboardMarkup(
 )
 
 def get_print_options_kb(duplex: bool) -> InlineKeyboardMarkup:
-    duplex_text = f"✅ {BUTTON_OPTIONS_DUPLEX}" if duplex else f"❌ {BUTTON_OPTIONS_DUPLEX}"
+    duplex_text = f"✅ {BUTTON_OPTION_DUPLEX}" if duplex else f"❌ {BUTTON_OPTION_DUPLEX}"
 
     markup = InlineKeyboardMarkup(inline_keyboard=[
             [
-                InlineKeyboardButton(text=BUTTON_OPTIONS_LAYOUT, callback_data=OPTION_LAYOUT),
+                InlineKeyboardButton(text=BUTTON_OPTION_LAYOUT, callback_data=OPTION_LAYOUT),
                 InlineKeyboardButton(text=duplex_text, callback_data=OPTION_DUPLEX)
             ],
             [
-                InlineKeyboardButton(text=BUTTON_RETURN, callback_data=BACK),
-                InlineKeyboardButton(text=BUTTON_OPTIONS_PAGES, callback_data=OPTION_PAGES)
+                InlineKeyboardButton(text=BUTTON_OPTION_COPIES, callback_data=OPTION_COPIES),
+                InlineKeyboardButton(text=BUTTON_OPTION_PAGES, callback_data=OPTION_PAGES)
+            ],
+            [
+                InlineKeyboardButton(text=BUTTON_BACK, callback_data=BACK)
             ]
         ]
     )
@@ -58,7 +63,7 @@ def get_print_layouts_kb(selected_layout: str) -> InlineKeyboardMarkup:
 
     # Добавляем кнопку "Назад"
     back_button = InlineKeyboardButton(
-        text=BUTTON_RETURN,
+        text=BUTTON_BACK,
         callback_data=BACK
     )
 

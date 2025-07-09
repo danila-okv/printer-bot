@@ -21,8 +21,9 @@ class PrintJob:
     bot: Bot
     page_count: int = 0
     duplex: bool = False
-    layout: str = "1"         # например "9-up"
+    layout: str = "1"
     pages: str = ""    # например "1,3-5"
+    copies: int = 1
 
     async def run(self):
         job_id = None
@@ -31,10 +32,14 @@ class PrintJob:
             cmd = ["lp"]
             if self.duplex:
                 cmd += ["-o", "sides=two-sided-long-edge"]
+            else:
+                cmd += ["-o", "sides=one-sided"]
             if self.layout:
                 cmd += ["-o", f"number-up={self.layout}"]
             if self.pages:
                 cmd += ["-P", self.pages]
+            if self.copies > 1:
+                cmd += ["-n", str(self.copies)]
             cmd.append(self.file_path)
 
             # Запускаем печать
@@ -83,11 +88,11 @@ class PrintJob:
             conn.execute("""
                 INSERT INTO print_jobs (
                     user_id, file_name, page_count, duplex, layout,
-                    pages, status, created_at
-                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+                    pages, copies, status, created_at
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
             """, (
                 self.user_id, self.file_name, self.page_count,
-                int(self.duplex), self.layout, self.pages,
+                int(self.duplex), self.layout, self.pages, self.copies,
                 status, datetime.now()
             ))
             conn.commit()

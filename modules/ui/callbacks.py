@@ -1,10 +1,3 @@
-from .keyboards.buttons import (
-    LAYOUT_1,
-    LAYOUT_2, 
-    LAYOUT_9,
-    LAYOUT_16
-)
-
 # Global
 MAIN_MENU = "main_menu"
 CONFIRM = "confirm"
@@ -25,9 +18,10 @@ PAY_BELARUSBANK = "pay_belarusbank"
 PAY_OTHER = "pay_other"
 
 # Print options
-PRINT_PREVIEW = "print_preview"
+DETAILS_REVIEW = "details_review"
 PRINT_OPTIONS = "print_options"
-OPTION_PAGES = "print_pages"
-OPTION_DUPLEX = "print_duplex"
-OPTION_LAYOUT = "print_layout"
-LAYOUTS = ["1", "2", "9", "16"]
+OPTION_PAGES = "option_pages"
+OPTION_DUPLEX = "option_duplex"
+OPTION_COPIES = "option_copies"
+OPTION_LAYOUT = "option_layout"
+LAYOUTS = ["16", "9", "2", "1"]

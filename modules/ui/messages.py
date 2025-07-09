@@ -15,23 +15,23 @@ FILE_PROCESSING_FAILURE_TEXT = "❌ Что-то пошло не так с фай
 
 # Payment messages
 PAY_CASH_TEXT = """
-💵 Ты выбрал: <b>Наличные</b>  
-Оставляй деньги в комнате <b>1708А</b>
+💵 Наличные: 
+Оставляй в коробке на принтере, когда придешь забирать
 """
 PAY_CARD_TEXT = """
-💳 Как удобнее перевести?
+💳 Куда удобнее перевести?
 """
 PAY_ALFA_TEXT = """
-💵 Ты выбрал: <b>Альфа-банк</b>  
+💵 <b>Альфа-банк</b>  
 Переводи по номеру телефона - +375 (25) 727-07-03
 """
 PAY_BELARUSBANK_TEXT = """
-💵 Ты выбрал: <b>Беларусбанк</b>  
-Переводи по номеру телефона - +375 (25) 727-07-03
+💵 <b>Беларусбанк</b>  
+Платежи → Перевод по номеру телефона
++375 (29) 277-07-03
 """
-PAY_OTHER_TEXT = """
-💵 Ты выбрал: <b>Другое</b>  
-Переводи через ЕРИП чбез комиссии:
+PAY_OTHER_TEXT = """ 
+💵 Переводи через ЕРИП чбез комиссии:
 1. Банковские, финансовые и услуги - Альфа-Банк
 2. Пополнение счета, <code>375257270703</code> (нажми, чтобы скопировать)
 """
@@ -50,18 +50,25 @@ PRINT_HEADER_TEXT = """
 💰 К оплате: <b>{price:.2f} руб.</b>
 """
 PRINT_OPTIONS_TEXT = """
-⚙️ Выбери опции:
+⚙️ <b>Выбери опции:</b>
 """
 PRINT_START_TEXT = "🖨️ Печатаю <b>{file_name}</b>..."
 PRINT_QUEUE_TEXT = "📑 Файл <b>{file_name}</b> поставлен в очередь. Жди - скоро распечатаю..."
-PRINT_LAYOUT_SELECTION_TEXT = "Select Layout"
-PRINT_PAGES_INPUT_TEXT = "Input ranges"
+PRINT_LAYOUT_SELECTION_TEXT = """
+📐 <b>Выбери макет печати:</b>
+"""
+PRINT_PAGES_INPUT_TEXT = """
+📄 Введи страницы для печати (например, 1,2-5,10)
+"""
+PRINT_COPIES_INPUT_TEXT = """
+🔄 Введи количество копий (по умолчанию 1)
+"""
 PRINT_DONE_TEXT = """✅ Готово!\n Можешь забрать свой файл в комнате <b>1708А</b> (2-я секция)
 Заходи без стука
 """
 PRINT_CANCELLED_TEXT = "❌ Печать отменена. Если что-то не так, пиши в поддержку"
 
-def get_print_preview_text(data: dict) -> str:
+def get_details_review_text(data: dict) -> str:
     header = format_print_text(data)
     return header
 
@@ -76,6 +83,10 @@ def get_cash_payment_text(data: dict) -> str:
 def get_card_payment_text(data: dict) -> str:
     header = format_print_text(data)
     return header + PAY_CARD_TEXT
+
+def get_copies_input_text(data: dict) -> str:
+    header = format_print_text(data)
+    return header + PRINT_COPIES_INPUT_TEXT
 
 def get_pages_input_text(data: dict) -> str:
     header = format_print_text(data)
@@ -99,28 +110,32 @@ def get_other_payment_text(data: dict) -> str:
 
 def format_print_text(data: dict) -> str:
     header = f"""
-    ✅ Файл <b>{data["file_name"]}</b> обработан
+✅ Файл <b>{data["file_name"]}</b> обработан
 
-    📄 Страниц: <b>{data["page_count"]}</b>
-    💰 К оплате: <b>{data["price"]:.2f} руб.</b>
-    """
+📄 Страниц: <b>{data["page_count"]}</b>
+💰 К оплате: <b>{data["price"]:.2f} руб.</b>
+"""
     
-    opts = []
-    
-    pr = data.get("pages")
-    if pr:
-        opts.append(f"Страницы: {pr}")
+    options = []
     
     duplex = data.get("duplex", False)
     if duplex:
-        opts.append(f"Двусторонняя печать")
+        options.append(f"Двусторонняя печать")
+
+    pages = data.get("pages")
+    if pages:
+        options.append(f"Страницы - <i>{pages}</i>")
     
+    copies = data.get("copies", 1)
+    if copies > 1:
+        options.append(f"Копий - <i>{copies}</i>")
+        
     layout = data.get("layout")
     if layout and layout != "1":
-        opts.append(f"Макет: {layout} на лист")
+        options.append(f"Макет - {layout} на лист")
 
-    if not opts:
+    if not options:
         return header
 
-    options_block = "\n".join(["", "‼️ <b>Выбранные опции:</b>"] + opts)
-    return header + options_block
+    options_block = "\n".join(["", "‼️ <b>Опции печати:</b>"] + options)
+    return header + options_block + "\n"

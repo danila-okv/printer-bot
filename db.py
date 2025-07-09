@@ -38,6 +38,7 @@ def init_db():
             duplex        INTEGER DEFAULT 0,        -- 0 = односторонняя, 1 = двухсторонняя
             layout        TEXT,                     -- например "9-up"
             pages         TEXT,                     -- например "1,2-5,10"
+            copies        INTEGER DEFAULT 1,        -- количество копий
             status        TEXT NOT NULL,            -- queued, printing, done, error
             created_at    TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
             started_at    TIMESTAMP,

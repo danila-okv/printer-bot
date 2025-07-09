@@ -1,0 +1,40 @@
+[16:43] [INFO] [7676096317] [handle_document] User uploaded a document for printing, литература на лето.docx, 13186 bytes
+[16:43] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[16:43] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>литература на лето.docx</b> получил. Считаю страницы...
+[16:43] [INFO] [7676096317] [handle_document] Start file processing: литература на лето.docx
+[16:43] [INFO] [7676096317] [handle_document] Downloading file: documents/file_100.docx
+[16:43] [INFO] [7676096317] [handle_document] File downloaded: documents/file_100.docx
+[16:43] [INFO] [7676096317] [handle_document] Converted DOCX to PDF: data/tmp/converted.pdf
+[16:43] [INFO] [7676096317] [handle_document] File processed. pages: 1, price: 0.2
+[16:43] [ACTION] [7676096317] [print_options] Started Option selection
+[16:43] [ACTION] [7676096317] [print_layout] Show layouts
+[16:43] [ACTION] [7676096317] [print_layout] Select layout - 9
+[16:43] [ACTION] [7676096317] [print_options] Started Option selection
+[16:43] [ACTION] [7676096317] [print_duplex] Switched duplex option
+[16:43] [ACTION] [7676096317] [print_duplex] Switched duplex option
+[16:43] [ACTION] [7676096317] [print_duplex] Switched duplex option
+[16:43] [ACTION] [7676096317] [print_options] Started Option selection
+[16:43] [ACTION] [7676096317] [print_pages] Select Pages option
+[16:43] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[16:43] [INFO] [7676096317] [keyboard_tracker] Manage message sent: Приняты страницы: 1
+[16:48] [ACTION] [7676096317] [print_options] Started Option selection
+[16:53] [INFO] [7676096317] [handle_document] User uploaded a document for printing, литература на лето.docx, 13186 bytes
+[16:53] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[16:53] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>литература на лето.docx</b> получил. Считаю страницы...
+[16:53] [INFO] [7676096317] [handle_document] Start file processing: литература на лето.docx
+[16:53] [INFO] [7676096317] [handle_document] Downloading file: documents/file_100.docx
+[16:53] [INFO] [7676096317] [handle_document] File downloaded: documents/file_100.docx
+[16:53] [INFO] [7676096317] [handle_document] Converted DOCX to PDF: data/tmp/converted.pdf
+[16:53] [INFO] [7676096317] [handle_document] File processed. pages: 1, price: 0.2
+[16:53] [ACTION] [7676096317] [print_options] Started Option selection
+[16:53] [ACTION] [7676096317] [print_duplex] Switched duplex option
+[16:53] [ACTION] [7676096317] [print_duplex] Switched duplex option
+[16:53] [ACTION] [7676096317] [print_duplex] Switched duplex option
+[16:53] [ACTION] [7676096317] [print_options] Started Option selection
+[16:53] [ACTION] [7676096317] [print_duplex] Switched duplex option
+[16:53] [ACTION] [7676096317] [print_pages] Select Pages option
+[16:53] [ACTION] [7676096317] [print_options] Started Option selection
+[16:53] [ACTION] [7676096317] [print_options] Started Option selection
+[16:53] [ACTION] [7676096317] [print_layout] Show layouts
+[16:53] [ACTION] [7676096317] [print_layout] Select layout - 9
+[01:45] [WARNING] [7676096317] [unknown_command] берули 8

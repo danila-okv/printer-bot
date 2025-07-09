@@ -1,0 +1,277 @@
+[12:59] [INFO] [7676096317] [handle_document] User uploaded a document for printing, M-_______ ___-17179869376.pdf, 34641 bytes
+[12:59] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[12:59] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>M-_______ ___-17179869376.pdf</b> получил. Считаю страницы...
+[12:59] [INFO] [7676096317] [handle_document] Start file processing: M-_______ ___-17179869376.pdf
+[12:59] [INFO] [7676096317] [handle_document] Downloading file: documents/file_89.pdf
+[12:59] [INFO] [7676096317] [handle_document] File downloaded: documents/file_89.pdf
+[12:59] [INFO] [7676096317] [handle_document] File processed. pages: 1, price: 0.2
+[12:59] [ACTION] [7676096317] [pay_cash] Selected Cash payment method
+[12:59] [INFO] [7676096317] [pay_confirm] Confirm payment
+[12:59] [INFO] [7676096317] [pay_confirm] Add Print Job
+[12:59] [INFO] [7676096317] [print_worker] Starting print job: M-_______ ___-17179869376.pdf
+[12:59] [INFO] [7676096317] [print_job] Job started M-_______ ___-17179869376.pdf: request id is Pantum_P3010DW-278 (1 file(s))
+[12:59] [ERROR] [7676096317] [print_job] Printing error: 'PrintJob' object has no attribute 'pages'
+[13:30] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[13:30] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 
+📤 Присылай .docx или .pdf — я напечатаю в комнате <b>1708А</b>
+
+🖨 ЧБ-печать — <b>20 коп/страница</b>  
+
+[13:30] [ACTION] [7676096317] [Command /start] User started bot
+[13:30] [INFO] [7676096317] [handle_document] User uploaded a document for printing, M-_______ ___-17179869376.pdf, 34641 bytes
+[13:30] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[13:30] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>M-_______ ___-17179869376.pdf</b> получил. Считаю страницы...
+[13:30] [INFO] [7676096317] [handle_document] Start file processing: M-_______ ___-17179869376.pdf
+[13:30] [INFO] [7676096317] [handle_document] Downloading file: documents/file_89.pdf
+[13:30] [INFO] [7676096317] [handle_document] File downloaded: documents/file_89.pdf
+[13:30] [INFO] [7676096317] [handle_document] File processed. pages: 1, price: 0.2
+[13:30] [ACTION] [7676096317] [print_options] Started Option selection
+[13:32] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[13:32] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 
+📤 Присылай .docx или .pdf — я напечатаю в комнате <b>1708А</b>
+
+🖨 ЧБ-печать — <b>20 коп/страница</b>  
+
+[13:32] [WARNING] [7676096317] [ensure_data:handle_return] Data lost
+[13:32] [INFO] [7676096317] [handle_document] User uploaded a document for printing, M-_______ ___-17179869376.pdf, 34641 bytes
+[13:32] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[13:32] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>M-_______ ___-17179869376.pdf</b> получил. Считаю страницы...
+[13:32] [INFO] [7676096317] [handle_document] Start file processing: M-_______ ___-17179869376.pdf
+[13:32] [INFO] [7676096317] [handle_document] Downloading file: documents/file_89.pdf
+[13:32] [INFO] [7676096317] [handle_document] File downloaded: documents/file_89.pdf
+[13:32] [INFO] [7676096317] [handle_document] File processed. pages: 1, price: 0.2
+[13:33] [ACTION] [7676096317] [print_options] Started Option selection
+[13:33] [ACTION] [7676096317] [pay_card] Selected Card payment method
+[13:33] [ACTION] [7676096317] [pay_card] Selected Card payment method
+[13:33] [ACTION] [7676096317] [pay_other] Selected Other payment method
+[13:33] [ACTION] [7676096317] [pay_other] Selected Other payment method
+[13:33] [ACTION] [7676096317] [pay_belarusbank] Selected Belarusbank payment method
+[13:33] [ACTION] [7676096317] [pay_alfa] Selected Alfa payment method
+[13:33] [ACTION] [7676096317] [pay_belarusbank] Selected Belarusbank payment method
+[13:33] [ACTION] [7676096317] [print_options] Started Option selection
+[13:33] [ACTION] [7676096317] [print_duplex] Switched duplex option
+[13:33] [ACTION] [7676096317] [print_duplex] Switched duplex option
+[13:33] [ACTION] [7676096317] [pay_card] Selected Card payment method
+[13:33] [ACTION] [7676096317] [pay_belarusbank] Selected Belarusbank payment method
+[13:33] [INFO] [7676096317] [pay_confirm] Confirm payment
+[13:33] [INFO] [7676096317] [pay_confirm] Add Print Job
+[13:33] [INFO] [7676096317] [print_worker] Starting print job: M-_______ ___-17179869376.pdf
+[13:33] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[13:33] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🖨️ Печатаю <b>M-_______ ___-17179869376.pdf</b>...
+[13:33] [INFO] [7676096317] [print_job] Job started M-_______ ___-17179869376.pdf: request id is Pantum_P3010DW-279 (1 file(s))
+[13:33] [ERROR] [7676096317] [print_job] Printing error: table print_jobs has no column named page_count
+[13:33] [INFO] [7676096317] [keyboard_tracker] Manage message sent: ❌ Ошибка при печати файла «M-_______ ___-17179869376.pdf». Попробуйте позже.
+[13:34] [INFO] [7676096317] [handle_document] User uploaded a document for printing, M-_______ ___-17179869376.pdf, 34641 bytes
+[13:34] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>M-_______ ___-17179869376.pdf</b> получил. Считаю страницы...
+[13:34] [INFO] [7676096317] [handle_document] Start file processing: M-_______ ___-17179869376.pdf
+[13:34] [INFO] [7676096317] [handle_document] Downloading file: documents/file_89.pdf
+[13:34] [INFO] [7676096317] [handle_document] File downloaded: documents/file_89.pdf
+[13:34] [INFO] [7676096317] [handle_document] File processed. pages: 1, price: 0.2
+[13:34] [ACTION] [7676096317] [pay_cash] Selected Cash payment method
+[13:34] [INFO] [7676096317] [pay_confirm] Confirm payment
+[13:34] [INFO] [7676096317] [pay_confirm] Add Print Job
+[13:34] [INFO] [7676096317] [print_worker] Starting print job: M-_______ ___-17179869376.pdf
+[13:34] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[13:34] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🖨️ Печатаю <b>M-_______ ___-17179869376.pdf</b>...
+[13:34] [INFO] [7676096317] [print_job] Job started M-_______ ___-17179869376.pdf: request id is Pantum_P3010DW-280 (1 file(s))
+[13:34] [INFO] [7676096317] [print_job] Printing ended: M-_______ ___-17179869376.pdf
+[13:34] [INFO] [7676096317] [keyboard_tracker] Manage message sent: ✅ Готово!
+ Можешь забрать свой файл в комнате <b>1708А</b> (2-я секция)
+Заходи без стука
+
+[13:37] [ACTION] [7676096317] [cancel] Cancelled order
+[13:37] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[13:37] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 
+📤 Присылай .docx или .pdf — я напечатаю в комнате <b>1708А</b>
+
+🖨 ЧБ-печать — <b>20 коп/страница</b>  
+
+[23:31] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[23:31] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 
+📤 Присылай .docx или .pdf — я напечатаю в комнате <b>1708А</b>
+
+🖨 ЧБ-печать — <b>20 коп/страница</b>  
+
+[23:31] [ACTION] [7676096317] [Command /start] User started bot
+[23:31] [INFO] [7676096317] [handle_document] User uploaded a document for printing, M-_______ ___-17179869376.pdf, 34641 bytes
+[23:31] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[23:31] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>M-_______ ___-17179869376.pdf</b> получил. Считаю страницы...
+[23:31] [INFO] [7676096317] [handle_document] Start file processing: M-_______ ___-17179869376.pdf
+[23:31] [INFO] [7676096317] [handle_document] Downloading file: documents/file_89.pdf
+[23:31] [INFO] [7676096317] [handle_document] File downloaded: documents/file_89.pdf
+[23:31] [INFO] [7676096317] [handle_document] File processed. pages: 1, price: 0.2
+[23:31] [ACTION] [7676096317] [print_options] Started Option selection
+[23:31] [ACTION] [7676096317] [print_layout] Show layouts
+[23:31] [ACTION] [7676096317] [print_layout] Select layout - 9
+[23:31] [ACTION] [7676096317] [print_layout] Select layout - 16
+[23:31] [ACTION] [7676096317] [print_layout] Select layout - 2
+[23:31] [ACTION] [7676096317] [print_layout] Select layout - 1
+[23:31] [ACTION] [7676096317] [print_layout] Select layout - 9
+[23:31] [ACTION] [7676096317] [print_layout] Select layout - 16
+[23:31] [ACTION] [7676096317] [print_layout] Select layout - 2
+[23:31] [ACTION] [7676096317] [print_layout] Select layout - 1
+[23:32] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[23:32] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 
+📤 Присылай .docx или .pdf — я напечатаю в комнате <b>1708А</b>
+
+🖨 ЧБ-печать — <b>20 коп/страница</b>  
+
+[23:32] [WARNING] [7676096317] [ensure_data:handle_layout_selection] Data lost
+[23:32] [INFO] [7676096317] [handle_document] User uploaded a document for printing, M-_______ ___-17179869376.pdf, 34641 bytes
+[23:32] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[23:32] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>M-_______ ___-17179869376.pdf</b> получил. Считаю страницы...
+[23:32] [INFO] [7676096317] [handle_document] Start file processing: M-_______ ___-17179869376.pdf
+[23:32] [INFO] [7676096317] [handle_document] Downloading file: documents/file_89.pdf
+[23:32] [INFO] [7676096317] [handle_document] File downloaded: documents/file_89.pdf
+[23:32] [INFO] [7676096317] [handle_document] File processed. pages: 1, price: 0.2
+[23:33] [ACTION] [7676096317] [print_options] Started Option selection
+[23:33] [ACTION] [7676096317] [print_layout] Show layouts
+[23:33] [ACTION] [7676096317] [print_layout] Select layout - 9
+[23:33] [ACTION] [7676096317] [print_layout] Select layout - 9
+[23:33] [ACTION] [7676096317] [print_layout] Select layout - 16
+[23:33] [ACTION] [7676096317] [print_layout] Select layout - 2
+[23:33] [ACTION] [7676096317] [print_layout] Select layout - 16
+[23:33] [ACTION] [7676096317] [print_layout] Select layout - 2
+[23:33] [ACTION] [7676096317] [print_layout] Select layout - 9
+[23:33] [ACTION] [7676096317] [print_layout] Select layout - 1
+[23:33] [ACTION] [7676096317] [print_layout] Select layout - 9
+[23:34] [INFO] [7676096317] [handle_document] User uploaded a document for printing, M-_______ ___-17179869376.pdf, 34641 bytes
+[23:34] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[23:34] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>M-_______ ___-17179869376.pdf</b> получил. Считаю страницы...
+[23:34] [INFO] [7676096317] [handle_document] Start file processing: M-_______ ___-17179869376.pdf
+[23:34] [INFO] [7676096317] [handle_document] Downloading file: documents/file_89.pdf
+[23:34] [INFO] [7676096317] [handle_document] File downloaded: documents/file_89.pdf
+[23:34] [INFO] [7676096317] [handle_document] File processed. pages: 1, price: 0.2
+[23:34] [ACTION] [7676096317] [print_options] Started Option selection
+[23:34] [ACTION] [7676096317] [print_layout] Show layouts
+[23:34] [ACTION] [7676096317] [print_layout] Select layout - 9
+[23:34] [ACTION] [7676096317] [print_layout] Select layout - 16
+[23:34] [ACTION] [7676096317] [print_layout] Select layout - 2
+[23:38] [INFO] [7676096317] [handle_document] User uploaded a document for printing, M-_______ ___-17179869376.pdf, 34641 bytes
+[23:38] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[23:38] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>M-_______ ___-17179869376.pdf</b> получил. Считаю страницы...
+[23:38] [INFO] [7676096317] [handle_document] Start file processing: M-_______ ___-17179869376.pdf
+[23:38] [INFO] [7676096317] [handle_document] Downloading file: documents/file_89.pdf
+[23:38] [INFO] [7676096317] [handle_document] File downloaded: documents/file_89.pdf
+[23:38] [INFO] [7676096317] [handle_document] File processed. pages: 1, price: 0.2
+[23:38] [ACTION] [7676096317] [print_options] Started Option selection
+[23:38] [ACTION] [7676096317] [print_layout] Show layouts
+[23:38] [ACTION] [7676096317] [print_layout] Select layout - 9
+[23:38] [ACTION] [7676096317] [print_layout] Select layout - 16
+[23:38] [ACTION] [7676096317] [print_layout] Select layout - 1
+[23:38] [ACTION] [7676096317] [print_layout] Select layout - 9
+[23:38] [ACTION] [7676096317] [print_layout] Select layout - 1
+[23:38] [INFO] [7676096317] [handle_document] User uploaded a document for printing, M-_______ ___-17179869376.pdf, 34641 bytes
+[23:38] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[23:38] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>M-_______ ___-17179869376.pdf</b> получил. Считаю страницы...
+[23:38] [INFO] [7676096317] [handle_document] Start file processing: M-_______ ___-17179869376.pdf
+[23:38] [INFO] [7676096317] [handle_document] Downloading file: documents/file_89.pdf
+[23:38] [INFO] [7676096317] [handle_document] File downloaded: documents/file_89.pdf
+[23:38] [INFO] [7676096317] [handle_document] File processed. pages: 1, price: 0.2
+[23:39] [ACTION] [7676096317] [print_options] Started Option selection
+[23:39] [ACTION] [7676096317] [print_layout] Show layouts
+[23:39] [ACTION] [7676096317] [print_layout] Select layout - 9
+[23:39] [ACTION] [7676096317] [print_layout] Select layout - 1
+[23:39] [ACTION] [7676096317] [print_layout] Select layout - 9
+[23:39] [ACTION] [7676096317] [print_layout] Select layout - 16
+[23:39] [ACTION] [7676096317] [print_layout] Select layout - 2
+[23:39] [ACTION] [7676096317] [print_layout] Select layout - 1
+[23:39] [ACTION] [7676096317] [print_layout] Select layout - 9
+[23:39] [ACTION] [7676096317] [print_layout] Select layout - 2
+[23:39] [ACTION] [7676096317] [print_layout] Select layout - 1
+[23:39] [ACTION] [7676096317] [print_layout] Select layout - 9
+[23:39] [ACTION] [7676096317] [print_layout] Select layout - 2
+[23:39] [ACTION] [7676096317] [print_layout] Select layout - 9
+[23:39] [ACTION] [7676096317] [print_layout] Select layout - 16
+[23:39] [ACTION] [7676096317] [print_layout] Select layout - 1
+[23:39] [ACTION] [7676096317] [print_layout] Select layout - 2
+[23:39] [ACTION] [7676096317] [print_layout] Select layout - 16
+[23:39] [ACTION] [7676096317] [print_layout] Select layout - 9
+[23:40] [ACTION] [7676096317] [print_layout] Select layout - 1
+[23:40] [ACTION] [7676096317] [print_layout] Select layout - 9
+[23:40] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[23:40] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 
+📤 Присылай .docx или .pdf — я напечатаю в комнате <b>1708А</b>
+
+🖨 ЧБ-печать — <b>20 коп/страница</b>  
+
+[23:40] [WARNING] [7676096317] [ensure_data:handle_layout_selection] Data lost
+[23:41] [INFO] [7676096317] [handle_document] User uploaded a document for printing, M-_______ ___-17179869376.pdf, 34641 bytes
+[23:41] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[23:41] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>M-_______ ___-17179869376.pdf</b> получил. Считаю страницы...
+[23:41] [INFO] [7676096317] [handle_document] Start file processing: M-_______ ___-17179869376.pdf
+[23:41] [INFO] [7676096317] [handle_document] Downloading file: documents/file_89.pdf
+[23:41] [INFO] [7676096317] [handle_document] File downloaded: documents/file_89.pdf
+[23:41] [INFO] [7676096317] [handle_document] File processed. pages: 1, price: 0.2
+[23:41] [ACTION] [7676096317] [print_options] Started Option selection
+[23:41] [ACTION] [7676096317] [print_layout] Show layouts
+[23:41] [ACTION] [7676096317] [print_layout] Select layout - 9
+[23:41] [ACTION] [7676096317] [print_layout] Select layout - 16
+[23:41] [ACTION] [7676096317] [print_layout] Select layout - 2
+[23:41] [ACTION] [7676096317] [print_layout] Select layout - 1
+[23:41] [ACTION] [7676096317] [print_layout] Select layout - 9
+[23:41] [ACTION] [7676096317] [print_options] Started Option selection
+[23:41] [ACTION] [7676096317] [print_layout] Show layouts
+[23:41] [ACTION] [7676096317] [print_layout] Select layout - 1
+[23:41] [ACTION] [7676096317] [pay_cash] Selected Cash payment method
+[23:41] [ACTION] [7676096317] [print_options] Started Option selection
+[23:41] [ACTION] [7676096317] [print_layout] Show layouts
+[23:41] [ACTION] [7676096317] [print_layout] Select layout - 16
+[23:42] [ACTION] [7676096317] [pay_card] Selected Card payment method
+[23:42] [ACTION] [7676096317] [pay_belarusbank] Selected Belarusbank payment method
+[23:42] [ACTION] [7676096317] [pay_alfa] Selected Alfa payment method
+[23:42] [ACTION] [7676096317] [pay_alfa] Selected Alfa payment method
+[23:42] [ACTION] [7676096317] [pay_cash] Selected Cash payment method
+[23:42] [ACTION] [7676096317] [print_options] Started Option selection
+[23:42] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[23:42] [INFO] [7676096317] [keyboard_tracker] Manage message sent: Range
+[23:42] [ACTION] [7676096317] [print_pages] Selected Pages option
+[23:43] [ACTION] [7676096317] [print_layout] Show layouts
+[23:43] [ACTION] [7676096317] [print_options] Started Option selection
+[23:43] [ACTION] [7676096317] [print_duplex] Switched duplex option
+[23:43] [ACTION] [7676096317] [print_options] Started Option selection
+[23:47] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[23:47] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 
+📤 Присылай .docx или .pdf — я напечатаю в комнате <b>1708А</b>
+
+🖨 ЧБ-печать — <b>20 коп/страница</b>  
+
+[23:47] [WARNING] [7676096317] [ensure_data:handle_option_duplex] Data lost
+[23:47] [INFO] [7676096317] [handle_document] User uploaded a document for printing, M-_______ ___-17179869376.pdf, 34641 bytes
+[23:47] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[23:47] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>M-_______ ___-17179869376.pdf</b> получил. Считаю страницы...
+[23:47] [INFO] [7676096317] [handle_document] Start file processing: M-_______ ___-17179869376.pdf
+[23:47] [INFO] [7676096317] [handle_document] Downloading file: documents/file_89.pdf
+[23:47] [INFO] [7676096317] [handle_document] File downloaded: documents/file_89.pdf
+[23:47] [INFO] [7676096317] [handle_document] File processed. pages: 1, price: 0.2
+[23:47] [ACTION] [7676096317] [print_options] Started Option selection
+[23:47] [ACTION] [7676096317] [print_duplex] Switched duplex option
+[23:47] [ACTION] [7676096317] [print_duplex] Switched duplex option
+[23:47] [ACTION] [7676096317] [print_duplex] Switched duplex option
+[23:47] [ACTION] [7676096317] [print_duplex] Switched duplex option
+[23:47] [ACTION] [7676096317] [print_duplex] Switched duplex option
+[23:47] [ACTION] [7676096317] [print_duplex] Switched duplex option
+[23:47] [ACTION] [7676096317] [print_duplex] Switched duplex option
+[23:47] [ACTION] [7676096317] [print_duplex] Switched duplex option
+[23:47] [ACTION] [7676096317] [print_duplex] Switched duplex option
+[23:47] [ACTION] [7676096317] [print_duplex] Switched duplex option
+[23:47] [ACTION] [7676096317] [print_duplex] Switched duplex option
+[23:47] [ACTION] [7676096317] [print_duplex] Switched duplex option
+[23:47] [ACTION] [7676096317] [print_duplex] Switched duplex option
+[23:47] [ACTION] [7676096317] [print_duplex] Switched duplex option
+[23:47] [ACTION] [7676096317] [print_duplex] Switched duplex option
+[23:48] [ACTION] [7676096317] [print_duplex] Switched duplex option
+[15:11] [INFO] [746382370] [keyboard_tracker] Manage message sent: 
+📤 Присылай .docx или .pdf — я напечатаю в комнате <b>1708А</b>
+
+🖨 ЧБ-печать — <b>20 коп/страница</b>  
+
+[15:11] [ACTION] [746382370] [Command /start] User started bot
+[15:11] [INFO] [746382370] [handle_document] User uploaded a document for printing, Тезис Прашкович Миронов.docx, 13617 bytes
+[15:11] [INFO] [746382370] [keyboard_tracker] Old markup removed
+[15:11] [INFO] [746382370] [keyboard_tracker] Manage message sent: 🔄 Файл <b>Тезис Прашкович Миронов.docx</b> получил. Считаю страницы...
+[15:11] [INFO] [746382370] [handle_document] Start file processing: Тезис Прашкович Миронов.docx
+[15:11] [INFO] [746382370] [handle_document] Downloading file: documents/file_90.docx
+[15:11] [INFO] [746382370] [handle_document] File downloaded: documents/file_90.docx
+[15:11] [INFO] [746382370] [handle_document] Converted DOCX to PDF: data/tmp/converted.pdf
+[15:11] [INFO] [746382370] [handle_document] File processed. pages: 1, price: 0.2

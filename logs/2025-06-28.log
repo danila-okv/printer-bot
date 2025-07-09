@@ -1,0 +1,800 @@
+[00:31] 7676096317: start_command : User started the bot
+[00:32] 7676096317: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[00:32] 7676096317: handle_document : Processing file: M-Банкинг чек-4294968789.docx
+[00:32] 7676096317: handle_document : Downloading file: documents/file_17.docx
+[00:32] 7676096317: handle_document : File downloaded successfully: documents/file_17.docx
+[00:32] 7676096317: handle_document : Converted DOCX to PDF: data/tmp/converted.pdf
+[00:32] 7676096317: handle_document : File processed: data/uploads/7676096317/M-Банкинг чек-4294968789.pdf, pages: 1, price: 0.2
+[00:32] 7931008794: pay_card : User select Card payment
+[00:32] 7931008794: pay_cash : User select Cash payment
+[00:32] 7676096317: pay_confirm
+[00:32] 7676096317: print_worker : Starting print job: M-Банкинг чек-4294968789.docx
+[00:32] 7676096317: Start file printing: M-Банкинг чек-4294968789.docx, lp output: request id is _192_168_31_87-245 (1 file(s))
+[00:32] 7676096317: Print job 245 still in progress for file M-Банкинг чек-4294968789.docx
+[00:32] 7676096317: Print job 245 still in progress for file M-Банкинг чек-4294968789.docx
+[00:32] 7676096317: Print job 245 still in progress for file M-Банкинг чек-4294968789.docx
+[00:33] 7676096317: Print job 245 still in progress for file M-Банкинг чек-4294968789.docx
+[00:33] 7676096317: Print job 245 still in progress for file M-Банкинг чек-4294968789.docx
+[00:33] 7676096317: Print job 245 completed for file M-Банкинг чек-4294968789.docx
+[01:22] 7676096317: start_command : User started the bot
+[01:23] 7676096317: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[01:23] 7676096317: handle_document : Processing file: M-Банкинг чек-4294968789.docx
+[01:23] 7676096317: handle_document : Downloading file: documents/file_18.docx
+[01:23] 7676096317: handle_document : File downloaded successfully: documents/file_18.docx
+[01:23] 7676096317: handle_document : Converted DOCX to PDF: data/tmp/converted.pdf
+[01:23] 7676096317: handle_document : File processed: data/uploads/7676096317/M-Банкинг чек-4294968789.pdf, pages: 1, price: 0.2
+[01:23] 7931008794: pay_card : User select Card payment
+[01:23] 7931008794: pay_cash : User select Cash payment
+[01:25] 7676096317: pay_confirm
+[01:26] 7676096317: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[01:26] 7676096317: handle_document : Processing file: M-Банкинг чек-4294968789.docx
+[01:26] 7676096317: handle_document : Downloading file: documents/file_19.docx
+[01:26] 7676096317: handle_document : File downloaded successfully: documents/file_19.docx
+[01:26] 7676096317: handle_document : Converted DOCX to PDF: data/tmp/converted.pdf
+[01:26] 7676096317: handle_document : File processed: data/uploads/7676096317/M-Банкинг чек-4294968789.pdf, pages: 1, price: 0.2
+[01:26] 7931008794: pay_card : User select Card payment
+[01:26] 7931008794: pay_cash : User select Cash payment
+[01:32] 7676096317: unknown_command : s
+[01:33] 7676096317: pay_confirm
+[01:33] 7676096317: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[01:33] 7676096317: handle_document : Processing file: M-Банкинг чек-4294968789.docx
+[01:33] 7676096317: handle_document : Downloading file: documents/file_20.docx
+[01:33] 7676096317: handle_document : File downloaded successfully: documents/file_20.docx
+[01:33] 7676096317: handle_document : Converted DOCX to PDF: data/tmp/converted.pdf
+[01:33] 7676096317: handle_document : File processed: data/uploads/7676096317/M-Банкинг чек-4294968789.pdf, pages: 1, price: 0.2
+[01:33] 7931008794: pay_card : User select Card payment
+[01:33] 7931008794: pay_cash : User select Cash payment
+[01:33] 7676096317: pay_confirm
+[01:33] 7676096317: print_worker : Starting print job: M-Банкинг чек-4294968789.docx
+[01:33] 7676096317: Start file printing: M-Банкинг чек-4294968789.docx, lp output: request id is Pantum_P3010DW_Series_27888F_auto-246 (1 file(s))
+[01:33] 7676096317: Print job 246 still in progress for file M-Банкинг чек-4294968789.docx
+[01:33] 7676096317: Print job 246 still in progress for file M-Банкинг чек-4294968789.docx
+[01:33] 7676096317: Print job 246 still in progress for file M-Банкинг чек-4294968789.docx
+[01:33] 7676096317: Print job 246 still in progress for file M-Банкинг чек-4294968789.docx
+[01:33] 7676096317: Print job 246 still in progress for file M-Банкинг чек-4294968789.docx
+[01:34] 7676096317: Print job 246 still in progress for file M-Банкинг чек-4294968789.docx
+[01:34] 7676096317: Print job 246 still in progress for file M-Банкинг чек-4294968789.docx
+[01:34] 7676096317: Print job 246 still in progress for file M-Банкинг чек-4294968789.docx
+[01:34] 7676096317: Print job 246 still in progress for file M-Банкинг чек-4294968789.docx
+[01:34] 7676096317: Print job 246 still in progress for file M-Банкинг чек-4294968789.docx
+[01:34] 7676096317: Print job 246 completed for file M-Банкинг чек-4294968789.docx
+[01:36] 7676096317: start_command : User started the bot
+[01:37] 645785112: unknown_command : Shush’s
+[01:37] 645785112: start_command : User started the bot
+[01:38] 645785112: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[01:38] 645785112: handle_document : User is banned
+[01:49] 7676096317: unknown_command : /git branch test
+[04:05] 7676096317: unknown_command : /jobs
+[04:37] 7676096317: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[04:37] 7676096317: handle_document : Processing file: M-Банкинг чек-4294968789.docx
+[04:37] 7676096317: handle_document : Downloading file: documents/file_21.docx
+[04:37] 7676096317: handle_document : File downloaded successfully: documents/file_21.docx
+[04:37] 7676096317: handle_document : Converted DOCX to PDF: data/tmp/converted.pdf
+[04:37] 7676096317: handle_document : File processed: data/uploads/7676096317/M-Банкинг чек-4294968789.pdf, pages: 1, price: 0.2
+[04:39] 7676096317: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[04:39] 7676096317: handle_document : Processing file: M-Банкинг чек.docx
+[04:39] 7676096317: handle_document : Downloading file: documents/file_22.docx
+[04:39] 7676096317: handle_document : File downloaded successfully: documents/file_22.docx
+[04:39] 7676096317: handle_document : Converted DOCX to PDF: data/tmp/converted.pdf
+[04:39] 7676096317: handle_document : File processed: data/uploads/7676096317/M-Банкинг чек.pdf, pages: 1, price: 0.2
+[04:40] 7676096317: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[04:40] 7676096317: handle_document : Processing file: ДОКЛАД.docx
+[04:40] 7676096317: handle_document : Downloading file: documents/file_23.docx
+[04:40] 7676096317: handle_document : File downloaded successfully: documents/file_23.docx
+[04:40] 7676096317: handle_document : Converted DOCX to PDF: data/tmp/converted.pdf
+[04:40] 7676096317: handle_document : File processed: data/uploads/7676096317/ДОКЛАД.pdf, pages: 2, price: 0.4
+[04:42] 7676096317: start_command : User started the bot
+[04:44] 7676096317: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[04:44] 7676096317: handle_document : Processing file: M-Банкинг чек-4294968828.docx
+[04:44] 7676096317: handle_document : Downloading file: documents/file_24.docx
+[04:44] 7676096317: handle_document : File downloaded successfully: documents/file_24.docx
+[04:45] 7676096317: handle_document : Converted DOCX to PDF: data/tmp/converted.pdf
+[04:45] 7676096317: handle_document : File processed: data/uploads/7676096317/M-Банкинг чек-4294968828.pdf, pages: 1, price: 0.2
+[04:46] 7676096317: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[04:46] 7676096317: handle_document : Processing file: M-Банкинг чек.docx
+[04:46] 7676096317: handle_document : Downloading file: documents/file_25.docx
+[04:46] 7676096317: handle_document : File downloaded successfully: documents/file_25.docx
+[04:46] 7676096317: handle_document : Converted DOCX to PDF: data/tmp/converted.pdf
+[04:46] 7676096317: handle_document : File processed: data/uploads/7676096317/M-Банкинг чек.pdf, pages: 1, price: 0.2
+[04:51] 7676096317: start_command : User started the bot
+[04:52] 7676096317: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[04:52] 7676096317: handle_document : Processing file: ДОКЛАД.docx
+[04:52] 7676096317: handle_document : Downloading file: documents/file_26.docx
+[04:52] 7676096317: handle_document : File downloaded successfully: documents/file_26.docx
+[04:52] 7676096317: handle_document : Converted DOCX to PDF: data/tmp/converted.pdf
+[04:52] 7676096317: handle_document : File processed: data/uploads/7676096317/ДОКЛАД.pdf, pages: 2, price: 0.4
+[04:53] 7676096317: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[04:53] 7676096317: handle_document : Processing file: План.pdf
+[04:53] 7676096317: handle_document : Downloading file: documents/file_27.pdf
+[04:53] 7676096317: handle_document : File downloaded successfully: documents/file_27.pdf
+[04:53] 7676096317: handle_document : File processed: data/uploads/7676096317/План.pdf, pages: 8, price: 1.6
+[04:55] 7676096317: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[04:55] 7676096317: handle_document : Processing file: M-Банкинг чек-4294968828.docx
+[04:55] 7676096317: handle_document : Downloading file: documents/file_28.docx
+[04:55] 7676096317: handle_document : File downloaded successfully: documents/file_28.docx
+[04:55] 7676096317: handle_document : Converted DOCX to PDF: data/tmp/converted.pdf
+[04:55] 7676096317: handle_document : File processed: data/uploads/7676096317/M-Банкинг чек-4294968828.pdf, pages: 1, price: 0.2
+[04:57] 7676096317: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[04:57] 7676096317: handle_document : Processing file: План.pdf
+[04:57] 7676096317: handle_document : Downloading file: documents/file_29.pdf
+[04:57] 7676096317: handle_document : File downloaded successfully: documents/file_29.pdf
+[04:57] 7676096317: handle_document : File processed: data/uploads/7676096317/План.pdf, pages: 8, price: 1.6
+[04:59] 7676096317: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[04:59] 7676096317: handle_document : Processing file: M-Банкинг чек-4294968789.docx
+[04:59] 7676096317: handle_document : Downloading file: documents/file_30.docx
+[04:59] 7676096317: handle_document : File downloaded successfully: documents/file_30.docx
+[04:59] 7676096317: handle_document : Converted DOCX to PDF: data/tmp/converted.pdf
+[04:59] 7676096317: handle_document : File processed: data/uploads/7676096317/M-Банкинг чек-4294968789.pdf, pages: 1, price: 0.2
+[04:59] 7676096317: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[04:59] 7676096317: handle_document : Processing file: M-Банкинг чек-4294968789.docx
+[04:59] 7676096317: handle_document : Downloading file: documents/file_31.docx
+[04:59] 7676096317: handle_document : File downloaded successfully: documents/file_31.docx
+[04:59] 7676096317: handle_document : Converted DOCX to PDF: data/tmp/converted.pdf
+[04:59] 7676096317: handle_document : File processed: data/uploads/7676096317/M-Банкинг чек-4294968789.pdf, pages: 1, price: 0.2
+[05:03] 7676096317: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[05:03] 7676096317: handle_document : Processing file: M-Банкинг чек-4294968828.docx
+[05:03] 7676096317: handle_document : Downloading file: documents/file_32.docx
+[05:03] 7676096317: handle_document : File downloaded successfully: documents/file_32.docx
+[05:03] 7676096317: handle_document : Converted DOCX to PDF: data/tmp/converted.pdf
+[05:03] 7676096317: handle_document : File processed: data/uploads/7676096317/M-Банкинг чек-4294968828.pdf, pages: 1, price: 0.2
+[05:04] 7676096317: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[05:04] 7676096317: handle_document : Processing file: M-Банкинг чек-4294968828.docx
+[05:04] 7676096317: handle_document : Downloading file: documents/file_33.docx
+[05:04] 7676096317: handle_document : File downloaded successfully: documents/file_33.docx
+[05:04] 7676096317: handle_document : Converted DOCX to PDF: data/tmp/converted.pdf
+[05:04] 7676096317: handle_document : File processed: data/uploads/7676096317/M-Банкинг чек-4294968828.pdf, pages: 1, price: 0.2
+[05:07] 7676096317: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[05:07] 7676096317: handle_document : Processing file: M-Банкинг чек.docx
+[05:07] 7676096317: handle_document : Downloading file: documents/file_34.docx
+[05:07] 7676096317: handle_document : File downloaded successfully: documents/file_34.docx
+[05:07] 7676096317: handle_document : Converted DOCX to PDF: data/tmp/converted.pdf
+[05:07] 7676096317: handle_document : File processed: data/uploads/7676096317/M-Банкинг чек.pdf, pages: 1, price: 0.2
+[05:08] 7676096317: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[05:08] 7676096317: handle_document : Processing file: M-Банкинг чек.docx
+[05:08] 7676096317: handle_document : Downloading file: documents/file_35.docx
+[05:08] 7676096317: handle_document : File downloaded successfully: documents/file_35.docx
+[05:08] 7676096317: handle_document : Converted DOCX to PDF: data/tmp/converted.pdf
+[05:08] 7676096317: handle_document : File processed: data/uploads/7676096317/M-Банкинг чек.pdf, pages: 1, price: 0.2
+[05:09] 7676096317: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[05:09] 7676096317: handle_document : Processing file: M-Банкинг чек.docx
+[05:09] 7676096317: handle_document : Downloading file: documents/file_35.docx
+[05:09] 7676096317: handle_document : File downloaded successfully: documents/file_35.docx
+[05:09] 7676096317: handle_document : Converted DOCX to PDF: data/tmp/converted.pdf
+[05:09] 7676096317: handle_document : File processed: data/uploads/7676096317/M-Банкинг чек.pdf, pages: 1, price: 0.2
+[05:10] 7676096317: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[05:10] 7676096317: handle_document : Processing file: M-Банкинг чек.docx
+[05:10] 7676096317: handle_document : Downloading file: documents/file_35.docx
+[05:10] 7676096317: handle_document : File downloaded successfully: documents/file_35.docx
+[05:10] 7676096317: handle_document : Converted DOCX to PDF: data/tmp/converted.pdf
+[05:10] 7676096317: handle_document : File processed: data/uploads/7676096317/M-Банкинг чек.pdf, pages: 1, price: 0.2
+[05:14] 7676096317: unknown_command : await callback.answer()
+[05:14] 7676096317: handle_document : User uploaded a document for printing, {doc.file_name}, {doc.file_size} bytes
+[05:14] 7676096317: handle_document : Processing file: M-Банкинг чек-4294968802.pdf
+[05:14] 7676096317: handle_document : Downloading file: documents/file_36.pdf
+[05:14] 7676096317: handle_document : File downloaded successfully: documents/file_36.pdf
+[05:14] 7676096317: handle_document : File processed: data/uploads/7676096317/M-Банкинг чек-4294968802.pdf, pages: 1, price: 0.2
+[2025-06-28 06:22] [ACTION] [7676096317] [Command /start] User started bot
+[06:23] [ACTION] [7676096317] [Command /start] User started bot
+[06:24] [WARNING] [7676096317] [unknown_command] s
+[06:25] [ACTION] [7676096317] [Command /start] User started bot
+[06:25] [ACTION] [7676096317] [Command /start] User started bot
+[06:25] [ACTION] [7676096317] [Command /start] User started bot
+[06:25] [ACTION] [7676096317] [Command /start] User started bot
+[06:25] [ACTION] [7676096317] [Command /start] User started bot
+[06:25] [ACTION] [7676096317] [Command /start] User started bot
+[13:49] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[13:49] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 
+📤 Присылай .docx или .pdf — я напечатаю в комнате <b>1708А</b>
+
+🖨 ЧБ-печать — <b>20 коп/страница</b>  
+
+[13:49] [ACTION] [7676096317] [Command /start] User started bot
+[13:50] [INFO] [7676096317] [handle_document] User uploaded a document for printing, M-Банкинг чек-4294968802.pdf, 34074 bytes
+[13:50] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[13:50] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>M-Банкинг чек-4294968802.pdf</b> получил. Считаю страницы...
+[13:50] [INFO] [7676096317] [handle_document] Start file processing: M-Банкинг чек-4294968802.pdf
+[13:50] [INFO] [7676096317] [handle_document] Downloading file: documents/file_38.pdf
+[13:50] [INFO] [7676096317] [handle_document] File downloaded: documents/file_38.pdf
+[13:50] [INFO] [7676096317] [handle_document] File processed. pages: 1, price: 0.2
+[13:51] [ACTION] [7676096317] [print_options] Started Option selection
+[13:51] [ACTION] [7676096317] [print_duplex] Switched duplex option
+[14:17] [INFO] [7676096317] [handle_document] User uploaded a document for printing, M-Банкинг чек-4294968802.pdf, 34074 bytes
+[14:17] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[14:17] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>M-Банкинг чек-4294968802.pdf</b> получил. Считаю страницы...
+[14:17] [INFO] [7676096317] [handle_document] Start file processing: M-Банкинг чек-4294968802.pdf
+[14:17] [INFO] [7676096317] [handle_document] Downloading file: documents/file_39.pdf
+[14:17] [INFO] [7676096317] [handle_document] File downloaded: documents/file_39.pdf
+[14:17] [INFO] [7676096317] [handle_document] File processed. pages: 1, price: 0.2
+[14:17] [ACTION] [7676096317] [print_options] Started Option selection
+[14:18] [INFO] [7676096317] [handle_document] User uploaded a document for printing, M-Банкинг чек-4294968802.pdf, 34074 bytes
+[14:18] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[14:18] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>M-Банкинг чек-4294968802.pdf</b> получил. Считаю страницы...
+[14:18] [INFO] [7676096317] [handle_document] Start file processing: M-Банкинг чек-4294968802.pdf
+[14:18] [INFO] [7676096317] [handle_document] Downloading file: documents/file_40.pdf
+[14:18] [INFO] [7676096317] [handle_document] File downloaded: documents/file_40.pdf
+[14:18] [INFO] [7676096317] [handle_document] File processed. pages: 1, price: 0.2
+[14:18] [ACTION] [7676096317] [print_options] Started Option selection
+[14:19] [INFO] [7676096317] [handle_document] User uploaded a document for printing, M-Банкинг чек-4294968802.pdf, 34074 bytes
+[14:19] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[14:19] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>M-Банкинг чек-4294968802.pdf</b> получил. Считаю страницы...
+[14:19] [INFO] [7676096317] [handle_document] Start file processing: M-Банкинг чек-4294968802.pdf
+[14:19] [INFO] [7676096317] [handle_document] Downloading file: documents/file_41.pdf
+[14:19] [INFO] [7676096317] [handle_document] File downloaded: documents/file_41.pdf
+[14:19] [INFO] [7676096317] [handle_document] File processed. pages: 1, price: 0.2
+[14:19] [ACTION] [7676096317] [print_options] Started Option selection
+[14:19] [ACTION] [7676096317] [print_options] Started Option selection
+[14:19] [ACTION] [7676096317] [print_options] Started Option selection
+[14:19] [ACTION] [7676096317] [print_options] Started Option selection
+[14:20] [ACTION] [7676096317] [print_options] Started Option selection
+[14:20] [ACTION] [7676096317] [print_options] Started Option selection
+[14:20] [ACTION] [7676096317] [print_options] Started Option selection
+[14:20] [ACTION] [7676096317] [print_options] Started Option selection
+[14:20] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[14:20] [INFO] [7676096317] [keyboard_tracker] Manage message sent: Range
+[14:20] [ACTION] [7676096317] [print_pages] Selected Pages option
+[14:20] [ACTION] [7676096317] [pay_card] Selected Card payment method
+[14:20] [ACTION] [7676096317] [cancel] Cancelled order
+[14:21] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 
+📤 Присылай .docx или .pdf — я напечатаю в комнате <b>1708А</b>
+
+🖨 ЧБ-печать — <b>20 коп/страница</b>  
+
+[14:21] [INFO] [7676096317] [handle_document] User uploaded a document for printing, M-Банкинг чек-4294968802.pdf, 34074 bytes
+[14:21] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[14:21] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>M-Банкинг чек-4294968802.pdf</b> получил. Считаю страницы...
+[14:21] [INFO] [7676096317] [handle_document] Start file processing: M-Банкинг чек-4294968802.pdf
+[14:21] [INFO] [7676096317] [handle_document] Downloading file: documents/file_42.pdf
+[14:21] [INFO] [7676096317] [handle_document] File downloaded: documents/file_42.pdf
+[14:21] [INFO] [7676096317] [handle_document] File processed. pages: 1, price: 0.2
+[14:21] [ACTION] [7676096317] [print_options] Started Option selection
+[14:21] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[14:21] [INFO] [7676096317] [keyboard_tracker] Manage message sent: Range
+[14:21] [ACTION] [7676096317] [print_pages] Selected Pages option
+[14:21] [ACTION] [7676096317] [print_options] Started Option selection
+[14:22] [ACTION] [7676096317] [pay_card] Selected Card payment method
+[14:22] [ACTION] [7676096317] [pay_belarusbank] Selected Belarusbank payment method
+[14:22] [INFO] [7676096317] [pay_confirm] Confirmed payment
+[14:22] [ACTION] [7676096317] [cancel] Cancelled order
+[14:22] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 
+📤 Присылай .docx или .pdf — я напечатаю в комнате <b>1708А</b>
+
+🖨 ЧБ-печать — <b>20 коп/страница</b>  
+
+[14:23] [INFO] [7676096317] [handle_document] User uploaded a document for printing, ПЕЧАТЬ11.docx, 14433 bytes
+[14:23] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[14:23] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>ПЕЧАТЬ11.docx</b> получил. Считаю страницы...
+[14:23] [INFO] [7676096317] [handle_document] Start file processing: ПЕЧАТЬ11.docx
+[14:23] [INFO] [7676096317] [handle_document] Downloading file: documents/file_43.docx
+[14:23] [INFO] [7676096317] [handle_document] File downloaded: documents/file_43.docx
+[14:23] [INFO] [7676096317] [handle_document] Converted DOCX to PDF: data/tmp/converted.pdf
+[14:23] [INFO] [7676096317] [handle_document] File processed. pages: 2, price: 0.4
+[14:23] [ACTION] [7676096317] [pay_card] Selected Card payment method
+[14:23] [ACTION] [7676096317] [pay_belarusbank] Selected Belarusbank payment method
+[14:23] [INFO] [7676096317] [pay_confirm] Confirmed payment
+[14:23] [INFO] [7676096317] [handle_document] User uploaded a document for printing, M-Банкинг чек-4294968802.pdf, 34074 bytes
+[14:23] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[14:23] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>M-Банкинг чек-4294968802.pdf</b> получил. Считаю страницы...
+[14:23] [INFO] [7676096317] [handle_document] Start file processing: M-Банкинг чек-4294968802.pdf
+[14:23] [INFO] [7676096317] [handle_document] Downloading file: documents/file_44.pdf
+[14:23] [INFO] [7676096317] [handle_document] File downloaded: documents/file_44.pdf
+[14:23] [INFO] [7676096317] [handle_document] File processed. pages: 1, price: 0.2
+[14:23] [ACTION] [7676096317] [pay_cash] Selected Cash payment method
+[14:23] [INFO] [7676096317] [pay_confirm] Confirmed payment
+[14:23] [INFO] [7676096317] [pay_confirm] Confirmed payment
+[14:25] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[14:25] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 
+📤 Присылай .docx или .pdf — я напечатаю в комнате <b>1708А</b>
+
+🖨 ЧБ-печать — <b>20 коп/страница</b>  
+
+[14:25] [WARNING] [7676096317] [Ensure print data] Data lost
+[14:25] [INFO] [7676096317] [handle_document] User uploaded a document for printing, M-Банкинг чек-4294968802.pdf, 34074 bytes
+[14:25] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[14:25] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>M-Банкинг чек-4294968802.pdf</b> получил. Считаю страницы...
+[14:25] [INFO] [7676096317] [handle_document] Start file processing: M-Банкинг чек-4294968802.pdf
+[14:25] [INFO] [7676096317] [handle_document] Downloading file: documents/file_45.pdf
+[14:25] [INFO] [7676096317] [handle_document] File downloaded: documents/file_45.pdf
+[14:25] [INFO] [7676096317] [handle_document] File processed. pages: 1, price: 0.2
+[14:25] [ACTION] [7676096317] [print_options] Started Option selection
+[14:25] [ACTION] [7676096317] [pay_card] Selected Card payment method
+[14:25] [ACTION] [7676096317] [pay_belarusbank] Selected Belarusbank payment method
+[14:25] [INFO] [7676096317] [pay_confirm] Confirmed payment
+[14:25] [INFO] [7676096317] [pay_confirm] Added Print Job
+[14:25] [INFO] [7676096317] [print_worker] Starting print job: M-Банкинг чек-4294968802.pdf
+[14:25] [INFO] [7676096317] [print_job] Job started M-Банкинг чек-4294968802.pdf: request id is Pantum_P3010DW-248 (1 file(s))
+[14:25] [ERROR] [7676096317] [print_worker] Error in print job M-Банкинг чек-4294968802.pdf: error() missing 1 required positional argument: 'msg'
+[14:29] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 
+📤 Присылай .docx или .pdf — я напечатаю в комнате <b>1708А</b>
+
+🖨 ЧБ-печать — <b>20 коп/страница</b>  
+
+[14:29] [ACTION] [7676096317] [Command /start] User started bot
+[14:29] [INFO] [7676096317] [handle_document] User uploaded a document for printing, 357d1a45e0e15379ea555a7e8964ca76.pdf, 37702 bytes
+[14:29] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[14:29] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>357d1a45e0e15379ea555a7e8964ca76.pdf</b> получил. Считаю страницы...
+[14:29] [INFO] [7676096317] [handle_document] Start file processing: 357d1a45e0e15379ea555a7e8964ca76.pdf
+[14:29] [INFO] [7676096317] [handle_document] Downloading file: documents/file_46.pdf
+[14:29] [INFO] [7676096317] [handle_document] File downloaded: documents/file_46.pdf
+[14:29] [INFO] [7676096317] [handle_document] File processed. pages: 1, price: 0.2
+[14:29] [ACTION] [7676096317] [pay_card] Selected Card payment method
+[14:29] [ACTION] [7676096317] [pay_belarusbank] Selected Belarusbank payment method
+[14:29] [INFO] [7676096317] [pay_confirm] Confirmed payment
+[14:29] [INFO] [7676096317] [pay_confirm] Added Print Job
+[14:29] [INFO] [7676096317] [print_worker] Starting print job: 357d1a45e0e15379ea555a7e8964ca76.pdf
+[14:29] [INFO] [7676096317] [print_job] Job started 357d1a45e0e15379ea555a7e8964ca76.pdf: request id is Pantum_P3010DW-249 (1 file(s))
+[14:29] [ERROR] [7676096317] [print_worker] Error in print job 357d1a45e0e15379ea555a7e8964ca76.pdf: error() missing 1 required positional argument: 'msg'
+[14:33] [INFO] [7676096317] [handle_document] User uploaded a document for printing, M-Банкинг чек.docx, 60823 bytes
+[14:33] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[14:33] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>M-Банкинг чек.docx</b> получил. Считаю страницы...
+[14:33] [INFO] [7676096317] [handle_document] Start file processing: M-Банкинг чек.docx
+[14:33] [INFO] [7676096317] [handle_document] Downloading file: documents/file_47.docx
+[14:33] [INFO] [7676096317] [handle_document] File downloaded: documents/file_47.docx
+[14:33] [INFO] [7676096317] [handle_document] Converted DOCX to PDF: data/tmp/converted.pdf
+[14:33] [INFO] [7676096317] [handle_document] File processed. pages: 1, price: 0.2
+[14:33] [ACTION] [7676096317] [pay_card] Selected Card payment method
+[14:33] [ACTION] [7676096317] [pay_belarusbank] Selected Belarusbank payment method
+[14:33] [INFO] [7676096317] [pay_confirm] Confirmed payment
+[14:33] [INFO] [7676096317] [pay_confirm] Added Print Job
+[14:33] [INFO] [7676096317] [print_worker] Starting print job: M-Банкинг чек.docx
+[14:33] [INFO] [7676096317] [print_job] Job started M-Банкинг чек.docx: request id is Pantum_P3010DW-250 (1 file(s))
+[14:33] [INFO] [7676096317] [print_job] Printing ended: M-Банкинг чек.docx
+[14:46] [INFO] [7676096317] [handle_document] User uploaded a document for printing, M-Банкинг чек.docx, 60823 bytes
+[14:46] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[14:46] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>M-Банкинг чек.docx</b> получил. Считаю страницы...
+[14:46] [INFO] [7676096317] [handle_document] Start file processing: M-Банкинг чек.docx
+[14:46] [INFO] [7676096317] [handle_document] Downloading file: documents/file_48.docx
+[14:46] [INFO] [7676096317] [handle_document] File downloaded: documents/file_48.docx
+[14:46] [INFO] [7676096317] [handle_document] Converted DOCX to PDF: data/tmp/converted.pdf
+[14:46] [INFO] [7676096317] [handle_document] File processed. pages: 1, price: 0.2
+[14:46] [ACTION] [7676096317] [print_options] Started Option selection
+[14:48] [INFO] [7676096317] [handle_document] User uploaded a document for printing, 357d1a45e0e15379ea555a7e8964ca76.pdf, 37702 bytes
+[14:48] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[14:48] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>357d1a45e0e15379ea555a7e8964ca76.pdf</b> получил. Считаю страницы...
+[14:48] [INFO] [7676096317] [handle_document] Start file processing: 357d1a45e0e15379ea555a7e8964ca76.pdf
+[14:48] [INFO] [7676096317] [handle_document] Downloading file: documents/file_49.pdf
+[14:48] [INFO] [7676096317] [handle_document] File downloaded: documents/file_49.pdf
+[14:48] [INFO] [7676096317] [handle_document] File processed. pages: 1, price: 0.2
+[14:48] [ACTION] [7676096317] [print_options] Started Option selection
+[14:48] [ACTION] [7676096317] [print_duplex] Switched duplex option
+[14:49] [ACTION] [7676096317] [print_options] Started Option selection
+[14:49] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[14:49] [INFO] [7676096317] [keyboard_tracker] Manage message sent: Range
+[14:49] [ACTION] [7676096317] [print_pages] Selected Pages option
+[14:50] [ACTION] [7676096317] [print_layout] Selected Layout option
+[14:50] [ACTION] [7676096317] [print_options] Started Option selection
+[14:51] [INFO] [7676096317] [handle_document] User uploaded a document for printing, 357d1a45e0e15379ea555a7e8964ca76.pdf, 37702 bytes
+[14:51] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[14:51] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>357d1a45e0e15379ea555a7e8964ca76.pdf</b> получил. Считаю страницы...
+[14:51] [INFO] [7676096317] [handle_document] Start file processing: 357d1a45e0e15379ea555a7e8964ca76.pdf
+[14:51] [INFO] [7676096317] [handle_document] Downloading file: documents/file_50.pdf
+[14:51] [INFO] [7676096317] [handle_document] File downloaded: documents/file_50.pdf
+[14:51] [INFO] [7676096317] [handle_document] File processed. pages: 1, price: 0.2
+[14:51] [ACTION] [7676096317] [print_options] Started Option selection
+[14:51] [ACTION] [7676096317] [print_duplex] Switched duplex option
+[14:51] [ACTION] [7676096317] [print_options] Started Option selection
+[14:52] [ACTION] [7676096317] [pay_card] Selected Card payment method
+[15:10] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[15:10] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 
+📤 Присылай .docx или .pdf — я напечатаю в комнате <b>1708А</b>
+
+🖨 ЧБ-печать — <b>20 коп/страница</b>  
+
+[15:10] [ACTION] [7676096317] [Command /start] User started bot
+[15:10] [INFO] [7676096317] [handle_document] User uploaded a document for printing, M-Банкинг чек.docx, 60823 bytes
+[15:10] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[15:10] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>M-Банкинг чек.docx</b> получил. Считаю страницы...
+[15:10] [INFO] [7676096317] [handle_document] Start file processing: M-Банкинг чек.docx
+[15:10] [INFO] [7676096317] [handle_document] Downloading file: documents/file_51.docx
+[15:10] [INFO] [7676096317] [handle_document] File downloaded: documents/file_51.docx
+[15:10] [INFO] [7676096317] [handle_document] Converted DOCX to PDF: data/tmp/converted.pdf
+[15:10] [INFO] [7676096317] [handle_document] File processed. pages: 1, price: 0.2
+[15:10] [ACTION] [7676096317] [pay_card] Selected Card payment method
+[15:10] [ACTION] [7676096317] [pay_belarusbank] Selected Belarusbank payment method
+[15:16] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[15:16] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 
+📤 Присылай .docx или .pdf — я напечатаю в комнате <b>1708А</b>
+
+🖨 ЧБ-печать — <b>20 коп/страница</b>  
+
+[15:16] [WARNING] [7676096317] [Ensure print data] Data lost
+[15:16] [INFO] [7676096317] [handle_document] User uploaded a document for printing, M-Банкинг чек.docx, 60823 bytes
+[15:16] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[15:16] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>M-Банкинг чек.docx</b> получил. Считаю страницы...
+[15:16] [INFO] [7676096317] [handle_document] Start file processing: M-Банкинг чек.docx
+[15:16] [INFO] [7676096317] [handle_document] Downloading file: documents/file_52.docx
+[15:16] [INFO] [7676096317] [handle_document] File downloaded: documents/file_52.docx
+[15:16] [INFO] [7676096317] [handle_document] Converted DOCX to PDF: data/tmp/converted.pdf
+[15:16] [INFO] [7676096317] [handle_document] File processed. pages: 1, price: 0.2
+[15:16] [ACTION] [7676096317] [print_options] Started Option selection
+[15:16] [ACTION] [7676096317] [print_duplex] Switched duplex option
+[15:16] [ACTION] [7676096317] [print_options] Started Option selection
+[15:16] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[15:16] [INFO] [7676096317] [keyboard_tracker] Manage message sent: Range
+[15:16] [ACTION] [7676096317] [print_pages] Selected Pages option
+[15:17] [ACTION] [7676096317] [print_duplex] Switched duplex option
+[15:17] [ACTION] [7676096317] [print_options] Started Option selection
+[15:27] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[15:27] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 
+📤 Присылай .docx или .pdf — я напечатаю в комнате <b>1708А</b>
+
+🖨 ЧБ-печать — <b>20 коп/страница</b>  
+
+[15:27] [WARNING] [7676096317] [Ensure print data] Data lost
+[15:27] [INFO] [7676096317] [handle_document] User uploaded a document for printing, M-Банкинг чек-4294968789.docx, 60847 bytes
+[15:27] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[15:27] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>M-Банкинг чек-4294968789.docx</b> получил. Считаю страницы...
+[15:27] [INFO] [7676096317] [handle_document] Start file processing: M-Банкинг чек-4294968789.docx
+[15:27] [INFO] [7676096317] [handle_document] Downloading file: documents/file_53.docx
+[15:27] [INFO] [7676096317] [handle_document] File downloaded: documents/file_53.docx
+[15:27] [INFO] [7676096317] [handle_document] Converted DOCX to PDF: data/tmp/converted.pdf
+[15:27] [INFO] [7676096317] [handle_document] File processed. pages: 1, price: 0.2
+[15:28] [ACTION] [7676096317] [print_options] Started Option selection
+[15:28] [ACTION] [7676096317] [print_duplex] Switched duplex option
+[15:28] [ACTION] [7676096317] [print_duplex] Switched duplex option
+[15:28] [ACTION] [7676096317] [print_options] Started Option selection
+[15:28] [ACTION] [7676096317] [print_duplex] Switched duplex option
+[15:28] [ACTION] [7676096317] [print_options] Started Option selection
+[15:29] [ACTION] [7676096317] [pay_cash] Selected Cash payment method
+[15:29] [ACTION] [7676096317] [pay_cash] Selected Cash payment method
+[15:34] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[15:34] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 
+📤 Присылай .docx или .pdf — я напечатаю в комнате <b>1708А</b>
+
+🖨 ЧБ-печать — <b>20 коп/страница</b>  
+
+[15:34] [ACTION] [7676096317] [Command /start] User started bot
+[15:35] [INFO] [7676096317] [handle_document] User uploaded a document for printing, otvety_KhOS.pdf, 2581885 bytes
+[15:35] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[15:35] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>otvety_KhOS.pdf</b> получил. Считаю страницы...
+[15:35] [INFO] [7676096317] [handle_document] Start file processing: otvety_KhOS.pdf
+[15:35] [INFO] [7676096317] [handle_document] Downloading file: documents/file_54.pdf
+[15:35] [INFO] [7676096317] [handle_document] File downloaded: documents/file_54.pdf
+[15:35] [INFO] [7676096317] [handle_document] File processed. pages: 113, price: 22.6
+[15:35] [ACTION] [7676096317] [print_options] Started Option selection
+[15:35] [ACTION] [7676096317] [print_duplex] Switched duplex option
+[15:35] [ACTION] [7676096317] [print_options] Started Option selection
+[15:35] [ACTION] [7676096317] [print_options] Started Option selection
+[15:36] [ACTION] [7676096317] [pay_cash] Selected Cash payment method
+[15:36] [ACTION] [7676096317] [pay_cash] Selected Cash payment method
+[15:37] [WARNING] [7676096317] [unknown_command] .
+[15:37] [INFO] [7676096317] [handle_document] User uploaded a document for printing, M-Банкинг чек-4294968802.pdf, 34074 bytes
+[15:37] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[15:37] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>M-Банкинг чек-4294968802.pdf</b> получил. Считаю страницы...
+[15:37] [INFO] [7676096317] [handle_document] Start file processing: M-Банкинг чек-4294968802.pdf
+[15:37] [INFO] [7676096317] [handle_document] Downloading file: documents/file_55.pdf
+[15:37] [INFO] [7676096317] [handle_document] File downloaded: documents/file_55.pdf
+[15:37] [INFO] [7676096317] [handle_document] File processed. pages: 1, price: 0.2
+[15:38] [ACTION] [7676096317] [pay_cash] Selected Cash payment method
+[15:39] [ACTION] [7676096317] [pay_cash] Selected Cash payment method
+[15:40] [INFO] [7676096317] [handle_document] User uploaded a document for printing, M-Банкинг чек-4294968802.pdf, 34074 bytes
+[15:40] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[15:40] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>M-Банкинг чек-4294968802.pdf</b> получил. Считаю страницы...
+[15:40] [INFO] [7676096317] [handle_document] Start file processing: M-Банкинг чек-4294968802.pdf
+[15:40] [INFO] [7676096317] [handle_document] Downloading file: documents/file_56.pdf
+[15:40] [INFO] [7676096317] [handle_document] File downloaded: documents/file_56.pdf
+[15:40] [INFO] [7676096317] [handle_document] File processed. pages: 1, price: 0.2
+[15:40] [ACTION] [7676096317] [pay_cash] Selected Cash payment method
+[15:41] [INFO] [7676096317] [handle_document] User uploaded a document for printing, M-Банкинг чек-4294968802.pdf, 34074 bytes
+[15:41] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[15:41] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>M-Банкинг чек-4294968802.pdf</b> получил. Считаю страницы...
+[15:41] [INFO] [7676096317] [handle_document] Start file processing: M-Банкинг чек-4294968802.pdf
+[15:41] [INFO] [7676096317] [handle_document] Downloading file: documents/file_57.pdf
+[15:41] [INFO] [7676096317] [handle_document] File downloaded: documents/file_57.pdf
+[15:41] [INFO] [7676096317] [handle_document] File processed. pages: 1, price: 0.2
+[15:41] [ACTION] [7676096317] [pay_cash] Selected Cash payment method
+[15:43] [ACTION] [7676096317] [print_duplex] Switched duplex option
+[15:43] [ACTION] [7676096317] [print_options] Started Option selection
+[15:43] [ACTION] [7676096317] [print_options] Started Option selection
+[15:43] [ACTION] [7676096317] [pay_card] Selected Card payment method
+[15:43] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[15:43] [INFO] [7676096317] [keyboard_tracker] Manage message sent: Range
+[15:43] [ACTION] [7676096317] [print_pages] Selected Pages option
+[15:44] [ACTION] [7676096317] [print_options] Started Option selection
+[15:44] [ACTION] [7676096317] [print_options] Started Option selection
+[15:44] [ACTION] [7676096317] [print_options] Started Option selection
+[15:44] [ACTION] [7676096317] [pay_card] Selected Card payment method
+[15:44] [ACTION] [7676096317] [pay_cash] Selected Cash payment method
+[15:45] [ACTION] [7676096317] [pay_cash] Selected Cash payment method
+[15:45] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[15:45] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 
+📤 Присылай .docx или .pdf — я напечатаю в комнате <b>1708А</b>
+
+🖨 ЧБ-печать — <b>20 коп/страница</b>  
+
+[15:45] [ACTION] [7676096317] [Command /start] User started bot
+[15:45] [INFO] [7676096317] [handle_document] User uploaded a document for printing, M-Банкинг чек-4294968802.pdf, 34074 bytes
+[15:45] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[15:45] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>M-Банкинг чек-4294968802.pdf</b> получил. Считаю страницы...
+[15:45] [INFO] [7676096317] [handle_document] Start file processing: M-Банкинг чек-4294968802.pdf
+[15:45] [INFO] [7676096317] [handle_document] Downloading file: documents/file_58.pdf
+[15:45] [INFO] [7676096317] [handle_document] File downloaded: documents/file_58.pdf
+[15:45] [INFO] [7676096317] [handle_document] File processed. pages: 1, price: 0.2
+[15:45] [ACTION] [7676096317] [pay_cash] Selected Cash payment method
+[15:45] [ACTION] [7676096317] [pay_card] Selected Card payment method
+[15:45] [ACTION] [7676096317] [pay_alfa] Selected Alfa payment method
+[15:46] [INFO] [7676096317] [handle_document] User uploaded a document for printing, M-Банкинг чек-4294968802.pdf, 34074 bytes
+[15:46] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>M-Банкинг чек-4294968802.pdf</b> получил. Считаю страницы...
+[15:46] [INFO] [7676096317] [handle_document] Start file processing: M-Банкинг чек-4294968802.pdf
+[15:46] [INFO] [7676096317] [handle_document] Downloading file: documents/file_59.pdf
+[15:46] [INFO] [7676096317] [handle_document] File downloaded: documents/file_59.pdf
+[15:46] [INFO] [7676096317] [handle_document] File processed. pages: 1, price: 0.2
+[15:46] [ACTION] [7676096317] [pay_card] Selected Card payment method
+[15:46] [ACTION] [7676096317] [pay_alfa] Selected Alfa payment method
+[15:49] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 
+📤 Присылай .docx или .pdf — я напечатаю в комнате <b>1708А</b>
+
+🖨 ЧБ-печать — <b>20 коп/страница</b>  
+
+[15:49] [ACTION] [7676096317] [Command /start] User started bot
+[15:49] [INFO] [7676096317] [handle_document] User uploaded a document for printing, M-Банкинг чек-4294968802.pdf, 34074 bytes
+[15:49] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[15:49] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>M-Банкинг чек-4294968802.pdf</b> получил. Считаю страницы...
+[15:49] [INFO] [7676096317] [handle_document] Start file processing: M-Банкинг чек-4294968802.pdf
+[15:49] [INFO] [7676096317] [handle_document] Downloading file: documents/file_60.pdf
+[15:49] [INFO] [7676096317] [handle_document] File downloaded: documents/file_60.pdf
+[15:49] [INFO] [7676096317] [handle_document] File processed. pages: 1, price: 0.2
+[15:49] [ACTION] [7676096317] [pay_card] Selected Card payment method
+[15:49] [ACTION] [7676096317] [pay_alfa] Selected Alfa payment method
+[15:49] [ACTION] [7676096317] [pay_alfa] Selected Alfa payment method
+[15:49] [ACTION] [7676096317] [pay_alfa] Selected Alfa payment method
+[15:49] [ACTION] [7676096317] [pay_alfa] Selected Alfa payment method
+[15:50] [INFO] [7676096317] [handle_document] User uploaded a document for printing, M-Банкинг чек-4294968802.pdf, 34074 bytes
+[15:50] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[15:50] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>M-Банкинг чек-4294968802.pdf</b> получил. Считаю страницы...
+[15:50] [INFO] [7676096317] [handle_document] Start file processing: M-Банкинг чек-4294968802.pdf
+[15:50] [INFO] [7676096317] [handle_document] Downloading file: documents/file_61.pdf
+[15:50] [INFO] [7676096317] [handle_document] File downloaded: documents/file_61.pdf
+[15:50] [INFO] [7676096317] [handle_document] File processed. pages: 1, price: 0.2
+[15:51] [ACTION] [7676096317] [pay_card] Selected Card payment method
+[15:51] [ACTION] [7676096317] [pay_card] Selected Card payment method
+[15:51] [ACTION] [7676096317] [pay_other] Selected Other payment method
+[15:51] [ACTION] [7676096317] [pay_cash] Selected Cash payment method
+[15:51] [ACTION] [7676096317] [pay_cash] Selected Cash payment method
+[15:51] [ACTION] [7676096317] [pay_cash] Selected Cash payment method
+[15:51] [ACTION] [7676096317] [pay_cash] Selected Cash payment method
+[15:51] [ACTION] [7676096317] [pay_cash] Selected Cash payment method
+[15:55] [ACTION] [7676096317] [pay_cash] Selected Cash payment method
+[15:55] [ACTION] [7676096317] [pay_card] Selected Card payment method
+[15:55] [ACTION] [7676096317] [pay_alfa] Selected Alfa payment method
+[15:55] [ACTION] [7676096317] [pay_card] Selected Card payment method
+[15:56] [ACTION] [7676096317] [pay_belarusbank] Selected Belarusbank payment method
+[15:56] [ACTION] [7676096317] [print_options] Started Option selection
+[15:56] [ACTION] [7676096317] [pay_card] Selected Card payment method
+[15:56] [ACTION] [7676096317] [pay_other] Selected Other payment method
+[15:56] [ACTION] [7676096317] [pay_card] Selected Card payment method
+[15:56] [ACTION] [7676096317] [pay_belarusbank] Selected Belarusbank payment method
+[15:56] [ACTION] [7676096317] [pay_alfa] Selected Alfa payment method
+[15:56] [ACTION] [7676096317] [pay_cash] Selected Cash payment method
+[15:56] [ACTION] [7676096317] [print_options] Started Option selection
+[15:56] [ACTION] [7676096317] [pay_card] Selected Card payment method
+[15:57] [ACTION] [7676096317] [pay_cash] Selected Cash payment method
+[15:57] [ACTION] [7676096317] [print_options] Started Option selection
+[15:57] [ACTION] [7676096317] [pay_card] Selected Card payment method
+[15:57] [ACTION] [7676096317] [pay_other] Selected Other payment method
+[15:57] [ACTION] [7676096317] [cancel] Cancelled order
+[15:57] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 
+📤 Присылай .docx или .pdf — я напечатаю в комнате <b>1708А</b>
+
+🖨 ЧБ-печать — <b>20 коп/страница</b>  
+
+[19:53] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[19:53] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 
+📤 Присылай .docx или .pdf — я напечатаю в комнате <b>1708А</b>
+
+🖨 ЧБ-печать — <b>20 коп/страница</b>  
+
+[19:53] [ACTION] [7676096317] [Command /start] User started bot
+[19:53] [INFO] [7676096317] [handle_document] User uploaded a document for printing, M-Банкинг чек-4294968802.pdf, 34074 bytes
+[19:53] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[19:53] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>M-Банкинг чек-4294968802.pdf</b> получил. Считаю страницы...
+[19:53] [INFO] [7676096317] [handle_document] Start file processing: M-Банкинг чек-4294968802.pdf
+[19:53] [INFO] [7676096317] [handle_document] Downloading file: documents/file_62.pdf
+[19:53] [INFO] [7676096317] [handle_document] File downloaded: documents/file_62.pdf
+[19:53] [INFO] [7676096317] [handle_document] File processed. pages: 1, price: 0.2
+[19:53] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[19:53] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 
+📤 Присылай .docx или .pdf — я напечатаю в комнате <b>1708А</b>
+
+🖨 ЧБ-печать — <b>20 коп/страница</b>  
+
+[19:53] [WARNING] [7676096317] [Ensure print data] Data lost
+[19:53] [INFO] [7676096317] [handle_document] User uploaded a document for printing, M-Банкинг чек-4294968802.pdf, 34074 bytes
+[19:53] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[19:53] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>M-Банкинг чек-4294968802.pdf</b> получил. Считаю страницы...
+[19:53] [INFO] [7676096317] [handle_document] Start file processing: M-Банкинг чек-4294968802.pdf
+[19:53] [INFO] [7676096317] [handle_document] Downloading file: documents/file_63.pdf
+[19:53] [INFO] [7676096317] [handle_document] File downloaded: documents/file_63.pdf
+[19:53] [INFO] [7676096317] [handle_document] File processed. pages: 1, price: 0.2
+[19:53] [ACTION] [7676096317] [print_options] Started Option selection
+[19:54] [ACTION] [7676096317] [pay_cash] Selected Cash payment method
+[19:54] [ACTION] [7676096317] [pay_card] Selected Card payment method
+[19:54] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[19:54] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 
+📤 Присылай .docx или .pdf — я напечатаю в комнате <b>1708А</b>
+
+🖨 ЧБ-печать — <b>20 коп/страница</b>  
+
+[19:54] [WARNING] [7676096317] [Ensure print data] Data lost
+[19:55] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[19:55] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 
+📤 Присылай .docx или .pdf — я напечатаю в комнате <b>1708А</b>
+
+🖨 ЧБ-печать — <b>20 коп/страница</b>  
+
+[19:55] [ACTION] [7676096317] [Command /start] User started bot
+[19:55] [INFO] [7676096317] [handle_document] User uploaded a document for printing, M-Банкинг чек-4294968802.pdf, 34074 bytes
+[19:55] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[19:55] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>M-Банкинг чек-4294968802.pdf</b> получил. Считаю страницы...
+[19:55] [INFO] [7676096317] [handle_document] Start file processing: M-Банкинг чек-4294968802.pdf
+[19:55] [INFO] [7676096317] [handle_document] Downloading file: documents/file_64.pdf
+[19:55] [INFO] [7676096317] [handle_document] File downloaded: documents/file_64.pdf
+[19:55] [INFO] [7676096317] [handle_document] File processed. pages: 1, price: 0.2
+[19:55] [ACTION] [7676096317] [print_options] Started Option selection
+[19:55] [INFO] [7676096317] [handle_document] User uploaded a document for printing, M-Банкинг чек-4294968802.pdf, 34074 bytes
+[19:55] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>M-Банкинг чек-4294968802.pdf</b> получил. Считаю страницы...
+[19:55] [INFO] [7676096317] [handle_document] Start file processing: M-Банкинг чек-4294968802.pdf
+[19:55] [INFO] [7676096317] [handle_document] Downloading file: documents/file_65.pdf
+[19:55] [INFO] [7676096317] [handle_document] File downloaded: documents/file_65.pdf
+[19:55] [INFO] [7676096317] [handle_document] File processed. pages: 1, price: 0.2
+[19:55] [ACTION] [7676096317] [print_options] Started Option selection
+[19:56] [INFO] [7676096317] [handle_document] User uploaded a document for printing, M-Банкинг чек-4294968802.pdf, 34074 bytes
+[19:56] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>M-Банкинг чек-4294968802.pdf</b> получил. Считаю страницы...
+[19:56] [INFO] [7676096317] [handle_document] Start file processing: M-Банкинг чек-4294968802.pdf
+[19:56] [INFO] [7676096317] [handle_document] Downloading file: documents/file_66.pdf
+[19:56] [INFO] [7676096317] [handle_document] File downloaded: documents/file_66.pdf
+[19:56] [INFO] [7676096317] [handle_document] File processed. pages: 1, price: 0.2
+[19:56] [ACTION] [7676096317] [pay_card] Selected Card payment method
+[19:56] [ACTION] [7676096317] [print_options] Started Option selection
+[20:00] [INFO] [7676096317] [handle_document] User uploaded a document for printing, M-Банкинг чек-4294968802.pdf, 34074 bytes
+[20:00] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>M-Банкинг чек-4294968802.pdf</b> получил. Считаю страницы...
+[20:00] [INFO] [7676096317] [handle_document] Start file processing: M-Банкинг чек-4294968802.pdf
+[20:00] [INFO] [7676096317] [handle_document] Downloading file: documents/file_67.pdf
+[20:00] [INFO] [7676096317] [handle_document] File downloaded: documents/file_67.pdf
+[20:00] [ERROR] [7676096317] [handle_file] Failed document processing - 'file_name'
+[20:00] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 
+📤 Присылай .docx или .pdf — я напечатаю в комнате <b>1708А</b>
+
+🖨 ЧБ-печать — <b>20 коп/страница</b>  
+
+[20:00] [INFO] [7676096317] [handle_document] User uploaded a document for printing, M-Банкинг чек-4294968802.pdf, 34074 bytes
+[20:00] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[20:00] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>M-Банкинг чек-4294968802.pdf</b> получил. Считаю страницы...
+[20:00] [INFO] [7676096317] [handle_document] Start file processing: M-Банкинг чек-4294968802.pdf
+[20:00] [INFO] [7676096317] [handle_document] Downloading file: documents/file_68.pdf
+[20:00] [INFO] [7676096317] [handle_document] File downloaded: documents/file_68.pdf
+[20:00] [ERROR] [7676096317] [handle_file] Failed document processing - 'file_name'
+[20:00] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 
+📤 Присылай .docx или .pdf — я напечатаю в комнате <b>1708А</b>
+
+🖨 ЧБ-печать — <b>20 коп/страница</b>  
+
+[20:02] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[20:02] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 
+📤 Присылай .docx или .pdf — я напечатаю в комнате <b>1708А</b>
+
+🖨 ЧБ-печать — <b>20 коп/страница</b>  
+
+[20:02] [ACTION] [7676096317] [Command /start] User started bot
+[20:03] [INFO] [7676096317] [handle_document] User uploaded a document for printing, M-Банкинг чек-4294968802.pdf, 34074 bytes
+[20:03] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[20:03] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>M-Банкинг чек-4294968802.pdf</b> получил. Считаю страницы...
+[20:03] [INFO] [7676096317] [handle_document] Start file processing: M-Банкинг чек-4294968802.pdf
+[20:03] [INFO] [7676096317] [handle_document] Downloading file: documents/file_69.pdf
+[20:03] [INFO] [7676096317] [handle_document] File downloaded: documents/file_69.pdf
+[20:03] [INFO] [7676096317] [handle_document] File processed. pages: 1, price: 0.2
+[20:04] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[20:04] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 
+📤 Присылай .docx или .pdf — я напечатаю в комнате <b>1708А</b>
+
+🖨 ЧБ-печать — <b>20 коп/страница</b>  
+
+[20:04] [ACTION] [7676096317] [Command /start] User started bot
+[20:04] [INFO] [7676096317] [handle_document] User uploaded a document for printing, M-Банкинг чек-4294968802.pdf, 34074 bytes
+[20:04] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[20:04] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>M-Банкинг чек-4294968802.pdf</b> получил. Считаю страницы...
+[20:04] [INFO] [7676096317] [handle_document] Start file processing: M-Банкинг чек-4294968802.pdf
+[20:04] [INFO] [7676096317] [handle_document] Downloading file: documents/file_70.pdf
+[20:04] [INFO] [7676096317] [handle_document] File downloaded: documents/file_70.pdf
+[20:04] [ERROR] [7676096317] [handle_file] Failed document processing - 'file_name'
+[20:04] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 
+📤 Присылай .docx или .pdf — я напечатаю в комнате <b>1708А</b>
+
+🖨 ЧБ-печать — <b>20 коп/страница</b>  
+
+[20:08] [INFO] [7676096317] [handle_document] User uploaded a document for printing, M-Банкинг чек-4294968802.pdf, 34074 bytes
+[20:08] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[20:08] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>M-Банкинг чек-4294968802.pdf</b> получил. Считаю страницы...
+[20:08] [INFO] [7676096317] [handle_document] Start file processing: M-Банкинг чек-4294968802.pdf
+[20:08] [INFO] [7676096317] [handle_document] Downloading file: documents/file_71.pdf
+[20:08] [INFO] [7676096317] [handle_document] File downloaded: documents/file_71.pdf
+[20:08] [INFO] [7676096317] [handle_document] File processed. pages: 1, price: 0.2
+[20:08] [ACTION] [7676096317] [print_options] Started Option selection
+[20:11] [INFO] [7676096317] [handle_document] User uploaded a document for printing, M-Банкинг чек-4294968802.pdf, 34074 bytes
+[20:11] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>M-Банкинг чек-4294968802.pdf</b> получил. Считаю страницы...
+[20:11] [INFO] [7676096317] [handle_document] Start file processing: M-Банкинг чек-4294968802.pdf
+[20:11] [INFO] [7676096317] [handle_document] Downloading file: documents/file_72.pdf
+[20:11] [INFO] [7676096317] [handle_document] File downloaded: documents/file_72.pdf
+[20:11] [INFO] [7676096317] [handle_document] File processed. pages: 1, price: 0.2
+[20:11] [ACTION] [7676096317] [print_options] Started Option selection
+[20:12] [ACTION] [7676096317] [print_options] Started Option selection
+[20:12] [ACTION] [7676096317] [print_duplex] Switched duplex option
+[20:12] [ACTION] [7676096317] [print_duplex] Switched duplex option
+[20:12] [ACTION] [7676096317] [print_duplex] Switched duplex option
+[20:12] [ACTION] [7676096317] [print_duplex] Switched duplex option
+[20:12] [ACTION] [7676096317] [print_duplex] Switched duplex option
+[20:12] [ACTION] [7676096317] [print_options] Started Option selection
+[20:13] [INFO] [7676096317] [handle_document] User uploaded a document for printing, M-Банкинг чек-4294968802.pdf, 34074 bytes
+[20:13] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[20:13] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>M-Банкинг чек-4294968802.pdf</b> получил. Считаю страницы...
+[20:13] [INFO] [7676096317] [handle_document] Start file processing: M-Банкинг чек-4294968802.pdf
+[20:13] [INFO] [7676096317] [handle_document] Downloading file: documents/file_73.pdf
+[20:13] [INFO] [7676096317] [handle_document] File downloaded: documents/file_73.pdf
+[20:14] [INFO] [7676096317] [handle_document] File processed. pages: 1, price: 0.2
+[20:14] [ACTION] [7676096317] [print_options] Started Option selection
+[20:14] [ACTION] [7676096317] [print_options] Started Option selection
+[20:14] [ACTION] [7676096317] [print_duplex] Switched duplex option
+[20:14] [ACTION] [7676096317] [print_options] Started Option selection
+[20:14] [ACTION] [7676096317] [print_options] Started Option selection
+[20:15] [ACTION] [7676096317] [print_options] Started Option selection
+[20:15] [ACTION] [7676096317] [print_options] Started Option selection
+[20:15] [ACTION] [7676096317] [pay_card] Selected Card payment method
+[20:15] [ACTION] [7676096317] [pay_cash] Selected Cash payment method
+[20:15] [ACTION] [7676096317] [pay_cash] Selected Cash payment method
+[20:15] [ACTION] [7676096317] [pay_card] Selected Card payment method
+[20:15] [ACTION] [7676096317] [pay_other] Selected Other payment method
+[20:15] [INFO] [7676096317] [pay_confirm] Confirmed payment
+[20:15] [INFO] [7676096317] [pay_confirm] Added Print Job
+[20:15] [INFO] [7676096317] [print_worker] Starting print job: M-Банкинг чек-4294968802.pdf
+[20:15] [ERROR] [7676096317] [print_job] Printing error: lp error: lp: Error - No default destination.
+[20:16] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[20:16] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 
+📤 Присылай .docx или .pdf — я напечатаю в комнате <b>1708А</b>
+
+🖨 ЧБ-печать — <b>20 коп/страница</b>  
+
+[20:16] [WARNING] [7676096317] [Ensure print data] Data lost
+[20:16] [INFO] [7676096317] [handle_document] User uploaded a document for printing, M-Банкинг чек-4294968802.pdf, 34074 bytes
+[20:16] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[20:16] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>M-Банкинг чек-4294968802.pdf</b> получил. Считаю страницы...
+[20:16] [INFO] [7676096317] [handle_document] Start file processing: M-Банкинг чек-4294968802.pdf
+[20:16] [INFO] [7676096317] [handle_document] Downloading file: documents/file_74.pdf
+[20:16] [INFO] [7676096317] [handle_document] File downloaded: documents/file_74.pdf
+[20:16] [INFO] [7676096317] [handle_document] File processed. pages: 1, price: 0.2
+[20:16] [ACTION] [7676096317] [print_options] Started Option selection
+[20:16] [ACTION] [7676096317] [print_duplex] Switched duplex option
+[20:16] [ACTION] [7676096317] [pay_card] Selected Card payment method
+[20:16] [ACTION] [7676096317] [pay_other] Selected Other payment method
+[20:16] [ACTION] [7676096317] [pay_other] Selected Other payment method
+[20:16] [INFO] [7676096317] [pay_confirm] Confirmed payment
+[20:16] [INFO] [7676096317] [pay_confirm] Added Print Job
+[20:16] [INFO] [7676096317] [print_worker] Starting print job: M-Банкинг чек-4294968802.pdf
+[20:16] [INFO] [7676096317] [print_job] Job started M-Банкинг чек-4294968802.pdf: request id is Pantum_P3010DW-251 (1 file(s))
+[20:17] [INFO] [7676096317] [print_job] Printing ended: M-Банкинг чек-4294968802.pdf
+[01:14] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[01:14] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 
+📤 Присылай .docx или .pdf — я напечатаю в комнате <b>1708А</b>
+
+🖨 ЧБ-печать — <b>20 коп/страница</b>  
+
+[01:14] [ACTION] [7676096317] [Command /start] User started bot
+[07:12] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[07:12] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 
+📤 Присылай .docx или .pdf — я напечатаю в комнате <b>1708А</b>
+
+🖨 ЧБ-печать — <b>20 коп/страница</b>  
+
+[07:12] [ACTION] [7676096317] [Command /start] User started bot
+[14:45] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[14:45] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 
+📤 Присылай .docx или .pdf — я напечатаю в комнате <b>1708А</b>
+
+🖨 ЧБ-печать — <b>20 коп/страница</b>  
+
+[14:45] [ACTION] [7676096317] [Command /start] User started bot
+[16:51] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[16:51] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 
+📤 Присылай .docx или .pdf — я напечатаю в комнате <b>1708А</b>
+
+🖨 ЧБ-печать — <b>20 коп/страница</b>  
+
+[16:51] [ACTION] [7676096317] [Command /start] User started bot

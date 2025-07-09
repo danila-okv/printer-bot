@@ -5,4 +5,4 @@ cd "$(dirname "$0")"
 source ./venv/bin/activate
 
 # Запускаем бота
-python main.py
+python bot.py

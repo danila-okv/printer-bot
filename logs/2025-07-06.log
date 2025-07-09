@@ -1,0 +1,47 @@
+[02:00] [WARNING] [7676096317] [ensure_data:handle_return] Data lost
+[02:00] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 
+📤 Присылай .docx или .pdf — я напечатаю в комнате <b>1708А</b>
+
+🖨 ЧБ-печать — <b>20 коп/страница</b>  
+
+[02:00] [INFO] [7676096317] [handle_document] User uploaded a document for printing, b40d26a2f26fd1f152f53ad626929df7.pdf, 37528 bytes
+[02:00] [INFO] [7676096317] [keyboard_tracker] Old markup removed
+[02:00] [INFO] [7676096317] [keyboard_tracker] Manage message sent: 🔄 Файл <b>b40d26a2f26fd1f152f53ad626929df7.pdf</b> получил. Считаю страницы...
+[02:00] [INFO] [7676096317] [handle_document] Start file processing: b40d26a2f26fd1f152f53ad626929df7.pdf
+[02:00] [INFO] [7676096317] [handle_document] Downloading file: documents/file_101.pdf
+[02:00] [INFO] [7676096317] [handle_document] File downloaded: documents/file_101.pdf
+[02:00] [INFO] [7676096317] [handle_document] File processed. pages: 1, price: 0.2
+[02:00] [ACTION] [7676096317] [print_options] Started Option selection
+[02:00] [ACTION] [7676096317] [print_layout] Show layouts
+[02:00] [ACTION] [7676096317] [print_layout] Select layout - 2
+[02:00] [ACTION] [7676096317] [print_layout] Select layout - 16
+[02:00] [ACTION] [7676096317] [print_layout] Select layout - 9
+[02:00] [ACTION] [7676096317] [print_layout] Select layout - 16
+[02:00] [ACTION] [7676096317] [print_layout] Select layout - 9
+[02:00] [ACTION] [7676096317] [print_layout] Select layout - 2
+[02:00] [ACTION] [7676096317] [print_layout] Select layout - 16
+[02:00] [ACTION] [7676096317] [print_layout] Select layout - 9
+[02:01] [ACTION] [7676096317] [print_layout] Select layout - 16
+[02:01] [ACTION] [7676096317] [print_layout] Select layout - 2
+[02:01] [ACTION] [7676096317] [print_layout] Select layout - 1
+[02:01] [ACTION] [7676096317] [print_layout] Select layout - 16
+[02:01] [ACTION] [7676096317] [print_layout] Select layout - 9
+[02:01] [ACTION] [7676096317] [print_layout] Select layout - 1
+[02:01] [ACTION] [7676096317] [print_layout] Select layout - 9
+[02:01] [ACTION] [7676096317] [print_layout] Select layout - 16
+[02:01] [ACTION] [7676096317] [print_layout] Select layout - 2
+[02:01] [ACTION] [7676096317] [print_layout] Select layout - 1
+[02:01] [ACTION] [7676096317] [print_layout] Select layout - 9
+[02:01] [ACTION] [7676096317] [print_layout] Select layout - 16
+[02:01] [ACTION] [7676096317] [print_layout] Select layout - 2
+[02:01] [ACTION] [7676096317] [print_layout] Select layout - 1
+[02:01] [ACTION] [7676096317] [print_layout] Select layout - 9
+[02:01] [ACTION] [7676096317] [print_layout] Select layout - 2
+[02:01] [ACTION] [7676096317] [print_layout] Select layout - 1
+[02:01] [ACTION] [7676096317] [print_options] Started Option selection
+[02:01] [ACTION] [7676096317] [pay_card] Selected Card payment method
+[02:02] [ACTION] [7676096317] [pay_cash] Selected Cash payment method
+[02:02] [ACTION] [7676096317] [print_options] Started Option selection
+[02:02] [ACTION] [7676096317] [pay_cash] Selected Cash payment method
+[02:02] [ACTION] [7676096317] [pay_card] Selected Card payment method
+[02:02] [ACTION] [7676096317] [pay_other] Selected Other payment method

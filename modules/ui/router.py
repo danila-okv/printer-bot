@@ -1,8 +1,6 @@
 from aiogram import Router
 
-from .handlers import cancel, confirm, fallback, file, main_menu, options, payment
-
-from .handlers import back
+from .handlers import cancel, confirm, fallback, file, main_menu, options, payment, back
 
 router = Router()
 

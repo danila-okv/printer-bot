@@ -13,7 +13,7 @@ from modules.analytics.logger import warning
 def check_paused(func):
     @wraps(func)
     async def wrapper(event, *args, **kwargs):
-        from modules.admin.bot_control import is_paused, get_pause_reason, queue_action
+        from modules.admin.handlers.control import is_paused, get_pause_reason, queue_action
 
         if is_paused():
             # определяем user_id

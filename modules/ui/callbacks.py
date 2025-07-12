@@ -25,3 +25,7 @@ OPTION_DUPLEX = "option_duplex"
 OPTION_COPIES = "option_copies"
 OPTION_LAYOUT = "option_layout"
 LAYOUTS = ["16", "9", "2", "1"]
+
+# Admin
+ADMIN_DISCOUNT = "discount"
+ADMIN_BONUS_PAGES = "bonus_pages"

@@ -71,10 +71,22 @@ def init_db():
             code                TEXT PRIMARY KEY,
             activations_total   INTEGER NOT NULL,
             activations_used    INTEGER NOT NULL DEFAULT 0,
-            reward_type         TEXT NOT NULL,    -- 'pages' или 'discount'
-            reward_value        REAL NOT NULL,
+            reward_type         TEXT NOT NULL CHECK(reward_type IN ('pages', 'discount')),
+            reward_value        REAL NOT NULL,        -- count of pages or discount percentage
             created_at          TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-            expires_at          TIMESTAMP
+            expires_at          TIMESTAMP,            -- expiration date
+            duration_days       INTEGER               -- if promo is time-limited
+        );
+        """)
+
+
+        # Promo activations
+        c.execute("""
+        CREATE TABLE IF NOT EXISTS promo_activations (
+            user_id         INTEGER NOT NULL,
+            code            TEXT NOT NULL,
+            activated_at    TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+            PRIMARY KEY (user_id, code)
         );
         """)
 

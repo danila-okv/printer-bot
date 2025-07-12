@@ -59,3 +59,25 @@ async def get_page_count(file_path: str) -> tuple[int, str]:
                     os.remove(tmp_path)
     else:
         raise ValueError("Unsupported file type")
+
+def get_orientation_ranges(file_path):
+    reader = PdfReader(file_path)
+    result = []
+
+    current = None
+    for i, page in enumerate(reader.pages):
+        width = float(page.mediabox.width)
+        height = float(page.mediabox.height)
+        orientation = "landscape" if width > height else "portrait"
+
+        if current is None or current["type"] != orientation:
+            if current:
+                result.append(current)
+            current = {"type": orientation, "start": i+1, "end": i+1}
+        else:
+            current["end"] = i+1
+
+    if current:
+        result.append(current)
+
+    return result

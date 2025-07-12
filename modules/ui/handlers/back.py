@@ -1,7 +1,7 @@
 from aiogram import Router, F
 from aiogram.types import CallbackQuery
 from aiogram.fsm.context import FSMContext
-from modules.users.state import UserStates
+from states import UserStates
 from modules.decorators import ensure_data
 from modules.decorators import check_paused
 from ..keyboards.review import details_review_kb

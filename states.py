@@ -14,3 +14,11 @@ class UserStates(StatesGroup):
     selecting_payment_option = State()
     confirming_cash_payment = State()
     confirming_card_payment = State()
+
+class PromoStates(StatesGroup):
+    choosing_type = State()
+    entering_activations = State()
+    entering_expires_at = State()
+    entering_duration = State()
+    entering_reward_value = State()
+    confirming = State()

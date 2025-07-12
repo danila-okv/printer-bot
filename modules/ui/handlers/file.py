@@ -7,9 +7,9 @@ from aiogram.fsm.context import FSMContext
 from modules.printing.pdf_utils import get_page_count, is_supported_file, convert_docx_to_pdf
 from modules.billing.price_calc import calculate_price
 from ..keyboards.review import details_review_kb
-from modules.users.banlist import is_banned
+from modules.admin.services.ban import is_banned
 from .main_menu import send_main_menu
-from modules.users.state import UserStates
+from states import UserStates
 from ..messages import *
 from modules.analytics.logger import action, warning, info, error
 from ..keyboards.tracker import send_managed_message

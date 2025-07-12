@@ -31,3 +31,7 @@ BUTTON_PAY_CARD = "💳 Перевод"
 BUTTON_PAY_BELARUSBANK = "🏛 Беларусбанк"
 BUTTON_PAY_ALFA = "🏦 Альфа-банк"
 BUTTON_PAY_OTHER = "🌀 Другой"
+
+# Admin
+BUTTON_ADMIN_DISCOUNT = "💸 Скидка"
+BUTTON_ADMIN_BONUS_PAGES = "📄 Бонусные страницы"

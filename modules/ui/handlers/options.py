@@ -4,10 +4,11 @@ from aiogram.fsm.state import State, StatesGroup
 from aiogram.fsm.context import FSMContext
 
 from modules.decorators import ensure_data
-from modules.users.state import UserStates
+from states import UserStates
 from ..keyboards.common import back_kb
 from ..keyboards.options import get_print_options_kb, get_print_layouts_kb, confirm_kb
 from ..keyboards.tracker import send_managed_message
+from modules.printing.pdf_utils import get_orientation_ranges
 from modules.analytics.logger import action, warning, error, info
 from modules.decorators import check_paused
 from utils.parsers import validate_page_range_str
@@ -50,10 +51,20 @@ async def handle_print_options(callback: CallbackQuery, state: FSMContext, data:
 @ensure_data
 async def handle_option_duplex(callback: CallbackQuery, state: FSMContext, data: dict):
     new = not data.get("duplex", False)
+
+    orientation_ranges = get_orientation_ranges(data.get("file_path", ""))
+    if len(orientation_ranges) > 1:
+        await callback.message.answer(
+            "❗️ Твой файл содержит страницы с разной ориентацией\n"
+            "Из-за чего двусторонняя печать не работает"
+        )
+        return
+
+
     await state.update_data(duplex=new)
     data["duplex"] = new
 
-
+    
     await callback.message.edit_text(
         text=get_print_options_text(data),
         reply_markup=get_print_options_kb(new)

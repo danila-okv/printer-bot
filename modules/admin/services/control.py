@@ -1,4 +1,4 @@
-# modules/admin/bot_control.py
+# modules/admin/services/control.py
 
 from db import get_connection
 from typing import Optional, List, Dict

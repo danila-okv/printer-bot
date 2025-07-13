@@ -13,7 +13,7 @@ from modules.analytics.logger import warning
 def check_paused(func):
     @wraps(func)
     async def wrapper(event, *args, **kwargs):
-        from modules.admin.handlers.control import is_paused, get_pause_reason, queue_action
+        from modules.admin.services.control import is_paused, get_pause_reason, queue_action
 
         if is_paused():
             # определяем user_id
@@ -54,7 +54,7 @@ def check_paused(func):
     return wrapper
 
 
-REQUIRED_PRINT_FIELDS = ("file_name", "file_path", "page_count", "price")
+REQUIRED_PRINT_FIELDS = ("file_name", "file_path", "page_count", "price_data")
 
 def ensure_data(func):
     @wraps(func)

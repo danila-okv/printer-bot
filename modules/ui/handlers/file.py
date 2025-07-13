@@ -5,7 +5,8 @@ from aiogram.types import Message
 from aiogram.fsm.context import FSMContext
 
 from modules.printing.pdf_utils import get_page_count, is_supported_file, convert_docx_to_pdf
-from modules.billing.price_calc import calculate_price
+from modules.billing.services.calculate_price import calculate_price
+from modules.billing.services.promo import get_user_discounts
 from ..keyboards.review import details_review_kb
 from modules.admin.services.ban import is_banned
 from .main_menu import send_main_menu
@@ -107,9 +108,24 @@ async def handle_document(message: Message, state: FSMContext):
             processed_pdf_path = uploaded_file_path
 
         page_count, _ = await get_page_count(processed_pdf_path)
-        price = calculate_price(page_count)
+
+        bonus_pages, discount_percent, promo_code = get_user_discounts(message.from_user.id)
+        info(
+            message.from_user.id,
+            "handle_document",
+            f"User discounts: bonus_pages={bonus_pages}, discount_percent={discount_percent}, promo_code={promo_code}"
+        )
+
+        price_data = calculate_price(
+            page_range=f"1-{page_count}",
+            layout="1",
+            copies=1,
+            bonus_pages=bonus_pages,
+            discount_percent=discount_percent
+        )
+
         await state.update_data(
-            price=price,
+            price_data=price_data,
             file_path=processed_pdf_path,
             page_count=page_count,
             file_name=original_file_name,
@@ -123,7 +139,7 @@ async def handle_document(message: Message, state: FSMContext):
         info(
             message.from_user.id, 
             "handle_document", 
-            f"File processed. pages: {page_count}, price: {price}"
+            f"File processed. pages: {page_count}, price: {price_data["final_price"]}"
         )
 
         await state.set_state(UserStates.reviewing_print_details)

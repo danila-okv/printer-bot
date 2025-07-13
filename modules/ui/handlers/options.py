@@ -10,8 +10,10 @@ from ..keyboards.options import get_print_options_kb, get_print_layouts_kb, conf
 from ..keyboards.tracker import send_managed_message
 from modules.printing.pdf_utils import get_orientation_ranges
 from modules.analytics.logger import action, warning, error, info
+from modules.billing.services.calculate_price import calculate_price
+from modules.billing.services.promo import get_user_discounts
 from modules.decorators import check_paused
-from utils.parsers import validate_page_range_str
+from utils.parsers import parse_pages_str
 
 
 from ..messages import (
@@ -100,6 +102,24 @@ async def handle_option_layout(callback: CallbackQuery, state: FSMContext, data:
 async def handle_layout_selection(callback: CallbackQuery, state: FSMContext, data: dict):
     await state.update_data(layout=callback.data)
     data = await state.get_data()
+
+    bonus_pages, discount_percent, promo_code = get_user_discounts(callback.from_user.id)
+
+    page_range = data.get("pages") or f"1-{data['page_count']}"
+    layout = int(data.get("layout"), "1")
+    copies = data.get("copies", 1)
+
+    price_data = calculate_price(
+        page_range=page_range,
+        layout=layout,
+        copies=copies,
+        bonus_pages=bonus_pages,
+        discount_percent=discount_percent
+    )
+
+    await state.update_data(price_data=price_data)
+
+
     await callback.message.edit_text(
         text=get_layout_selection_text(data),
         reply_markup=get_print_layouts_kb(callback.data)
@@ -204,7 +224,7 @@ async def handle_pages_input(message: Message, state: FSMContext, data: dict):
     page_count = data.get("page_count", 0)
 
     try:
-        pages = validate_page_range_str(text, page_count)
+        pages = parse_pages_str(text, page_count)
         await state.update_data(pages=pages)
         
         await send_managed_message(

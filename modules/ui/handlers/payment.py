@@ -129,7 +129,7 @@ async def handle_pay_confirm(callback: CallbackQuery, state: FSMContext, data: d
     page_count = data.get("page_count")
     duplex = data.get("duplex", False)
     layout = data.get("layout", "1")
-    price = data.get("price")
+    price_data = data.get("price_data")
     pages = data.get("pages")
     copies = data.get("copies", 1)
     method = data.get("method", "cash")
@@ -144,7 +144,7 @@ async def handle_pay_confirm(callback: CallbackQuery, state: FSMContext, data: d
         user_id=user_id,
         file_name=file_name,
         page_count=page_count,
-        price=price,
+        price=price_data["final_price"],
         method=method
     )
 

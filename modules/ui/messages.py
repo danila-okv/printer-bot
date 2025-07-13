@@ -109,13 +109,18 @@ def get_other_payment_text(data: dict) -> str:
     return header + PAY_OTHER_TEXT
 
 def format_print_text(data: dict) -> str:
-    header = f"""
-✅ Файл <b>{data["file_name"]}</b> обработан
+    price = data.get("price_data", {})
+    price_block = f"\n💰 К оплате: <s>{price.get('raw_price', 0):.2f}</s> → <b>{price.get('final_price', 0):.2f} руб.</b>"
 
-📄 Страниц: <b>{data["page_count"]}</b>
-💰 К оплате: <b>{data["price"]:.2f} руб.</b>
+    if price.get("discount_applied", 0):
+        price_block += f" (скидка {price['discount_applied']}%)"
+    if price.get("pages_covered_by_bonus", 0):
+        price_block += f"\n🎁 Использовано бесплатных страниц: {price['pages_covered_by_bonus']}"
+
+    header = f"""
+✅ Файл <b>{data['file_name']}</b> обработан
+📄 Страниц: <b>{data['page_count']}</b>{price_block}
 """
-    
     options = []
     
     duplex = data.get("duplex", False)

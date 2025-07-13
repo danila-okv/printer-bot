@@ -11,8 +11,10 @@ from ..keyboards.options import get_print_options_kb
 from ..messages import (
     get_print_options_text
 )
+from modules.billing.services.calculate_price import calculate_price
+from modules.billing.services.promo import get_user_discounts
 from ..callbacks import CONFIRM
-from utils.parsers import validate_page_range_str
+from utils.parsers import parse_pages_str
 from aiogram.exceptions import TelegramBadRequest
 
 router = Router()
@@ -35,6 +37,22 @@ async def handle_confirm(callback: CallbackQuery, state: FSMContext, data: dict)
             return
 
         await state.update_data(copies=copies)
+
+        bonus_pages, discount_percent, promo_code = get_user_discounts(callback.from_user.id)
+
+        page_range = data.get("pages") or f"1-{data['page_count']}"
+        layout = data.get("layout", "1")
+
+        price_data = calculate_price(
+            page_range=page_range,
+            layout=layout,
+            copies=copies,
+            bonus_pages=bonus_pages,
+            discount_percent=discount_percent
+        )
+
+        await state.update_data(price_data=price_data)
+        data = await state.get_data()
 
         try:
             await callback.message.edit_text(
@@ -60,7 +78,7 @@ async def handle_confirm(callback: CallbackQuery, state: FSMContext, data: dict)
     
     if current == UserStates.inputting_pages:
         pages = data.get("pages", "")
-        if not validate_page_range_str(pages):
+        if not parse_pages_str(pages):
             await callback.message.answer("Некорректный диапазон страниц.")
             warning(
                 callback.from_user.id,
@@ -70,6 +88,24 @@ async def handle_confirm(callback: CallbackQuery, state: FSMContext, data: dict)
             return
 
         await state.update_data(pages=pages)
+        data = await state.get_data()
+
+        bonus_pages, discount_percent, promo_code = get_user_discounts(callback.from_user.id)
+
+        page_range = data.get("pages") or f"1-{data['page_count']}"
+        layout = data.get("layout", "1")
+        copies = data.get("copies", 1)
+
+        price_data = calculate_price(
+            page_range=page_range,
+            layout=layout,
+            copies=copies,
+            bonus_pages=bonus_pages,
+            discount_percent=discount_percent
+        )
+
+        await state.update_data(price_data=price_data)
+        data = await state.get_data()
 
         try:
             await callback.message.edit_text(

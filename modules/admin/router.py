@@ -1,8 +1,6 @@
 from aiogram import Router
-
 from .handlers import (
     ban, control, promo, shell,message_user
-
 )
 
 router = Router()
